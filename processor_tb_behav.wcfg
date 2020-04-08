@@ -11,14 +11,14 @@
    </db_ref_list>
    <zoom_setting>
       <ZoomStartTime time="0fs"></ZoomStartTime>
-      <ZoomEndTime time="15661fs"></ZoomEndTime>
-      <Cursor1Time time="9000fs"></Cursor1Time>
+      <ZoomEndTime time="39335fs"></ZoomEndTime>
+      <Cursor1Time time="4575fs"></Cursor1Time>
    </zoom_setting>
    <column_width_setting>
       <NameColumnWidth column_width="128"></NameColumnWidth>
-      <ValueColumnWidth column_width="125"></ValueColumnWidth>
+      <ValueColumnWidth column_width="121"></ValueColumnWidth>
    </column_width_setting>
-   <WVObjectSize size="121" />
+   <WVObjectSize size="122" />
    <wvobject fp_name="/processor_tb/numIn" type="array">
       <obj_property name="ElementShortName">numIn[5:0]</obj_property>
       <obj_property name="ObjectShortName">numIn[5:0]</obj_property>
@@ -54,6 +54,7 @@
    <wvobject fp_name="/processor_tb/uut/PC/AddOut" type="array">
       <obj_property name="ElementShortName">AddOut[15:0]</obj_property>
       <obj_property name="ObjectShortName">AddOut[15:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
    </wvobject>
    <wvobject type="divider" fp_name="divider573">
       <obj_property name="label">PC in Mux</obj_property>
@@ -177,6 +178,11 @@
       <obj_property name="ElementShortName">Opcode[3:0]</obj_property>
       <obj_property name="ObjectShortName">Opcode[3:0]</obj_property>
       <obj_property name="Radix">BINARYRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/processor_tb/uut/Control/MS/Address" type="array">
+      <obj_property name="ElementShortName">Address[7:0]</obj_property>
+      <obj_property name="ObjectShortName">Address[7:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
    </wvobject>
    <wvobject fp_name="/processor_tb/uut/Control/CLK" type="logic">
       <obj_property name="ElementShortName">CLK</obj_property>

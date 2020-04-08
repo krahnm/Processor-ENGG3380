@@ -218,3 +218,11 @@ xsim: Time (s): cpu = 00:00:07 ; elapsed = 00:00:05 . Memory (MB): peak = 925.38
 INFO: [USF-XSim-96] XSim completed. Design snapshot 'processor_tb_behav' loaded.
 INFO: [USF-XSim-97] XSim simulation ran for 1000ns
 launch_simulation: Time (s): cpu = 00:00:14 ; elapsed = 00:09:11 . Memory (MB): peak = 925.383 ; gain = 30.488
+<<<<<<< Updated upstream
+=======
+save_wave_config {C:/Users/Terry/Desktop/ENGG 3380/Processor-ENGG3380/processor_tb_behav.wcfg}
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+exit
+INFO: [Common 17-206] Exiting Vivado at Wed Apr  8 18:04:04 2020...
+>>>>>>> Stashed changes
