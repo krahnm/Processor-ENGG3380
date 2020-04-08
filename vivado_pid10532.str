@@ -1,0 +1,119 @@
+/*
+
+Xilinx Vivado v2019.2 (64-bit) [Major: 2019, Minor: 2]
+SW Build: 2708876 on Wed Nov  6 21:40:23 MST 2019
+IP Build: 2700528 on Thu Nov  7 00:09:20 MST 2019
+
+Process ID (PID): 10532
+License: Customer
+
+Current time: 	Wed Apr 08 18:05:17 EDT 2020
+Time zone: 	Eastern Standard Time (America/New_York)
+
+OS: Windows 7
+OS Version: 6.1
+OS Architecture: amd64
+Available processors (cores): 4
+
+Screen size: 1920x1080
+Screen resolution (DPI): 100
+Available screens: 2
+Available disk space: 12 GB
+Default font: family=Dialog,name=Dialog,style=plain,size=12
+
+Java version: 	9.0.4 64-bit
+Java home: 	T:/Xilinx/Vivado/2019.2/tps/win64/jre9.0.4
+Java executable location: 	T:/Xilinx/Vivado/2019.2/tps/win64/jre9.0.4/bin/java.exe
+Java initial memory (-Xms): 	128 MB
+Java maximum memory (-Xmx):	 3 GB
+
+
+User name: 	Terry
+User home directory: C:/Users/Terry
+User working directory: C:/Users/Terry/Desktop/ENGG 3380/Processor-ENGG3380
+User country: 	CA
+User language: 	en
+User locale: 	en_CA
+
+RDI_BASEROOT: T:/Xilinx/Vivado
+HDI_APPROOT: T:/Xilinx/Vivado/2019.2
+RDI_DATADIR: T:/Xilinx/Vivado/2019.2/data
+RDI_BINDIR: T:/Xilinx/Vivado/2019.2/bin
+
+Vivado preferences file location: C:/Users/Terry/AppData/Roaming/Xilinx/Vivado/2019.2/vivado.xml
+Vivado preferences directory: C:/Users/Terry/AppData/Roaming/Xilinx/Vivado/2019.2/
+Vivado layouts directory: C:/Users/Terry/AppData/Roaming/Xilinx/Vivado/2019.2/layouts
+PlanAhead jar file location: 	T:/Xilinx/Vivado/2019.2/lib/classes/planAhead.jar
+Vivado log file location: 	C:/Users/Terry/Desktop/ENGG 3380/Processor-ENGG3380/vivado.log
+Vivado journal file location: 	C:/Users/Terry/Desktop/ENGG 3380/Processor-ENGG3380/vivado.jou
+Engine tmp dir: 	C:/Users/Terry/Desktop/ENGG 3380/Processor-ENGG3380/.Xil/Vivado-10532-ComputerT
+
+Xilinx Environment Variables
+----------------------------
+ANDROID_SDK_HOME: C:\Android
+XILINX: T:/Xilinx/Vivado/2019.2/ids_lite/ISE
+XILINX_DSP: T:/Xilinx/Vivado/2019.2/ids_lite/ISE
+XILINX_PLANAHEAD: T:/Xilinx/Vivado/2019.2
+XILINX_VIVADO: T:/Xilinx/Vivado/2019.2
+XILINX_VIVADO_HLS: T:/Xilinx/Vivado/2019.2
+
+
+GUI allocated memory:	205 MB
+GUI max memory:		3,072 MB
+Engine allocated memory: 807 MB
+
+Copyright 1986-2019 Xilinx, Inc. All Rights Reserved.
+
+*/
+
+// TclEventType: START_GUI
+// Tcl Message: start_gui 
+// TclEventType: PROJECT_OPEN_DIALOG
+// [GUI Memory]: 86 MB (+87592kb) [00:00:05]
+// [Engine Memory]: 649 MB (+529455kb) [00:00:05]
+// bB (cr):  Open Project : addNotify
+// Opening Vivado Project: C:\Users\Terry\Desktop\ENGG 3380\Processor-ENGG3380\Processor.xpr. Version: Vivado v2019.2 
+// TclEventType: DEBUG_PROBE_SET_CHANGE
+// Tcl Message: open_project {C:/Users/Terry/Desktop/ENGG 3380/Processor-ENGG3380/Processor.xpr} 
+// TclEventType: MSGMGR_MOVEMSG
+// TclEventType: FILE_SET_NEW
+// TclEventType: RUN_CURRENT
+// TclEventType: PROJECT_DASHBOARD_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_NEW
+// Tcl Message: open_project {C:/Users/Terry/Desktop/ENGG 3380/Processor-ENGG3380/Processor.xpr} 
+// Tcl Message: Scanning sources... Finished scanning sources 
+// Tcl Message: INFO: [IP_Flow 19-234] Refreshing IP repositories INFO: [IP_Flow 19-1704] No user IP repositories specified 
+// TclEventType: PROJECT_NEW
+// [GUI Memory]: 117 MB (+27984kb) [00:00:09]
+// [Engine Memory]: 853 MB (+179140kb) [00:00:09]
+// [Engine Memory]: 897 MB (+1252kb) [00:00:10]
+// WARNING: HEventQueue.dispatchEvent() is taking  2042 ms.
+// Tcl Message: INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'T:/Xilinx/Vivado/2019.2/data/ip'. 
+// HMemoryUtils.trashcanNow. Engine heap size: 909 MB. GUI used memory: 54 MB. Current time: 4/8/20, 6:05:21 PM EDT
+// Project name: Processor; location: C:/Users/Terry/Desktop/ENGG 3380/Processor-ENGG3380; part: xc7a100tcsg324-1
+// Tcl Message: open_project: Time (s): cpu = 00:00:11 ; elapsed = 00:00:05 . Memory (MB): peak = 930.941 ; gain = 236.168 
+dismissDialog("Open Project"); // bB (cr)
+// a (cr): Critical Messages: addNotify
+// Tcl Message: update_compile_order -fileset sources_1 
+selectButton(PAResourceAtoD.CmdMsgDialog_OK, "OK"); // f (a)
+dismissDialog("Critical Messages"); // a (cr)
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Processor(Behavioral) (Processor.vhd)]", 2); // B (F, cr)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Processor(Behavioral) (Processor.vhd), Mem : Memory(Behavioral) (Memory.vhd)]", 4, false); // B (F, cr)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Processor(Behavioral) (Processor.vhd), Mem : Memory(Behavioral) (Memory.vhd)]", 4, false, false, false, false, false, true); // B (F, cr) - Double Click
+// Elapsed time: 28 seconds
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Processor(Behavioral) (Processor.vhd), Control : MPControl(Behavioral) (MPControl.vhd)]", 17); // B (F, cr)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Processor(Behavioral) (Processor.vhd), Control : MPControl(Behavioral) (MPControl.vhd), MS : MicrocodeStore(Behavioral) (MicrocodeStore.vhd)]", 21, false); // B (F, cr)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Processor(Behavioral) (Processor.vhd), Control : MPControl(Behavioral) (MPControl.vhd), MS : MicrocodeStore(Behavioral) (MicrocodeStore.vhd)]", 21, false, false, false, false, false, true); // B (F, cr) - Double Click
+selectCodeEditor("MicrocodeStore.vhd", 742, 287); // ch (w, cr)
