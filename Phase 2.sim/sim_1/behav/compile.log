@@ -1,0 +1,22 @@
+INFO: [VRFC 10-163] Analyzing VHDL file "T:/ISE/messin with simulaions/New newPhase 2/Phase 2.srcs/sim_1/new/regFileAndALU_tb.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity regFileAndALU_tb
+ERROR: [VRFC 10-47] regdst is already declared in this region [T:/ISE/messin with simulaions/New newPhase 2/Phase 2.srcs/sim_1/new/regFileAndALU_tb.vhd:112]
+ERROR: [VRFC 10-47] memtoreg is already declared in this region [T:/ISE/messin with simulaions/New newPhase 2/Phase 2.srcs/sim_1/new/regFileAndALU_tb.vhd:114]
+ERROR: [VRFC 10-47] alusrca is already declared in this region [T:/ISE/messin with simulaions/New newPhase 2/Phase 2.srcs/sim_1/new/regFileAndALU_tb.vhd:126]
+ERROR: [VRFC 10-47] zero is already declared in this region [T:/ISE/messin with simulaions/New newPhase 2/Phase 2.srcs/sim_1/new/regFileAndALU_tb.vhd:129]
+ERROR: [VRFC 10-47] aluop is already declared in this region [T:/ISE/messin with simulaions/New newPhase 2/Phase 2.srcs/sim_1/new/regFileAndALU_tb.vhd:133]
+ERROR: [VRFC 10-47] alusrcb is already declared in this region [T:/ISE/messin with simulaions/New newPhase 2/Phase 2.srcs/sim_1/new/regFileAndALU_tb.vhd:139]
+ERROR: [VRFC 10-47] regwrite is already declared in this region [T:/ISE/messin with simulaions/New newPhase 2/Phase 2.srcs/sim_1/new/regFileAndALU_tb.vhd:141]
+ERROR: [VRFC 10-91] cclk is not declared [T:/ISE/messin with simulaions/New newPhase 2/Phase 2.srcs/sim_1/new/regFileAndALU_tb.vhd:165]
+ERROR: [VRFC 10-91] cclk is not declared [T:/ISE/messin with simulaions/New newPhase 2/Phase 2.srcs/sim_1/new/regFileAndALU_tb.vhd:166]
+ERROR: [VRFC 10-91] cclk is not declared [T:/ISE/messin with simulaions/New newPhase 2/Phase 2.srcs/sim_1/new/regFileAndALU_tb.vhd:169]
+ERROR: [VRFC 10-91] cclk is not declared [T:/ISE/messin with simulaions/New newPhase 2/Phase 2.srcs/sim_1/new/regFileAndALU_tb.vhd:170]
+ERROR: [VRFC 10-91] cclk is not declared [T:/ISE/messin with simulaions/New newPhase 2/Phase 2.srcs/sim_1/new/regFileAndALU_tb.vhd:176]
+ERROR: [VRFC 10-91] cclk is not declared [T:/ISE/messin with simulaions/New newPhase 2/Phase 2.srcs/sim_1/new/regFileAndALU_tb.vhd:182]
+ERROR: [VRFC 10-91] clk_period is not declared [T:/ISE/messin with simulaions/New newPhase 2/Phase 2.srcs/sim_1/new/regFileAndALU_tb.vhd:183]
+ERROR: [VRFC 10-2123] 0 definitions of operator "/" match here [T:/ISE/messin with simulaions/New newPhase 2/Phase 2.srcs/sim_1/new/regFileAndALU_tb.vhd:183]
+ERROR: [VRFC 10-91] cclk is not declared [T:/ISE/messin with simulaions/New newPhase 2/Phase 2.srcs/sim_1/new/regFileAndALU_tb.vhd:184]
+ERROR: [VRFC 10-91] clk_period is not declared [T:/ISE/messin with simulaions/New newPhase 2/Phase 2.srcs/sim_1/new/regFileAndALU_tb.vhd:185]
+ERROR: [VRFC 10-2123] 0 definitions of operator "/" match here [T:/ISE/messin with simulaions/New newPhase 2/Phase 2.srcs/sim_1/new/regFileAndALU_tb.vhd:185]
+ERROR: [VRFC 10-469] cannot update 'in' object memdatain [T:/ISE/messin with simulaions/New newPhase 2/Phase 2.srcs/sim_1/new/regFileAndALU_tb.vhd:191]
+INFO: [#UNDEF] Sorry, too many errors..

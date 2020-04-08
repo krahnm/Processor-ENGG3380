@@ -1,0 +1,53 @@
+#-----------------------------------------------------------
+# Vivado v2016.3 (64-bit)
+# SW Build 1682563 on Mon Oct 10 19:07:27 MDT 2016
+# IP Build 1681267 on Mon Oct 10 21:28:31 MDT 2016
+# Start of session at: Mon Mar 09 15:16:45 2020
+# Process ID: 11060
+# Current directory: T:/ISE/New newPhase 2
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent4976 T:\ISE\New newPhase 2\Phase 2.xpr
+# Log file: T:/ISE/New newPhase 2/vivado.log
+# Journal file: T:/ISE/New newPhase 2\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project {T:/ISE/New newPhase 2/Phase 2.xpr}
+launch_simulation
+# Disabling source management mode.  This is to allow the top design properties to be set without GUI intervention.
+set_property source_mgmt_mode None [current_project]
+set_property top processor_tb [get_filesets sim_1]
+set_property top_lib xil_defaultlib [get_filesets sim_1]
+# Re-enabling previously disabled source management mode.
+set_property source_mgmt_mode All [current_project]
+launch_simulation
+add_files -norecurse {D:/BReg.vhd D:/ALUReg.vhd D:/AReg.vhd D:/MDR.vhd}
+remove_files  {{T:/ISE/New newPhase 2/Phase 2.srcs/sources_1/new/MDR.vhd}}
+remove_files  {{T:/ISE/New newPhase 2/Phase 2.srcs/sources_1/new/BReg.vhd}}
+remove_files  {{T:/ISE/New newPhase 2/Phase 2.srcs/sources_1/new/AReg.vhd}}
+remove_files  {{T:/ISE/New newPhase 2/Phase 2.srcs/sources_1/new/ALUReg.vhd}}
+launch_simulation
+launch_simulation
+launch_simulation
+launch_simulation
+launch_simulation
+launch_simulation
+launch_simulation
+launch_simulation
+launch_simulation
+launch_simulation
+launch_simulation
+launch_simulation
+launch_simulation
+launch_simulation
+launch_simulation
+launch_simulation
+launch_simulation
+launch_simulation
+launch_simulation
+launch_simulation
+close [ open {T:/ISE/New newPhase 2/Phase 2.srcs/sources_1/new/MuxSrcA.vhd} w ]
+add_files {{T:/ISE/New newPhase 2/Phase 2.srcs/sources_1/new/MuxSrcA.vhd}}
+launch_simulation
+launch_simulation
+launch_simulation
+launch_simulation
+launch_simulation

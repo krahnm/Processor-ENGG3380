@@ -1,0 +1,13 @@
+#-----------------------------------------------------------
+# Vivado v2016.3 (64-bit)
+# SW Build 1682563 on Mon Oct 10 19:07:27 MDT 2016
+# IP Build 1681267 on Mon Oct 10 21:28:31 MDT 2016
+# Start of session at: Sat Mar 07 20:10:47 2020
+# Process ID: 7804
+# Current directory: H:/Comp Org/PHAZE 2/DEREKS FINISHED CONTROL PATH/New newPhase 2
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent10816 H:\Comp Org\PHAZE 2\DEREKS FINISHED CONTROL PATH\New newPhase 2\Phase 2.xpr
+# Log file: H:/Comp Org/PHAZE 2/DEREKS FINISHED CONTROL PATH/New newPhase 2/vivado.log
+# Journal file: H:/Comp Org/PHAZE 2/DEREKS FINISHED CONTROL PATH/New newPhase 2\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project {H:/Comp Org/PHAZE 2/DEREKS FINISHED CONTROL PATH/New newPhase 2/Phase 2.xpr}
