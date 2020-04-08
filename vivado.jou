@@ -12,3 +12,6 @@
 start_gui
 open_project {C:/Users/Terry/Desktop/ENGG 3380/Processor-ENGG3380/Processor.xpr}
 update_compile_order -fileset sources_1
+launch_simulation
+open_wave_config {C:/Users/Terry/Desktop/ENGG 3380/Processor-ENGG3380/processor_tb_behav.wcfg}
+source processor_tb.tcl
