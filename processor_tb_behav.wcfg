@@ -10,15 +10,15 @@
       </db_ref>
    </db_ref_list>
    <zoom_setting>
-      <ZoomStartTime time="18590fs"></ZoomStartTime>
-      <ZoomEndTime time="26541fs"></ZoomEndTime>
-      <Cursor1Time time="20000fs"></Cursor1Time>
+      <ZoomStartTime time="335100fs"></ZoomStartTime>
+      <ZoomEndTime time="362184fs"></ZoomEndTime>
+      <Cursor1Time time="187745fs"></Cursor1Time>
    </zoom_setting>
    <column_width_setting>
       <NameColumnWidth column_width="128"></NameColumnWidth>
-      <ValueColumnWidth column_width="113"></ValueColumnWidth>
+      <ValueColumnWidth column_width="105"></ValueColumnWidth>
    </column_width_setting>
-   <WVObjectSize size="131" />
+   <WVObjectSize size="135" />
    <wvobject fp_name="/processor_tb/numIn" type="array">
       <obj_property name="ElementShortName">numIn[5:0]</obj_property>
       <obj_property name="ObjectShortName">numIn[5:0]</obj_property>
@@ -151,6 +151,24 @@
    <wvobject fp_name="/processor_tb/uut/ALU/Dwidth" type="other">
       <obj_property name="ElementShortName">Dwidth</obj_property>
       <obj_property name="ObjectShortName">Dwidth</obj_property>
+   </wvobject>
+   <wvobject type="divider" fp_name="divider847">
+      <obj_property name="label">Top jump stuff</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+   </wvobject>
+   <wvobject fp_name="/processor_tb/uut/ShiftTop/input" type="array">
+      <obj_property name="ElementShortName">input[9:0]</obj_property>
+      <obj_property name="ObjectShortName">input[9:0]</obj_property>
+      <obj_property name="Radix">BINARYRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/processor_tb/uut/ShiftTop/PC" type="array">
+      <obj_property name="ElementShortName">PC[3:0]</obj_property>
+      <obj_property name="ObjectShortName">PC[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/processor_tb/uut/ShiftTop/output" type="array">
+      <obj_property name="ElementShortName">output[15:0]</obj_property>
+      <obj_property name="ObjectShortName">output[15:0]</obj_property>
+      <obj_property name="Radix">BINARYRADIX</obj_property>
    </wvobject>
    <wvobject type="divider" fp_name="divider643">
       <obj_property name="label">ALU Control</obj_property>
