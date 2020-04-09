@@ -13,7 +13,6 @@ architecture Behavioral of shiftLeftTop is
 
 begin
 
-output(15 downto 12) <= PC;
-output(11 downto 0) <= input & "00";
+output<= "000000" & input;
 
 end Behavioral;
