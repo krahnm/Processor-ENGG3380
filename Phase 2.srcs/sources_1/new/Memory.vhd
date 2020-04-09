@@ -54,7 +54,7 @@ attribute ram_style of memory : signal is "distributed";
 begin
 
 
-finalfibbage <= memory (22);
+finalfibbage <= memory (23);
 
 process (CLK, addIn)
   begin
