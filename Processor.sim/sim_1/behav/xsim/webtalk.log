@@ -2,8 +2,8 @@
 # Webtalk v2019.2 (64-bit)
 # SW Build 2708876 on Wed Nov  6 21:40:23 MST 2019
 # IP Build 2700528 on Thu Nov  7 00:09:20 MST 2019
-# Start of session at: Thu Apr  9 02:10:23 2020
-# Process ID: 16704
+# Start of session at: Fri Apr 10 02:36:50 2020
+# Process ID: 18880
 # Current directory: C:/Users/krahn/Desktop/CURRENT COURSES/Comp Org/Processor_ENGG3380/Processor.sim/sim_1/behav/xsim
 # Command line: wbtcv.exe -mode batch -source C:/Users/krahn/Desktop/CURRENT COURSES/Comp Org/Processor_ENGG3380/Processor.sim/sim_1/behav/xsim/xsim.dir/processor_tb_behav/webtalk/xsim_webtalk.tcl -notrace
 # Log file: C:/Users/krahn/Desktop/CURRENT COURSES/Comp Org/Processor_ENGG3380/Processor.sim/sim_1/behav/xsim/webtalk.log
@@ -11,4 +11,4 @@
 #-----------------------------------------------------------
 source C:/Users/krahn/Desktop/CURRENT -notrace
 couldn't read file "C:/Users/krahn/Desktop/CURRENT": no such file or directory
-INFO: [Common 17-206] Exiting Webtalk at Thu Apr  9 02:10:23 2020...
+INFO: [Common 17-206] Exiting Webtalk at Fri Apr 10 02:36:50 2020...

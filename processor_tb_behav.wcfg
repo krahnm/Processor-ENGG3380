@@ -10,15 +10,15 @@
       </db_ref>
    </db_ref_list>
    <zoom_setting>
-      <ZoomStartTime time="335100fs"></ZoomStartTime>
-      <ZoomEndTime time="362184fs"></ZoomEndTime>
-      <Cursor1Time time="187745fs"></Cursor1Time>
+      <ZoomStartTime time="15000fs"></ZoomStartTime>
+      <ZoomEndTime time="31461fs"></ZoomEndTime>
+      <Cursor1Time time="17600fs"></Cursor1Time>
    </zoom_setting>
    <column_width_setting>
       <NameColumnWidth column_width="128"></NameColumnWidth>
-      <ValueColumnWidth column_width="105"></ValueColumnWidth>
+      <ValueColumnWidth column_width="85"></ValueColumnWidth>
    </column_width_setting>
-   <WVObjectSize size="135" />
+   <WVObjectSize size="88" />
    <wvobject fp_name="/processor_tb/numIn" type="array">
       <obj_property name="ElementShortName">numIn[5:0]</obj_property>
       <obj_property name="ObjectShortName">numIn[5:0]</obj_property>
@@ -42,6 +42,7 @@
    <wvobject fp_name="/processor_tb/uut/PC/AddIn" type="array">
       <obj_property name="ElementShortName">AddIn[15:0]</obj_property>
       <obj_property name="ObjectShortName">AddIn[15:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
    </wvobject>
    <wvobject fp_name="/processor_tb/uut/PC/CLK" type="logic">
       <obj_property name="ElementShortName">CLK</obj_property>
@@ -87,14 +88,17 @@
    <wvobject fp_name="/processor_tb/uut/ALU/IN1" type="array">
       <obj_property name="ElementShortName">IN1[15:0]</obj_property>
       <obj_property name="ObjectShortName">IN1[15:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
    </wvobject>
    <wvobject fp_name="/processor_tb/uut/ALU/IN2" type="array">
       <obj_property name="ElementShortName">IN2[15:0]</obj_property>
       <obj_property name="ObjectShortName">IN2[15:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
    </wvobject>
    <wvobject fp_name="/processor_tb/uut/ALU/ALU_OUT" type="array">
       <obj_property name="ElementShortName">ALU_OUT[15:0]</obj_property>
       <obj_property name="ObjectShortName">ALU_OUT[15:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
    </wvobject>
    <wvobject fp_name="/processor_tb/uut/ALU/SEL" type="array">
       <obj_property name="ElementShortName">SEL[2:0]</obj_property>
@@ -152,50 +156,9 @@
       <obj_property name="ElementShortName">Dwidth</obj_property>
       <obj_property name="ObjectShortName">Dwidth</obj_property>
    </wvobject>
-   <wvobject type="divider" fp_name="divider847">
-      <obj_property name="label">Top jump stuff</obj_property>
+   <wvobject type="divider" fp_name="divider146">
+      <obj_property name="label">Control</obj_property>
       <obj_property name="DisplayName">label</obj_property>
-   </wvobject>
-   <wvobject fp_name="/processor_tb/uut/ShiftTop/input" type="array">
-      <obj_property name="ElementShortName">input[9:0]</obj_property>
-      <obj_property name="ObjectShortName">input[9:0]</obj_property>
-      <obj_property name="Radix">BINARYRADIX</obj_property>
-   </wvobject>
-   <wvobject fp_name="/processor_tb/uut/ShiftTop/PC" type="array">
-      <obj_property name="ElementShortName">PC[3:0]</obj_property>
-      <obj_property name="ObjectShortName">PC[3:0]</obj_property>
-   </wvobject>
-   <wvobject fp_name="/processor_tb/uut/ShiftTop/output" type="array">
-      <obj_property name="ElementShortName">output[15:0]</obj_property>
-      <obj_property name="ObjectShortName">output[15:0]</obj_property>
-      <obj_property name="Radix">BINARYRADIX</obj_property>
-   </wvobject>
-   <wvobject type="divider" fp_name="divider643">
-      <obj_property name="label">ALU Control</obj_property>
-      <obj_property name="DisplayName">label</obj_property>
-   </wvobject>
-   <wvobject fp_name="/processor_tb/uut/ALUController/FuncIn" type="array">
-      <obj_property name="ElementShortName">FuncIn[3:0]</obj_property>
-      <obj_property name="ObjectShortName">FuncIn[3:0]</obj_property>
-      <obj_property name="Radix">BINARYRADIX</obj_property>
-   </wvobject>
-   <wvobject fp_name="/processor_tb/uut/ALUController/ALUOp" type="array">
-      <obj_property name="ElementShortName">ALUOp[1:0]</obj_property>
-      <obj_property name="ObjectShortName">ALUOp[1:0]</obj_property>
-   </wvobject>
-   <wvobject fp_name="/processor_tb/uut/ALUController/SelOut" type="array">
-      <obj_property name="ElementShortName">SelOut[2:0]</obj_property>
-      <obj_property name="ObjectShortName">SelOut[2:0]</obj_property>
-      <obj_property name="Radix">BINARYRADIX</obj_property>
-   </wvobject>
-   <wvobject fp_name="group423" type="group">
-      <obj_property name="label">New Group 1</obj_property>
-      <obj_property name="DisplayName">label</obj_property>
-      <obj_property name="isExpanded"></obj_property>
-      <wvobject type="divider" fp_name="divider684">
-         <obj_property name="label">Control</obj_property>
-         <obj_property name="DisplayName">label</obj_property>
-      </wvobject>
    </wvobject>
    <wvobject fp_name="/processor_tb/uut/Control/Opcode" type="array">
       <obj_property name="ElementShortName">Opcode[3:0]</obj_property>
@@ -306,73 +269,6 @@
       <obj_property name="ElementShortName">Cin</obj_property>
       <obj_property name="ObjectShortName">Cin</obj_property>
    </wvobject>
-   <wvobject type="divider" fp_name="divider133">
-      <obj_property name="label">Regfile Write Addr Mux</obj_property>
-      <obj_property name="DisplayName">label</obj_property>
-   </wvobject>
-   <wvobject fp_name="/processor_tb/uut/RFWriteDataMux/a" type="array">
-      <obj_property name="ElementShortName">a[15:0]</obj_property>
-      <obj_property name="ObjectShortName">a[15:0]</obj_property>
-   </wvobject>
-   <wvobject fp_name="/processor_tb/uut/RFWriteDataMux/b" type="array">
-      <obj_property name="ElementShortName">b[15:0]</obj_property>
-      <obj_property name="ObjectShortName">b[15:0]</obj_property>
-   </wvobject>
-   <wvobject fp_name="/processor_tb/uut/RFWriteDataMux/S" type="logic">
-      <obj_property name="ElementShortName">S</obj_property>
-      <obj_property name="ObjectShortName">S</obj_property>
-   </wvobject>
-   <wvobject fp_name="/processor_tb/uut/RFWriteDataMux/g" type="array">
-      <obj_property name="ElementShortName">g[15:0]</obj_property>
-      <obj_property name="ObjectShortName">g[15:0]</obj_property>
-   </wvobject>
-   <wvobject type="divider" fp_name="divider745">
-      <obj_property name="label">Instr Reg</obj_property>
-      <obj_property name="DisplayName">label</obj_property>
-   </wvobject>
-   <wvobject fp_name="/processor_tb/uut/InstrMod/DataIn" type="array">
-      <obj_property name="ElementShortName">DataIn[15:0]</obj_property>
-      <obj_property name="ObjectShortName">DataIn[15:0]</obj_property>
-      <obj_property name="Radix">BINARYRADIX</obj_property>
-   </wvobject>
-   <wvobject fp_name="/processor_tb/uut/InstrMod/DataOut" type="array">
-      <obj_property name="ElementShortName">DataOut[15:0]</obj_property>
-      <obj_property name="ObjectShortName">DataOut[15:0]</obj_property>
-      <obj_property name="Radix">BINARYRADIX</obj_property>
-   </wvobject>
-   <wvobject fp_name="/processor_tb/uut/InstrMod/CLK" type="logic">
-      <obj_property name="ElementShortName">CLK</obj_property>
-      <obj_property name="ObjectShortName">CLK</obj_property>
-   </wvobject>
-   <wvobject fp_name="/processor_tb/uut/InstrMod/en" type="logic">
-      <obj_property name="ElementShortName">en</obj_property>
-      <obj_property name="ObjectShortName">en</obj_property>
-   </wvobject>
-   <wvobject fp_name="/processor_tb/uut/InstrMod/registers" type="array">
-      <obj_property name="ElementShortName">registers[0:0][15:0]</obj_property>
-      <obj_property name="ObjectShortName">registers[0:0][15:0]</obj_property>
-      <obj_property name="Radix">BINARYRADIX</obj_property>
-   </wvobject>
-   <wvobject fp_name="/processor_tb/uut/Mux3to130Bit/a" type="array">
-      <obj_property name="ElementShortName">a[15:0]</obj_property>
-      <obj_property name="ObjectShortName">a[15:0]</obj_property>
-   </wvobject>
-   <wvobject fp_name="/processor_tb/uut/Mux3to130Bit/b" type="array">
-      <obj_property name="ElementShortName">b[15:0]</obj_property>
-      <obj_property name="ObjectShortName">b[15:0]</obj_property>
-   </wvobject>
-   <wvobject fp_name="/processor_tb/uut/Mux3to130Bit/c" type="array">
-      <obj_property name="ElementShortName">c[15:0]</obj_property>
-      <obj_property name="ObjectShortName">c[15:0]</obj_property>
-   </wvobject>
-   <wvobject fp_name="/processor_tb/uut/Mux3to130Bit/g" type="array">
-      <obj_property name="ElementShortName">g[15:0]</obj_property>
-      <obj_property name="ObjectShortName">g[15:0]</obj_property>
-   </wvobject>
-   <wvobject fp_name="/processor_tb/uut/Mux3to130Bit/sel" type="array">
-      <obj_property name="ElementShortName">sel[1:0]</obj_property>
-      <obj_property name="ObjectShortName">sel[1:0]</obj_property>
-   </wvobject>
    <wvobject type="divider" fp_name="divider138">
       <obj_property name="label">ALU in A Mux</obj_property>
       <obj_property name="DisplayName">label</obj_property>
@@ -468,6 +364,7 @@
    <wvobject fp_name="/processor_tb/uut/RegFile/DataIn" type="array">
       <obj_property name="ElementShortName">DataIn[15:0]</obj_property>
       <obj_property name="ObjectShortName">DataIn[15:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
    </wvobject>
    <wvobject fp_name="/processor_tb/uut/RegFile/WE" type="logic">
       <obj_property name="ElementShortName">WE</obj_property>
@@ -482,101 +379,6 @@
       <obj_property name="ObjectShortName">registers[0:7][15:0]</obj_property>
       <obj_property name="isExpanded"></obj_property>
    </wvobject>
-   <wvobject type="divider" fp_name="divider120">
-      <obj_property name="label">RegFile write Mux</obj_property>
-      <obj_property name="DisplayName">label</obj_property>
-   </wvobject>
-   <wvobject fp_name="/processor_tb/uut/RFAddrMux/a" type="array">
-      <obj_property name="ElementShortName">a[2:0]</obj_property>
-      <obj_property name="ObjectShortName">a[2:0]</obj_property>
-   </wvobject>
-   <wvobject fp_name="/processor_tb/uut/RFAddrMux/b" type="array">
-      <obj_property name="ElementShortName">b[2:0]</obj_property>
-      <obj_property name="ObjectShortName">b[2:0]</obj_property>
-   </wvobject>
-   <wvobject fp_name="/processor_tb/uut/RFAddrMux/S" type="logic">
-      <obj_property name="ElementShortName">S</obj_property>
-      <obj_property name="ObjectShortName">S</obj_property>
-   </wvobject>
-   <wvobject fp_name="/processor_tb/uut/RFAddrMux/g" type="array">
-      <obj_property name="ElementShortName">g[2:0]</obj_property>
-      <obj_property name="ObjectShortName">g[2:0]</obj_property>
-   </wvobject>
-   <wvobject type="divider" fp_name="divider95">
-      <obj_property name="label">Memory</obj_property>
-      <obj_property name="DisplayName">label</obj_property>
-   </wvobject>
-   <wvobject fp_name="/processor_tb/uut/Mem/memWrite" type="logic">
-      <obj_property name="ElementShortName">memWrite</obj_property>
-      <obj_property name="ObjectShortName">memWrite</obj_property>
-   </wvobject>
-   <wvobject fp_name="/processor_tb/uut/Mem/memRead" type="logic">
-      <obj_property name="ElementShortName">memRead</obj_property>
-      <obj_property name="ObjectShortName">memRead</obj_property>
-   </wvobject>
-   <wvobject fp_name="/processor_tb/uut/Mem/addIn" type="array">
-      <obj_property name="ElementShortName">addIn[15:0]</obj_property>
-      <obj_property name="ObjectShortName">addIn[15:0]</obj_property>
-   </wvobject>
-   <wvobject fp_name="/processor_tb/uut/Mem/userVal" type="array">
-      <obj_property name="ElementShortName">userVal[5:0]</obj_property>
-      <obj_property name="ObjectShortName">userVal[5:0]</obj_property>
-   </wvobject>
-   <wvobject fp_name="/processor_tb/uut/Mem/DataOut" type="array">
-      <obj_property name="ElementShortName">DataOut[15:0]</obj_property>
-      <obj_property name="ObjectShortName">DataOut[15:0]</obj_property>
-   </wvobject>
-   <wvobject fp_name="/processor_tb/uut/Mem/writeData" type="array">
-      <obj_property name="ElementShortName">writeData[15:0]</obj_property>
-      <obj_property name="ObjectShortName">writeData[15:0]</obj_property>
-   </wvobject>
-   <wvobject fp_name="/processor_tb/uut/Mem/finalfibbage" type="array">
-      <obj_property name="ElementShortName">finalfibbage[15:0]</obj_property>
-      <obj_property name="ObjectShortName">finalfibbage[15:0]</obj_property>
-   </wvobject>
-   <wvobject type="divider" fp_name="divider120">
-      <obj_property name="label">Alu Register</obj_property>
-      <obj_property name="DisplayName">label</obj_property>
-   </wvobject>
-   <wvobject fp_name="/processor_tb/uut/ALURegister/DataIn" type="array">
-      <obj_property name="ElementShortName">DataIn[15:0]</obj_property>
-      <obj_property name="ObjectShortName">DataIn[15:0]</obj_property>
-   </wvobject>
-   <wvobject fp_name="/processor_tb/uut/ALURegister/DataOut" type="array">
-      <obj_property name="ElementShortName">DataOut[15:0]</obj_property>
-      <obj_property name="ObjectShortName">DataOut[15:0]</obj_property>
-   </wvobject>
-   <wvobject fp_name="/processor_tb/uut/ALURegister/clk" type="logic">
-      <obj_property name="ElementShortName">clk</obj_property>
-      <obj_property name="ObjectShortName">clk</obj_property>
-   </wvobject>
-   <wvobject fp_name="/processor_tb/uut/ALURegister/en" type="logic">
-      <obj_property name="ElementShortName">en</obj_property>
-      <obj_property name="ObjectShortName">en</obj_property>
-   </wvobject>
-   <wvobject fp_name="/processor_tb/uut/ALURegister/registers" type="array">
-      <obj_property name="ElementShortName">registers[0:0][15:0]</obj_property>
-      <obj_property name="ObjectShortName">registers[0:0][15:0]</obj_property>
-      <obj_property name="isExpanded"></obj_property>
-   </wvobject>
-   <wvobject fp_name="/processor_tb/uut/Control/MS/RegDst" type="logic">
-      <obj_property name="ElementShortName">RegDst</obj_property>
-      <obj_property name="ObjectShortName">RegDst</obj_property>
-   </wvobject>
-   <wvobject fp_name="/processor_tb/uut/Control/MS/RegWrite" type="logic">
-      <obj_property name="ElementShortName">RegWrite</obj_property>
-      <obj_property name="ObjectShortName">RegWrite</obj_property>
-   </wvobject>
-   <wvobject type="divider" fp_name="divider601">
-      <obj_property name="label">Sign Extender Bottom</obj_property>
-      <obj_property name="DisplayName">label</obj_property>
-   </wvobject>
-   <wvobject fp_name="/processor_tb/uut/ExtendSign/input" type="array">
-      <obj_property name="ElementShortName">input[5:0]</obj_property>
-      <obj_property name="ObjectShortName">input[5:0]</obj_property>
-   </wvobject>
-   <wvobject fp_name="/processor_tb/uut/ExtendSign/output" type="array">
-      <obj_property name="ElementShortName">output[15:0]</obj_property>
-      <obj_property name="ObjectShortName">output[15:0]</obj_property>
+   <wvobject type="divider" fp_name="divider829">
    </wvobject>
 </wave_config>
