@@ -18,9 +18,11 @@ type registerArray is array(0 to 7) of std_logic_vector(15 downto 0);
 signal registers : registerArray := (others=> "0000000000000000" ); --initializes to xero
                     
 begin
+
+
 process (CLK)
   begin
-    if falling_edge(CLK) then
+    if falling_edge(CLK)then
       -- Read A and B
       DataO1 <= registers(conv_integer(ReadA1));--indexes register array
       DataO2 <= registers(conv_integer(ReadA2));
