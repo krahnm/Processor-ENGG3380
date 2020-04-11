@@ -18,14 +18,15 @@ architecture Behavioral of Memory is
 type memType is array(0 to 2**15) of std_logic_vector(15 downto 0);
 
 --set everything to zero
-signal memory: memType:= ("1011" & "000" & "100" & userVal,-- addi $t1, $zero, USERVALUE		0
+signal memory: memType:= (
+"1011" & "000" & "100" & userVal,-- addi $t1, $zero, USERVALUE		0
 "0101" & "100" & "000" & "001" & "000", -- add $a0,$t1,$zero		1
 ---- fibonacci:
 "1011" & "000" & "011" & "000001", -- addi $t0,$zero,1				2
 "1111" & "001" & "000" & "010010", -- beq $a0,$zero,return1			3
 "1111" & "001" & "100" & "010100",  -- beq $a0,$t0,return2			4
 "0101" & "000" & "000" & "100" & "000", -- add $t1,$zero,$zero		5
-"1011" & "000" & "000" & "000001",-- addi $t2,$zero,1				6
+"1011" & "000" & "101" & "000001",-- addi $t2,$zero,1				6
 "1011" & "000" & "110" & "000010", -- addi $t3,$zero,2				7
 "1011" & "000" & "111" & "000001", -- addi $t4,$zero,1				8
 ---- loop:
