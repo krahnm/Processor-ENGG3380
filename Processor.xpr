@@ -3,7 +3,7 @@
 <!--                                                         -->
 <!-- Copyright 1986-2019 Xilinx, Inc. All Rights Reserved.   -->
 
-<Project Version="7" Minor="44" Path="C:/Users/krahn/Desktop/CURRENT COURSES/Comp Org/Processor_ENGG3380/Processor.xpr">
+<Project Version="7" Minor="44" Path="C:/Users/Terry/Desktop/ENGG 3380/Processor-ENGG3380/Processor.xpr">
   <DefaultLaunch Dir="$PRUNDIR"/>
   <Configuration>
     <Option Name="Id" Val="41091effe5974297abf1e1a1496df3bc"/>
@@ -33,7 +33,7 @@
     <Option Name="EnableBDX" Val="FALSE"/>
     <Option Name="DSABoardId" Val="nexys-a7-100t"/>
     <Option Name="DSANumComputeUnits" Val="16"/>
-    <Option Name="WTXSimLaunchSim" Val="152"/>
+    <Option Name="WTXSimLaunchSim" Val="169"/>
     <Option Name="WTModelSimLaunchSim" Val="3"/>
     <Option Name="WTQuestaLaunchSim" Val="0"/>
     <Option Name="WTIesLaunchSim" Val="0"/>

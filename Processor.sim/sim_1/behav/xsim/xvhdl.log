@@ -1,6 +1,2 @@
-INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/krahn/Desktop/CURRENT COURSES/Comp Org/Processor_ENGG3380/Phase 2.srcs/sources_1/new/Memory.vhd" into library xil_defaultlib
-INFO: [VRFC 10-3107] analyzing entity 'Memory'
-INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/krahn/Desktop/CURRENT COURSES/Comp Org/Processor_ENGG3380/Phase 2.srcs/sources_1/new/MicrocodeStore.vhd" into library xil_defaultlib
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/Terry/Desktop/ENGG 3380/Processor-ENGG3380/Phase 2.srcs/sources_1/new/MicrocodeStore.vhd" into library xil_defaultlib
 INFO: [VRFC 10-3107] analyzing entity 'MicrocodeStore'
-INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/krahn/Desktop/CURRENT COURSES/Comp Org/Processor_ENGG3380/Phase 2.srcs/sources_1/new/shiftLeftTop.vhd" into library xil_defaultlib
-INFO: [VRFC 10-3107] analyzing entity 'shiftLeftTop'

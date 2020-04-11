@@ -2,11 +2,11 @@
 # Webtalk v2019.2 (64-bit)
 # SW Build 2708876 on Wed Nov  6 21:40:23 MST 2019
 # IP Build 2700528 on Thu Nov  7 00:09:20 MST 2019
-# Start of session at: Thu Apr  9 02:10:23 2020
-# Process ID: 16704
-# Current directory: C:/Users/krahn/Desktop/CURRENT COURSES/Comp Org/Processor_ENGG3380/Processor.sim/sim_1/behav/xsim
-# Command line: wbtcv.exe -mode batch -source C:/Users/krahn/Desktop/CURRENT COURSES/Comp Org/Processor_ENGG3380/Processor.sim/sim_1/behav/xsim/xsim.dir/processor_tb_behav/webtalk/xsim_webtalk.tcl -notrace
-# Log file: C:/Users/krahn/Desktop/CURRENT COURSES/Comp Org/Processor_ENGG3380/Processor.sim/sim_1/behav/xsim/webtalk.log
-# Journal file: C:/Users/krahn/Desktop/CURRENT COURSES/Comp Org/Processor_ENGG3380/Processor.sim/sim_1/behav/xsim\webtalk.jou
+# Start of session at: Fri Apr 10 18:21:46 2020
+# Process ID: 10296
+# Current directory: C:/Users/Terry/Desktop/ENGG 3380/Processor-ENGG3380/Processor.sim/sim_1/behav/xsim
+# Command line: wbtcv.exe -mode batch -source C:/Users/Terry/Desktop/ENGG 3380/Processor-ENGG3380/Processor.sim/sim_1/behav/xsim/xsim.dir/processor_tb_behav/webtalk/xsim_webtalk.tcl -notrace
+# Log file: C:/Users/Terry/Desktop/ENGG 3380/Processor-ENGG3380/Processor.sim/sim_1/behav/xsim/webtalk.log
+# Journal file: C:/Users/Terry/Desktop/ENGG 3380/Processor-ENGG3380/Processor.sim/sim_1/behav/xsim\webtalk.jou
 #-----------------------------------------------------------
-source C:/Users/krahn/Desktop/CURRENT -notrace
+source C:/Users/Terry/Desktop/ENGG -notrace
