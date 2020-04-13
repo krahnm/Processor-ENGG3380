@@ -15,12 +15,12 @@ Attempting to get a license for feature 'Synthesis' and/or device 'xc7a100t'
 INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7a100t'
 INFO: [Device 21-403] Loading part xc7a100tcsg324-1
 INFO: Launching helper process for spawning children vivado processes
-INFO: Helper process launched with PID 13604 
+INFO: Helper process launched with PID 11680 
 ---------------------------------------------------------------------------------
-Starting RTL Elaboration : Time (s): cpu = 00:00:04 ; elapsed = 00:00:05 . Memory (MB): peak = 966.570 ; gain = 235.363
+Starting RTL Elaboration : Time (s): cpu = 00:00:04 ; elapsed = 00:00:05 . Memory (MB): peak = 966.906 ; gain = 234.137
 ---------------------------------------------------------------------------------
 INFO: [Synth 8-638] synthesizing module 'ProcessorToDisplay' [C:/Users/krahn/Desktop/CURRENT COURSES/Comp Org/Processor_ENGG3380/Processor.srcs/sources_1/new/ProcessorToDisplay.vhd:13]
-INFO: [Synth 8-3491] module 'Processor' declared at 'C:/Users/krahn/Desktop/CURRENT COURSES/Comp Org/Processor_ENGG3380/Phase 2.srcs/sources_1/new/Processor.vhd:4' bound to instance 'Proc' of component 'Processor' [C:/Users/krahn/Desktop/CURRENT COURSES/Comp Org/Processor_ENGG3380/Processor.srcs/sources_1/new/ProcessorToDisplay.vhd:34]
+INFO: [Synth 8-3491] module 'Processor' declared at 'C:/Users/krahn/Desktop/CURRENT COURSES/Comp Org/Processor_ENGG3380/Phase 2.srcs/sources_1/new/Processor.vhd:4' bound to instance 'Proc' of component 'Processor' [C:/Users/krahn/Desktop/CURRENT COURSES/Comp Org/Processor_ENGG3380/Processor.srcs/sources_1/new/ProcessorToDisplay.vhd:35]
 INFO: [Synth 8-638] synthesizing module 'Processor' [C:/Users/krahn/Desktop/CURRENT COURSES/Comp Org/Processor_ENGG3380/Phase 2.srcs/sources_1/new/Processor.vhd:10]
 INFO: [Synth 8-3491] module 'MUX2to1' declared at 'C:/Users/krahn/Desktop/CURRENT COURSES/Comp Org/Processor_ENGG3380/Phase 2.srcs/sources_1/new/MUX2to1.vhd:4' bound to instance 'MUXPC' of component 'MUX2to1' [C:/Users/krahn/Desktop/CURRENT COURSES/Comp Org/Processor_ENGG3380/Phase 2.srcs/sources_1/new/Processor.vhd:210]
 INFO: [Synth 8-638] synthesizing module 'MUX2to1' [C:/Users/krahn/Desktop/CURRENT COURSES/Comp Org/Processor_ENGG3380/Phase 2.srcs/sources_1/new/MUX2to1.vhd:10]
@@ -158,15 +158,13 @@ INFO: [Synth 8-638] synthesizing module 'FourToOneMux' [C:/Users/krahn/Desktop/C
 INFO: [Synth 8-256] done synthesizing module 'FourToOneMux' (31#1) [C:/Users/krahn/Desktop/CURRENT COURSES/Comp Org/Processor_ENGG3380/Phase 2.srcs/sources_1/new/FourToOneMux.vhd:14]
 WARNING: [Synth 8-3848] Net Cin in module/entity Processor does not have driver. [C:/Users/krahn/Desktop/CURRENT COURSES/Comp Org/Processor_ENGG3380/Phase 2.srcs/sources_1/new/Processor.vhd:174]
 INFO: [Synth 8-256] done synthesizing module 'Processor' (32#1) [C:/Users/krahn/Desktop/CURRENT COURSES/Comp Org/Processor_ENGG3380/Phase 2.srcs/sources_1/new/Processor.vhd:10]
-INFO: [Synth 8-3491] module 'SevenSegmentDecoder_vhdl' declared at 'C:/Users/krahn/Desktop/CURRENT COURSES/Comp Org/Processor_ENGG3380/Phase 2.srcs/sources_1/new/SegDecoder.vhd:5' bound to instance 'SEG1' of component 'SevenSegmentDecoder_vhdl' [C:/Users/krahn/Desktop/CURRENT COURSES/Comp Org/Processor_ENGG3380/Processor.srcs/sources_1/new/ProcessorToDisplay.vhd:36]
+INFO: [Synth 8-3491] module 'SevenSegmentDecoder_vhdl' declared at 'C:/Users/krahn/Desktop/CURRENT COURSES/Comp Org/Processor_ENGG3380/Phase 2.srcs/sources_1/new/SegDecoder.vhd:5' bound to instance 'SEG1' of component 'SevenSegmentDecoder_vhdl' [C:/Users/krahn/Desktop/CURRENT COURSES/Comp Org/Processor_ENGG3380/Processor.srcs/sources_1/new/ProcessorToDisplay.vhd:37]
 INFO: [Synth 8-638] synthesizing module 'SevenSegmentDecoder_vhdl' [C:/Users/krahn/Desktop/CURRENT COURSES/Comp Org/Processor_ENGG3380/Phase 2.srcs/sources_1/new/SegDecoder.vhd:10]
 INFO: [Synth 8-226] default block is never used [C:/Users/krahn/Desktop/CURRENT COURSES/Comp Org/Processor_ENGG3380/Phase 2.srcs/sources_1/new/SegDecoder.vhd:16]
 INFO: [Synth 8-256] done synthesizing module 'SevenSegmentDecoder_vhdl' (33#1) [C:/Users/krahn/Desktop/CURRENT COURSES/Comp Org/Processor_ENGG3380/Phase 2.srcs/sources_1/new/SegDecoder.vhd:10]
-INFO: [Synth 8-3491] module 'SevenSegmentDecoder_vhdl' declared at 'C:/Users/krahn/Desktop/CURRENT COURSES/Comp Org/Processor_ENGG3380/Phase 2.srcs/sources_1/new/SegDecoder.vhd:5' bound to instance 'SEG2' of component 'SevenSegmentDecoder_vhdl' [C:/Users/krahn/Desktop/CURRENT COURSES/Comp Org/Processor_ENGG3380/Processor.srcs/sources_1/new/ProcessorToDisplay.vhd:37]
-INFO: [Synth 8-3491] module 'SevenSegmentDecoder_vhdl' declared at 'C:/Users/krahn/Desktop/CURRENT COURSES/Comp Org/Processor_ENGG3380/Phase 2.srcs/sources_1/new/SegDecoder.vhd:5' bound to instance 'SEG3' of component 'SevenSegmentDecoder_vhdl' [C:/Users/krahn/Desktop/CURRENT COURSES/Comp Org/Processor_ENGG3380/Processor.srcs/sources_1/new/ProcessorToDisplay.vhd:38]
-INFO: [Synth 8-3491] module 'SevenSegmentDecoder_vhdl' declared at 'C:/Users/krahn/Desktop/CURRENT COURSES/Comp Org/Processor_ENGG3380/Phase 2.srcs/sources_1/new/SegDecoder.vhd:5' bound to instance 'SEG4' of component 'SevenSegmentDecoder_vhdl' [C:/Users/krahn/Desktop/CURRENT COURSES/Comp Org/Processor_ENGG3380/Processor.srcs/sources_1/new/ProcessorToDisplay.vhd:39]
-WARNING: [Synth 8-3848] Net numOut in module/entity ProcessorToDisplay does not have driver. [C:/Users/krahn/Desktop/CURRENT COURSES/Comp Org/Processor_ENGG3380/Processor.srcs/sources_1/new/ProcessorToDisplay.vhd:7]
-WARNING: [Synth 8-3848] Net AN in module/entity ProcessorToDisplay does not have driver. [C:/Users/krahn/Desktop/CURRENT COURSES/Comp Org/Processor_ENGG3380/Processor.srcs/sources_1/new/ProcessorToDisplay.vhd:9]
+INFO: [Synth 8-3491] module 'SevenSegmentDecoder_vhdl' declared at 'C:/Users/krahn/Desktop/CURRENT COURSES/Comp Org/Processor_ENGG3380/Phase 2.srcs/sources_1/new/SegDecoder.vhd:5' bound to instance 'SEG2' of component 'SevenSegmentDecoder_vhdl' [C:/Users/krahn/Desktop/CURRENT COURSES/Comp Org/Processor_ENGG3380/Processor.srcs/sources_1/new/ProcessorToDisplay.vhd:38]
+INFO: [Synth 8-3491] module 'SevenSegmentDecoder_vhdl' declared at 'C:/Users/krahn/Desktop/CURRENT COURSES/Comp Org/Processor_ENGG3380/Phase 2.srcs/sources_1/new/SegDecoder.vhd:5' bound to instance 'SEG3' of component 'SevenSegmentDecoder_vhdl' [C:/Users/krahn/Desktop/CURRENT COURSES/Comp Org/Processor_ENGG3380/Processor.srcs/sources_1/new/ProcessorToDisplay.vhd:39]
+INFO: [Synth 8-3491] module 'SevenSegmentDecoder_vhdl' declared at 'C:/Users/krahn/Desktop/CURRENT COURSES/Comp Org/Processor_ENGG3380/Phase 2.srcs/sources_1/new/SegDecoder.vhd:5' bound to instance 'SEG4' of component 'SevenSegmentDecoder_vhdl' [C:/Users/krahn/Desktop/CURRENT COURSES/Comp Org/Processor_ENGG3380/Processor.srcs/sources_1/new/ProcessorToDisplay.vhd:40]
 INFO: [Synth 8-256] done synthesizing module 'ProcessorToDisplay' (34#1) [C:/Users/krahn/Desktop/CURRENT COURSES/Comp Org/Processor_ENGG3380/Processor.srcs/sources_1/new/ProcessorToDisplay.vhd:13]
 WARNING: [Synth 8-3331] design shiftLeftBottom has unconnected port input[15]
 WARNING: [Synth 8-3331] design shiftLeftBottom has unconnected port input[14]
@@ -179,32 +177,8 @@ WARNING: [Synth 8-3331] design ArithmeticUnit has unconnected port S[2]
 WARNING: [Synth 8-3331] design ArithmeticUnit has unconnected port S[1]
 WARNING: [Synth 8-3331] design ArithmeticUnit has unconnected port S[0]
 WARNING: [Synth 8-3331] design ALU_Structural has unconnected port Cin
-WARNING: [Synth 8-3331] design ProcessorToDisplay has unconnected port numOut[15]
-WARNING: [Synth 8-3331] design ProcessorToDisplay has unconnected port numOut[14]
-WARNING: [Synth 8-3331] design ProcessorToDisplay has unconnected port numOut[13]
-WARNING: [Synth 8-3331] design ProcessorToDisplay has unconnected port numOut[12]
-WARNING: [Synth 8-3331] design ProcessorToDisplay has unconnected port numOut[11]
-WARNING: [Synth 8-3331] design ProcessorToDisplay has unconnected port numOut[10]
-WARNING: [Synth 8-3331] design ProcessorToDisplay has unconnected port numOut[9]
-WARNING: [Synth 8-3331] design ProcessorToDisplay has unconnected port numOut[8]
-WARNING: [Synth 8-3331] design ProcessorToDisplay has unconnected port numOut[7]
-WARNING: [Synth 8-3331] design ProcessorToDisplay has unconnected port numOut[6]
-WARNING: [Synth 8-3331] design ProcessorToDisplay has unconnected port numOut[5]
-WARNING: [Synth 8-3331] design ProcessorToDisplay has unconnected port numOut[4]
-WARNING: [Synth 8-3331] design ProcessorToDisplay has unconnected port numOut[3]
-WARNING: [Synth 8-3331] design ProcessorToDisplay has unconnected port numOut[2]
-WARNING: [Synth 8-3331] design ProcessorToDisplay has unconnected port numOut[1]
-WARNING: [Synth 8-3331] design ProcessorToDisplay has unconnected port numOut[0]
-WARNING: [Synth 8-3331] design ProcessorToDisplay has unconnected port AN[7]
-WARNING: [Synth 8-3331] design ProcessorToDisplay has unconnected port AN[6]
-WARNING: [Synth 8-3331] design ProcessorToDisplay has unconnected port AN[5]
-WARNING: [Synth 8-3331] design ProcessorToDisplay has unconnected port AN[4]
-WARNING: [Synth 8-3331] design ProcessorToDisplay has unconnected port AN[3]
-WARNING: [Synth 8-3331] design ProcessorToDisplay has unconnected port AN[2]
-WARNING: [Synth 8-3331] design ProcessorToDisplay has unconnected port AN[1]
-WARNING: [Synth 8-3331] design ProcessorToDisplay has unconnected port AN[0]
 ---------------------------------------------------------------------------------
-Finished RTL Elaboration : Time (s): cpu = 00:03:32 ; elapsed = 00:03:34 . Memory (MB): peak = 3135.078 ; gain = 2403.871
+Finished RTL Elaboration : Time (s): cpu = 00:03:58 ; elapsed = 00:04:01 . Memory (MB): peak = 3126.625 ; gain = 2393.855
 ---------------------------------------------------------------------------------
 
 Report Check Netlist: 
@@ -217,12 +191,12 @@ Report Check Netlist:
 Start Handling Custom Attributes
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Handling Custom Attributes : Time (s): cpu = 00:03:32 ; elapsed = 00:03:35 . Memory (MB): peak = 3135.078 ; gain = 2403.871
+Finished Handling Custom Attributes : Time (s): cpu = 00:03:58 ; elapsed = 00:04:02 . Memory (MB): peak = 3126.625 ; gain = 2393.855
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished RTL Optimization Phase 1 : Time (s): cpu = 00:03:32 ; elapsed = 00:03:35 . Memory (MB): peak = 3135.078 ; gain = 2403.871
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:03:58 ; elapsed = 00:04:02 . Memory (MB): peak = 3126.625 ; gain = 2393.855
 ---------------------------------------------------------------------------------
-Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.019 . Memory (MB): peak = 3135.078 ; gain = 0.000
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.022 . Memory (MB): peak = 3126.625 ; gain = 0.000
 INFO: [Project 1-570] Preparing netlist for logic optimization
 
 Processing XDC Constraints
@@ -233,26 +207,26 @@ INFO: [Project 1-236] Implementation specific constraints were found while readi
 Resolution: To avoid this warning, move constraints listed in [.Xil/ProcessorToDisplay_propImpl.xdc] to another XDC file and exclude this new file from synthesis with the used_in_synthesis property (File Properties dialog in GUI) and re-run elaboration/synthesis.
 Completed Processing XDC Constraints
 
-Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.001 . Memory (MB): peak = 3135.078 ; gain = 0.000
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.001 . Memory (MB): peak = 3126.625 ; gain = 0.000
 INFO: [Project 1-111] Unisim Transformation Summary:
 No Unisim elements were transformed.
 
-Constraint Validation Runtime : Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.010 . Memory (MB): peak = 3135.078 ; gain = 0.000
+Constraint Validation Runtime : Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.014 . Memory (MB): peak = 3126.625 ; gain = 0.000
 ---------------------------------------------------------------------------------
-Finished Constraint Validation : Time (s): cpu = 00:03:38 ; elapsed = 00:03:41 . Memory (MB): peak = 3135.078 ; gain = 2403.871
+Finished Constraint Validation : Time (s): cpu = 00:04:05 ; elapsed = 00:04:09 . Memory (MB): peak = 3126.625 ; gain = 2393.855
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Loading Part and Timing Information
 ---------------------------------------------------------------------------------
 Loading part: xc7a100tcsg324-1
 ---------------------------------------------------------------------------------
-Finished Loading Part and Timing Information : Time (s): cpu = 00:03:38 ; elapsed = 00:03:41 . Memory (MB): peak = 3135.078 ; gain = 2403.871
+Finished Loading Part and Timing Information : Time (s): cpu = 00:04:05 ; elapsed = 00:04:09 . Memory (MB): peak = 3126.625 ; gain = 2393.855
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Applying 'set_property' XDC Constraints
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:03:38 ; elapsed = 00:03:41 . Memory (MB): peak = 3135.078 ; gain = 2403.871
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:04:05 ; elapsed = 00:04:09 . Memory (MB): peak = 3126.625 ; gain = 2393.855
 ---------------------------------------------------------------------------------
 INFO: [Synth 8-802] inferred FSM for state register 'anIn_reg' in module 'ProcessorToDisplay'
 INFO: [Synth 8-5546] ROM "anIn" won't be mapped to RAM because it is too sparse
@@ -260,8 +234,19 @@ WARNING: [Synth 8-327] inferring latch for variable 'g_reg' [C:/Users/krahn/Desk
 WARNING: [Synth 8-327] inferring latch for variable 'g_reg' [C:/Users/krahn/Desktop/CURRENT COURSES/Comp Org/Processor_ENGG3380/Phase 2.srcs/sources_1/new/MUX.vhd:18]
 WARNING: [Synth 8-327] inferring latch for variable 'g_reg' [C:/Users/krahn/Desktop/CURRENT COURSES/Comp Org/Processor_ENGG3380/Phase 2.srcs/sources_1/new/Mux3to1.vhd:22]
 WARNING: [Synth 8-327] inferring latch for variable 'output_reg' [C:/Users/krahn/Desktop/CURRENT COURSES/Comp Org/Processor_ENGG3380/Phase 2.srcs/sources_1/new/FourToOneMux.vhd:20]
+---------------------------------------------------------------------------------------------------
+                   State |                     New Encoding |                Previous Encoding 
+---------------------------------------------------------------------------------------------------
+                 iSTATE3 |                              000 |                         00000000
+*
+                  iSTATE |                              001 |                         11110111
+                 iSTATE0 |                              010 |                         11111011
+                 iSTATE1 |                              011 |                         11111101
+                 iSTATE2 |                              100 |                         11111110
+---------------------------------------------------------------------------------------------------
+INFO: [Synth 8-3354] encoded FSM with state register 'anIn_reg' using encoding 'sequential' in module 'ProcessorToDisplay'
 ---------------------------------------------------------------------------------
-Finished RTL Optimization Phase 2 : Time (s): cpu = 00:03:39 ; elapsed = 00:03:42 . Memory (MB): peak = 3135.078 ; gain = 2403.871
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:04:06 ; elapsed = 00:04:10 . Memory (MB): peak = 3126.625 ; gain = 2393.855
 ---------------------------------------------------------------------------------
 
 Report RTL Partitions: 
@@ -275,6 +260,7 @@ Start RTL Component Statistics
 Detailed RTL Component Info : 
 +---Adders : 
 	   2 Input      8 Bit       Adders := 1     
+	   2 Input      3 Bit       Adders := 1     
 +---XORs : 
 	   2 Input     16 Bit         XORs := 1     
 	   3 Input      1 Bit         XORs := 33    
@@ -283,6 +269,7 @@ Detailed RTL Component Info :
 	               16 Bit    Registers := 43    
 	                8 Bit    Registers := 1     
 	                7 Bit    Registers := 1     
+	                3 Bit    Registers := 1     
 +---RAMs : 
 	              128 Bit         RAMs := 1     
 +---Muxes : 
@@ -294,6 +281,7 @@ Detailed RTL Component Info :
 	   5 Input      7 Bit        Muxes := 1     
 	   2 Input      3 Bit        Muxes := 1     
 	  14 Input      3 Bit        Muxes := 1     
+	   5 Input      3 Bit        Muxes := 1     
 	   2 Input      1 Bit        Muxes := 8     
 	   5 Input      1 Bit        Muxes := 1     
 ---------------------------------------------------------------------------------
@@ -305,11 +293,15 @@ Start RTL Hierarchical Component Statistics
 Hierarchical RTL Component report 
 Module ProcessorToDisplay 
 Detailed RTL Component Info : 
++---Adders : 
+	   2 Input      3 Bit       Adders := 1     
 +---Registers : 
 	                7 Bit    Registers := 1     
+	                3 Bit    Registers := 1     
 +---Muxes : 
 	   5 Input      8 Bit        Muxes := 1     
 	   5 Input      7 Bit        Muxes := 1     
+	   5 Input      3 Bit        Muxes := 1     
 	   5 Input      1 Bit        Muxes := 1     
 Module MUX2to1 
 Detailed RTL Component Info : 
@@ -428,35 +420,6 @@ Finished Part Resource Summary
 Start Cross Boundary and Area Optimization
 ---------------------------------------------------------------------------------
 Warning: Parallel synthesis criteria is not met 
-INFO: [Synth 8-5546] ROM "anIn" won't be mapped to RAM because it is too sparse
-WARNING: [Synth 8-3331] design ProcessorToDisplay has unconnected port numOut[15]
-WARNING: [Synth 8-3331] design ProcessorToDisplay has unconnected port numOut[14]
-WARNING: [Synth 8-3331] design ProcessorToDisplay has unconnected port numOut[13]
-WARNING: [Synth 8-3331] design ProcessorToDisplay has unconnected port numOut[12]
-WARNING: [Synth 8-3331] design ProcessorToDisplay has unconnected port numOut[11]
-WARNING: [Synth 8-3331] design ProcessorToDisplay has unconnected port numOut[10]
-WARNING: [Synth 8-3331] design ProcessorToDisplay has unconnected port numOut[9]
-WARNING: [Synth 8-3331] design ProcessorToDisplay has unconnected port numOut[8]
-WARNING: [Synth 8-3331] design ProcessorToDisplay has unconnected port numOut[7]
-WARNING: [Synth 8-3331] design ProcessorToDisplay has unconnected port numOut[6]
-WARNING: [Synth 8-3331] design ProcessorToDisplay has unconnected port numOut[5]
-WARNING: [Synth 8-3331] design ProcessorToDisplay has unconnected port numOut[4]
-WARNING: [Synth 8-3331] design ProcessorToDisplay has unconnected port numOut[3]
-WARNING: [Synth 8-3331] design ProcessorToDisplay has unconnected port numOut[2]
-WARNING: [Synth 8-3331] design ProcessorToDisplay has unconnected port numOut[1]
-WARNING: [Synth 8-3331] design ProcessorToDisplay has unconnected port numOut[0]
-WARNING: [Synth 8-3331] design ProcessorToDisplay has unconnected port AN[7]
-WARNING: [Synth 8-3331] design ProcessorToDisplay has unconnected port AN[6]
-WARNING: [Synth 8-3331] design ProcessorToDisplay has unconnected port AN[5]
-WARNING: [Synth 8-3331] design ProcessorToDisplay has unconnected port AN[4]
-WARNING: [Synth 8-3331] design ProcessorToDisplay has unconnected port AN[3]
-WARNING: [Synth 8-3331] design ProcessorToDisplay has unconnected port AN[2]
-WARNING: [Synth 8-3331] design ProcessorToDisplay has unconnected port AN[1]
-WARNING: [Synth 8-3331] design ProcessorToDisplay has unconnected port AN[0]
-INFO: [Synth 8-3886] merging instance 'anIn_reg[6]' (FD) to 'anIn_reg[7]'
-INFO: [Synth 8-3886] merging instance 'anIn_reg[7]' (FD) to 'anIn_reg[5]'
-INFO: [Synth 8-3886] merging instance 'anIn_reg[5]' (FD) to 'anIn_reg[4]'
-INFO: [Synth 8-3333] propagating constant 1 across sequential element (\anIn_reg[4] )
 WARNING: [Synth 8-3332] Sequential element (Proc/ARegALUMux/g_reg[15]) is unused and will be removed from module ProcessorToDisplay.
 WARNING: [Synth 8-3332] Sequential element (Proc/ARegALUMux/g_reg[14]) is unused and will be removed from module ProcessorToDisplay.
 WARNING: [Synth 8-3332] Sequential element (Proc/ARegALUMux/g_reg[13]) is unused and will be removed from module ProcessorToDisplay.
@@ -523,7 +486,7 @@ WARNING: [Synth 8-3332] Sequential element (Proc/Mux4to1/output_reg[1]) is unuse
 WARNING: [Synth 8-3332] Sequential element (Proc/Mux4to1/output_reg[0]) is unused and will be removed from module ProcessorToDisplay.
 INFO: [Synth 8-3333] propagating constant 0 across sequential element (\Proc/Control/PC/AddOut_reg[3] )
 ---------------------------------------------------------------------------------
-Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:03:49 ; elapsed = 00:03:52 . Memory (MB): peak = 3135.078 ; gain = 2403.871
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:04:15 ; elapsed = 00:04:19 . Memory (MB): peak = 3126.625 ; gain = 2393.855
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start ROM, RAM, DSP and Shift Register Reporting
@@ -550,13 +513,13 @@ Report RTL Partitions:
 Start Applying XDC Timing Constraints
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Applying XDC Timing Constraints : Time (s): cpu = 00:03:56 ; elapsed = 00:03:59 . Memory (MB): peak = 3135.078 ; gain = 2403.871
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:04:23 ; elapsed = 00:04:27 . Memory (MB): peak = 3126.625 ; gain = 2393.855
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Timing Optimization
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Timing Optimization : Time (s): cpu = 00:03:56 ; elapsed = 00:03:59 . Memory (MB): peak = 3135.078 ; gain = 2403.871
+Finished Timing Optimization : Time (s): cpu = 00:04:23 ; elapsed = 00:04:27 . Memory (MB): peak = 3126.625 ; gain = 2393.855
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start ROM, RAM, DSP and Shift Register Reporting
@@ -582,7 +545,7 @@ Report RTL Partitions:
 Start Technology Mapping
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Technology Mapping : Time (s): cpu = 00:03:57 ; elapsed = 00:04:00 . Memory (MB): peak = 3135.078 ; gain = 2403.871
+Finished Technology Mapping : Time (s): cpu = 00:04:23 ; elapsed = 00:04:28 . Memory (MB): peak = 3126.625 ; gain = 2393.855
 ---------------------------------------------------------------------------------
 
 Report RTL Partitions: 
@@ -606,13 +569,13 @@ Start Final Netlist Cleanup
 Finished Final Netlist Cleanup
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished IO Insertion : Time (s): cpu = 00:04:01 ; elapsed = 00:04:04 . Memory (MB): peak = 3135.078 ; gain = 2403.871
+Finished IO Insertion : Time (s): cpu = 00:04:28 ; elapsed = 00:04:32 . Memory (MB): peak = 3126.625 ; gain = 2393.855
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Renaming Generated Instances
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Renaming Generated Instances : Time (s): cpu = 00:04:01 ; elapsed = 00:04:04 . Memory (MB): peak = 3135.078 ; gain = 2403.871
+Finished Renaming Generated Instances : Time (s): cpu = 00:04:28 ; elapsed = 00:04:32 . Memory (MB): peak = 3126.625 ; gain = 2393.855
 ---------------------------------------------------------------------------------
 
 Report RTL Partitions: 
@@ -631,25 +594,25 @@ Report Check Netlist:
 Start Rebuilding User Hierarchy
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Rebuilding User Hierarchy : Time (s): cpu = 00:04:01 ; elapsed = 00:04:04 . Memory (MB): peak = 3135.078 ; gain = 2403.871
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:04:28 ; elapsed = 00:04:32 . Memory (MB): peak = 3126.625 ; gain = 2393.855
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Renaming Generated Ports
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Renaming Generated Ports : Time (s): cpu = 00:04:01 ; elapsed = 00:04:04 . Memory (MB): peak = 3135.078 ; gain = 2403.871
+Finished Renaming Generated Ports : Time (s): cpu = 00:04:28 ; elapsed = 00:04:32 . Memory (MB): peak = 3126.625 ; gain = 2393.855
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Handling Custom Attributes
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Handling Custom Attributes : Time (s): cpu = 00:04:01 ; elapsed = 00:04:04 . Memory (MB): peak = 3135.078 ; gain = 2403.871
+Finished Handling Custom Attributes : Time (s): cpu = 00:04:28 ; elapsed = 00:04:32 . Memory (MB): peak = 3126.625 ; gain = 2393.855
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Renaming Generated Nets
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Renaming Generated Nets : Time (s): cpu = 00:04:01 ; elapsed = 00:04:04 . Memory (MB): peak = 3135.078 ; gain = 2403.871
+Finished Renaming Generated Nets : Time (s): cpu = 00:04:28 ; elapsed = 00:04:32 . Memory (MB): peak = 3126.625 ; gain = 2393.855
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Writing Synthesis Report
@@ -666,63 +629,61 @@ Report Cell Usage:
 |      |Cell   |Count |
 +------+-------+------+
 |1     |BUFG   |     2|
-|2     |CARRY4 |    10|
-|3     |LUT1   |     4|
-|4     |LUT2   |    32|
-|5     |LUT3   |    61|
-|6     |LUT4   |    69|
-|7     |LUT5   |   105|
-|8     |LUT6   |   259|
-|9     |MUXF7  |    33|
-|10    |MUXF8  |    16|
-|11    |RAM32M |     6|
-|12    |FDRE   |   743|
-|13    |IBUF   |     7|
-|14    |OBUF   |     7|
-|15    |OBUFT  |    24|
+|2     |LUT1   |     3|
+|3     |LUT2   |    32|
+|4     |LUT3   |    76|
+|5     |LUT4   |    62|
+|6     |LUT5   |    71|
+|7     |LUT6   |   287|
+|8     |MUXF7  |    46|
+|9     |MUXF8  |     9|
+|10    |RAM32M |     6|
+|11    |FDRE   |   708|
+|12    |IBUF   |     7|
+|13    |OBUF   |    31|
 +------+-------+------+
 
 Report Instance Areas: 
 +------+----------------+--------------------+------+
 |      |Instance        |Module              |Cells |
 +------+----------------+--------------------+------+
-|1     |top             |                    |  1378|
-|2     |  Proc          |Processor           |  1273|
-|3     |    ALURegister |ALUReg              |    34|
+|1     |top             |                    |  1340|
+|2     |  Proc          |Processor           |  1276|
+|3     |    ALURegister |ALUReg              |    33|
 |4     |    ARegister   |AReg                |    16|
 |5     |    BRegister   |BReg                |    22|
-|6     |    Control     |MPControl           |   104|
-|7     |      PC        |MicroProgramCounter |   104|
-|8     |    InstrMod    |InstructionModule   |   127|
-|9     |    Mem         |Memory              |   727|
-|10    |    MemDataReg  |MDR                 |    41|
-|11    |    PC          |ProgramCounter      |   164|
+|6     |    Control     |MPControl           |   112|
+|7     |      PC        |MicroProgramCounter |   112|
+|8     |    InstrMod    |InstructionModule   |   122|
+|9     |    Mem         |Memory              |   788|
+|10    |    MemDataReg  |MDR                 |    39|
+|11    |    PC          |ProgramCounter      |   106|
 |12    |    RegFile     |RegisterFile        |    38|
 +------+----------------+--------------------+------+
 ---------------------------------------------------------------------------------
-Finished Writing Synthesis Report : Time (s): cpu = 00:04:01 ; elapsed = 00:04:04 . Memory (MB): peak = 3135.078 ; gain = 2403.871
+Finished Writing Synthesis Report : Time (s): cpu = 00:04:28 ; elapsed = 00:04:32 . Memory (MB): peak = 3126.625 ; gain = 2393.855
 ---------------------------------------------------------------------------------
-Synthesis finished with 0 errors, 0 critical warnings and 92 warnings.
-Synthesis Optimization Runtime : Time (s): cpu = 00:00:26 ; elapsed = 00:04:02 . Memory (MB): peak = 3135.078 ; gain = 2403.871
-Synthesis Optimization Complete : Time (s): cpu = 00:04:01 ; elapsed = 00:04:04 . Memory (MB): peak = 3135.078 ; gain = 2403.871
+Synthesis finished with 0 errors, 0 critical warnings and 68 warnings.
+Synthesis Optimization Runtime : Time (s): cpu = 00:00:27 ; elapsed = 00:04:30 . Memory (MB): peak = 3126.625 ; gain = 2393.855
+Synthesis Optimization Complete : Time (s): cpu = 00:04:28 ; elapsed = 00:04:32 . Memory (MB): peak = 3126.625 ; gain = 2393.855
 INFO: [Project 1-571] Translating synthesized netlist
-Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.026 . Memory (MB): peak = 3135.078 ; gain = 0.000
-INFO: [Netlist 29-17] Analyzing 65 Unisim elements for replacement
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.028 . Memory (MB): peak = 3126.625 ; gain = 0.000
+INFO: [Netlist 29-17] Analyzing 61 Unisim elements for replacement
 INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
 INFO: [Project 1-570] Preparing netlist for logic optimization
 INFO: [Opt 31-138] Pushed 1 inverter(s) to 6 load pin(s).
-Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.001 . Memory (MB): peak = 3135.078 ; gain = 0.000
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 3126.625 ; gain = 0.000
 INFO: [Project 1-111] Unisim Transformation Summary:
   A total of 6 instances were transformed.
   RAM32M => RAM32M (inverted pins: WCLK) (RAMD32(x6), RAMS32(x2)): 6 instances
 
 INFO: [Common 17-83] Releasing license: Synthesis
-159 Infos, 134 Warnings, 0 Critical Warnings and 0 Errors encountered.
+155 Infos, 84 Warnings, 0 Critical Warnings and 0 Errors encountered.
 synth_design completed successfully
-synth_design: Time (s): cpu = 00:04:07 ; elapsed = 00:04:10 . Memory (MB): peak = 3135.078 ; gain = 2710.207
-Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.001 . Memory (MB): peak = 3135.078 ; gain = 0.000
+synth_design: Time (s): cpu = 00:04:34 ; elapsed = 00:04:39 . Memory (MB): peak = 3126.625 ; gain = 2703.145
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 3126.625 ; gain = 0.000
 WARNING: [Constraints 18-5210] No constraints selected for write.
 Resolution: This message can indicate that there are no constraints for the design, or it can indicate that the used_in flags are set such that the constraints are ignored. This later case is used when running synth_design to not write synthesis constraints to the resulting checkpoint. Instead, project constraints are read when the synthesized design is opened.
 INFO: [Common 17-1381] The checkpoint 'C:/Users/krahn/Desktop/CURRENT COURSES/Comp Org/Processor_ENGG3380/Processor.runs/synth_1/ProcessorToDisplay.dcp' has been generated.
 INFO: [runtcl-4] Executing : report_utilization -file ProcessorToDisplay_utilization_synth.rpt -pb ProcessorToDisplay_utilization_synth.pb
-INFO: [Common 17-206] Exiting Vivado at Mon Apr 13 14:31:07 2020...
+INFO: [Common 17-206] Exiting Vivado at Mon Apr 13 18:25:04 2020...

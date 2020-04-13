@@ -2,7 +2,7 @@
 2019.2
 Nov  6 2019
 21:57:16
-C:/Users/krahn/Desktop/CURRENT COURSES/Comp Org/Processor_ENGG3380/Phase 2.srcs/sim_1/new/processor_tb.vhd,1586797389,vhdl,,,,processor_tb,,,,,,,,
+C:/Users/krahn/Desktop/CURRENT COURSES/Comp Org/Processor_ENGG3380/Phase 2.srcs/sim_1/new/processor_tb.vhd,1586809729,vhdl,,,,processor_tb,,,,,,,,
 C:/Users/krahn/Desktop/CURRENT COURSES/Comp Org/Processor_ENGG3380/Phase 2.srcs/sources_1/new/ALUControl.vhd,1585783896,vhdl,,,,alucontrol,,,,,,,,
 C:/Users/krahn/Desktop/CURRENT COURSES/Comp Org/Processor_ENGG3380/Phase 2.srcs/sources_1/new/ALUReg.vhd,1586715576,vhdl,,,,alureg,,,,,,,,
 C:/Users/krahn/Desktop/CURRENT COURSES/Comp Org/Processor_ENGG3380/Phase 2.srcs/sources_1/new/ALU_Structural.vhd,1585348578,vhdl,,,,alu_structural,,,,,,,,
@@ -36,4 +36,4 @@ C:/Users/krahn/Desktop/CURRENT COURSES/Comp Org/Processor_ENGG3380/Phase 2.srcs/
 C:/Users/krahn/Desktop/CURRENT COURSES/Comp Org/Processor_ENGG3380/Phase 2.srcs/sources_1/new/shiftLeftBottom.vhd,1585349066,vhdl,,,,shiftleftbottom,,,,,,,,
 C:/Users/krahn/Desktop/CURRENT COURSES/Comp Org/Processor_ENGG3380/Phase 2.srcs/sources_1/new/shiftLeftTop.vhd,1586458907,vhdl,,,,shiftlefttop,,,,,,,,
 C:/Users/krahn/Desktop/CURRENT COURSES/Comp Org/Processor_ENGG3380/Phase 2.srcs/sources_1/new/signExtend.vhd,1585349239,vhdl,,,,signextend,,,,,,,,
-C:/Users/krahn/Desktop/CURRENT COURSES/Comp Org/Processor_ENGG3380/Processor.srcs/sources_1/new/ProcessorToDisplay.vhd,1586796581,vhdl,,,,processortodisplay,,,,,,,,
+C:/Users/krahn/Desktop/CURRENT COURSES/Comp Org/Processor_ENGG3380/Processor.srcs/sources_1/new/ProcessorToDisplay.vhd,1586815684,vhdl,,,,processortodisplay,,,,,,,,
