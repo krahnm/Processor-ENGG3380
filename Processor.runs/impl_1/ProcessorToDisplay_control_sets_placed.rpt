@@ -1,8 +1,13 @@
 Copyright 1986-2019 Xilinx, Inc. All Rights Reserved.
 -----------------------------------------------------------------------------------------------
 | Tool Version : Vivado v.2019.2 (win64) Build 2708876 Wed Nov  6 21:40:23 MST 2019
+<<<<<<< HEAD
 | Date         : Mon Apr 13 17:37:06 2020
 | Host         : ComputerT running 64-bit Service Pack 1  (build 7601)
+=======
+| Date         : Mon Apr 13 18:25:47 2020
+| Host         : DESKTOP-2U1OOMJ running 64-bit major release  (build 9200)
+>>>>>>> master
 | Command      : report_control_sets -verbose -file ProcessorToDisplay_control_sets_placed.rpt
 | Design       : ProcessorToDisplay
 | Device       : xc7a100t
@@ -27,7 +32,11 @@ Table of Contents
 |    Minimum number of control sets                        |    45 |
 |    Addition due to synthesis replication                 |     0 |
 |    Addition due to physical synthesis replication        |     0 |
+<<<<<<< HEAD
 | Unused register locations in slices containing registers |    10 |
+=======
+| Unused register locations in slices containing registers |    12 |
+>>>>>>> master
 +----------------------------------------------------------+-------+
 * Control sets can be merged at opt_design using control_set_merge or merge_equivalent_drivers
 ** Run report_qor_suggestions for automated merging and remapping suggestions
@@ -40,14 +49,18 @@ Table of Contents
 |       Fanout       | Count |
 +--------------------+-------+
 | Total control sets |    45 |
+<<<<<<< HEAD
 | >= 0 to < 4        |     1 |
+=======
+| >= 0 to < 4        |     2 |
+>>>>>>> master
 | >= 4 to < 6        |     0 |
 | >= 6 to < 8        |     2 |
 | >= 8 to < 10       |     0 |
 | >= 10 to < 12      |     0 |
 | >= 12 to < 14      |     0 |
 | >= 14 to < 16      |     0 |
-| >= 16              |    42 |
+| >= 16              |    41 |
 +--------------------+-------+
 * Control sets can be remapped at either synth_design or opt_design
 
@@ -58,10 +71,17 @@ Table of Contents
 +--------------+-----------------------+------------------------+-----------------+--------------+
 | Clock Enable | Synchronous Set/Reset | Asynchronous Set/Reset | Total Registers | Total Slices |
 +--------------+-----------------------+------------------------+-----------------+--------------+
+<<<<<<< HEAD
 | No           | No                    | No                     |              88 |           25 |
 | No           | No                    | Yes                    |               0 |            0 |
 | No           | Yes                   | No                     |               7 |            3 |
 | Yes          | No                    | No                     |             663 |          209 |
+=======
+| No           | No                    | No                     |              54 |           16 |
+| No           | No                    | Yes                    |               0 |            0 |
+| No           | Yes                   | No                     |               7 |            3 |
+| Yes          | No                    | No                     |             663 |          276 |
+>>>>>>> master
 | Yes          | No                    | Yes                    |               0 |            0 |
 | Yes          | Yes                   | No                     |               0 |            0 |
 +--------------+-----------------------+------------------------+-----------------+--------------+
@@ -73,6 +93,7 @@ Table of Contents
 +----------------------+------------------------------------+--------------------------------------+------------------+----------------+
 |     Clock Signal     |            Enable Signal           |           Set/Reset Signal           | Slice Load Count | Bel Load Count |
 +----------------------+------------------------------------+--------------------------------------+------------------+----------------+
+<<<<<<< HEAD
 |  cclk_BUFG           |                                    |                                      |                2 |              3 |
 |  cclk_BUFG           | AN_OBUF[4]                         |                                      |                5 |              7 |
 |  cclk_BUFG           |                                    | Proc/Control/PC/AddOut[7]_i_1__0_n_0 |                3 |              7 |
@@ -118,6 +139,53 @@ Table of Contents
 |  CLK100MHZ_IBUF_BUFG |                                    |                                      |               10 |             37 |
 | ~cclk_BUFG           | Proc/Control/PC/WE                 |                                      |                6 |             48 |
 | ~cclk_BUFG           |                                    |                                      |               13 |             48 |
+=======
+|  CLK100MHZ_IBUF_BUFG |                                    |                                      |                2 |              3 |
+|  clkdiv[2]           |                                    |                                      |                2 |              3 |
+|  clkdiv[2]           | AN_OBUF[4]                         |                                      |                4 |              7 |
+|  clkdiv_BUFG[0]      |                                    | Proc/Control/PC/AddOut[7]_i_1__0_n_0 |                3 |              7 |
+|  clkdiv_BUFG[0]      | Proc/Control/PC/E[0]               |                                      |                7 |             16 |
+| ~clkdiv_BUFG[0]      | Proc/Control/PC/AddOut_reg[5]_2[0] |                                      |                4 |             16 |
+| ~clkdiv_BUFG[0]      | Proc/PC/registers_reg[0][15]_4[0]  |                                      |                4 |             16 |
+| ~clkdiv_BUFG[0]      | Proc/Control/PC/AddOut_reg[7]_1[0] |                                      |                6 |             16 |
+| ~clkdiv_BUFG[0]      | Proc/PC/registers_reg[0][3]_1[0]   |                                      |                6 |             16 |
+| ~clkdiv_BUFG[0]      | Proc/Control/PC/AddOut_reg[0]_0[0] |                                      |                4 |             16 |
+| ~clkdiv_BUFG[0]      | Proc/PC/registers_reg[0][15]_1[0]  |                                      |                6 |             16 |
+| ~clkdiv_BUFG[0]      | Proc/Control/PC/AddOut_reg[0]_2[0] |                                      |                5 |             16 |
+| ~clkdiv_BUFG[0]      | Proc/PC/registers_reg[0][15]_5     |                                      |                6 |             16 |
+| ~clkdiv_BUFG[0]      | Proc/PC/AddOut_reg[4]_4[0]         |                                      |               12 |             16 |
+| ~clkdiv_BUFG[0]      | Proc/PC/AddOut_reg[4]_7[0]         |                                      |                7 |             16 |
+| ~clkdiv_BUFG[0]      | Proc/PC/AddOut_reg[4]_2[0]         |                                      |                8 |             16 |
+| ~clkdiv_BUFG[0]      | Proc/PC/AddOut_reg[4]_9[0]         |                                      |                8 |             16 |
+| ~clkdiv_BUFG[0]      | Proc/PC/AddOut_reg[4]_11[0]        |                                      |                9 |             16 |
+| ~clkdiv_BUFG[0]      | Proc/PC/AddOut_reg[4]_12[0]        |                                      |                9 |             16 |
+| ~clkdiv_BUFG[0]      | Proc/PC/AddOut_reg[4]_13[0]        |                                      |                9 |             16 |
+| ~clkdiv_BUFG[0]      | Proc/PC/AddOut_reg[4]_8[0]         |                                      |                8 |             16 |
+| ~clkdiv_BUFG[0]      | Proc/PC/E[0]                       |                                      |                6 |             16 |
+| ~clkdiv_BUFG[0]      | Proc/PC/AddOut_reg[4]_3[0]         |                                      |                7 |             16 |
+| ~clkdiv_BUFG[0]      | Proc/PC/AddOut_reg[4]_6[0]         |                                      |               10 |             16 |
+| ~clkdiv_BUFG[0]      | Proc/PC/AddOut_reg[4]_10[0]        |                                      |                8 |             16 |
+| ~clkdiv_BUFG[0]      | Proc/PC/AddOut_reg[4]_5[0]         |                                      |                8 |             16 |
+| ~clkdiv_BUFG[0]      | Proc/PC/AddOut_reg[4]_0[0]         |                                      |               10 |             16 |
+| ~clkdiv_BUFG[0]      | Proc/PC/registers_reg[0][15]_3[0]  |                                      |                6 |             16 |
+| ~clkdiv_BUFG[0]      | Proc/PC/registers_reg[0][3][0]     |                                      |                5 |             16 |
+| ~clkdiv_BUFG[0]      | Proc/PC/registers_reg[0][3]_2[0]   |                                      |                4 |             16 |
+| ~clkdiv_BUFG[0]      | Proc/PC/registers_reg[0][3]_3[0]   |                                      |                3 |             16 |
+| ~clkdiv_BUFG[0]      | Proc/PC/registers_reg[0][3]_9[0]   |                                      |                4 |             16 |
+| ~clkdiv_BUFG[0]      | Proc/PC/registers_reg[0][7][0]     |                                      |               12 |             16 |
+| ~clkdiv_BUFG[0]      | Proc/PC/registers_reg[0][15]_2[0]  |                                      |                8 |             16 |
+| ~clkdiv_BUFG[0]      | Proc/PC/registers_reg[0][3]_5[0]   |                                      |                4 |             16 |
+| ~clkdiv_BUFG[0]      | Proc/PC/registers_reg[0][3]_7[0]   |                                      |                6 |             16 |
+| ~clkdiv_BUFG[0]      | Proc/PC/registers_reg[0][3]_0[0]   |                                      |                5 |             16 |
+| ~clkdiv_BUFG[0]      | Proc/PC/registers_reg[0][3]_4[0]   |                                      |                4 |             16 |
+| ~clkdiv_BUFG[0]      | Proc/PC/registers_reg[0][3]_8[0]   |                                      |                6 |             16 |
+| ~clkdiv_BUFG[0]      | Proc/PC/registers_reg[0][15]_0[0]  |                                      |                4 |             16 |
+| ~clkdiv_BUFG[0]      | Proc/PC/registers_reg[0][3]_6[0]   |                                      |                9 |             16 |
+| ~clkdiv_BUFG[0]      | Proc/Control/PC/AddOut_reg[2]_2[0] |                                      |               13 |             32 |
+| ~clkdiv_BUFG[0]      | Proc/PC/AddOut_reg[4]_1[0]         |                                      |               12 |             32 |
+| ~clkdiv_BUFG[0]      | Proc/Control/PC/WE                 |                                      |                6 |             48 |
+| ~clkdiv_BUFG[0]      |                                    |                                      |               12 |             48 |
+>>>>>>> master
 +----------------------+------------------------------------+--------------------------------------+------------------+----------------+
 
 

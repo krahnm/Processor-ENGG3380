@@ -1,8 +1,13 @@
 Copyright 1986-2019 Xilinx, Inc. All Rights Reserved.
 ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 | Tool Version : Vivado v.2019.2 (win64) Build 2708876 Wed Nov  6 21:40:23 MST 2019
+<<<<<<< HEAD
 | Date         : Mon Apr 13 17:37:40 2020
 | Host         : ComputerT running 64-bit Service Pack 1  (build 7601)
+=======
+| Date         : Mon Apr 13 18:26:22 2020
+| Host         : DESKTOP-2U1OOMJ running 64-bit major release  (build 9200)
+>>>>>>> master
 | Command      : report_bus_skew -warn_on_violation -file ProcessorToDisplay_bus_skew_routed.rpt -pb ProcessorToDisplay_bus_skew_routed.pb -rpx ProcessorToDisplay_bus_skew_routed.rpx
 | Design       : ProcessorToDisplay
 | Device       : 7a100t-csg324

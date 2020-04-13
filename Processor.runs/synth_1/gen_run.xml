@@ -1,5 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<<<<<<< HEAD
 <GenRun Id="synth_1" LaunchPart="xc7a100tcsg324-1" LaunchTime="1586812913">
+=======
+<GenRun Id="synth_1" LaunchPart="xc7a100tcsg324-1" LaunchTime="1586816414">
+>>>>>>> master
   <File Type="PA-TCL" Name="ProcessorToDisplay.tcl"/>
   <File Type="RDS-PROPCONSTRS" Name="ProcessorToDisplay_drc_synth.rpt"/>
   <File Type="REPORTS-TCL" Name="ProcessorToDisplay_reports.tcl"/>

@@ -2,5 +2,10 @@
 2019.2
 Nov  6 2019
 21:57:16
+<<<<<<< HEAD
 C:/Users/Terry/Desktop/ENGG 3380/Processor-ENGG3380/Phase 2.srcs/sim_1/new/processor_tb.vhd,1586813745,vhdl,,,,processor_tb,,,,,,,,
 C:/Users/Terry/Desktop/ENGG 3380/Processor-ENGG3380/Processor.sim/sim_1/impl/timing/xsim/processor_tb_time_impl.v,1586813901,verilog,,,,ALUReg;AReg;BReg;InstructionModule;MDR;MPControl;Memory;MicroProgramCounter;Processor;ProcessorToDisplay;ProgramCounter;RAM32M_HD21;RAM32M_HD22;RAM32M_HD23;RAM32M_HD24;RAM32M_HD25;RAM32M_UNIQ_BASE_;RegisterFile;glbl,,,,,,,,
+=======
+C:/Users/krahn/Desktop/CURRENT COURSES/Comp Org/Processor_ENGG3380/Phase 2.srcs/sim_1/new/processor_tb.vhd,1586809729,vhdl,,,,processor_tb,,,,,,,,
+C:/Users/krahn/Desktop/CURRENT COURSES/Comp Org/Processor_ENGG3380/Processor.sim/sim_1/impl/timing/xsim/processor_tb_time_impl.v,1586816936,verilog,,,,ALUReg;AReg;BReg;InstructionModule;MDR;MPControl;Memory;MicroProgramCounter;Processor;ProcessorToDisplay;ProgramCounter;RAM32M_HD26;RAM32M_HD27;RAM32M_HD28;RAM32M_HD29;RAM32M_HD30;RAM32M_UNIQ_BASE_;RegisterFile;glbl,,,,,,,,
+>>>>>>> master

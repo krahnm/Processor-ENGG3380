@@ -1,8 +1,13 @@
 Copyright 1986-2019 Xilinx, Inc. All Rights Reserved.
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 | Tool Version     : Vivado v.2019.2 (win64) Build 2708876 Wed Nov  6 21:40:23 MST 2019
+<<<<<<< HEAD
 | Date             : Mon Apr 13 17:37:40 2020
 | Host             : ComputerT running 64-bit Service Pack 1  (build 7601)
+=======
+| Date             : Mon Apr 13 18:26:22 2020
+| Host             : DESKTOP-2U1OOMJ running 64-bit major release  (build 9200)
+>>>>>>> master
 | Command          : report_power -file ProcessorToDisplay_power_routed.rpt -pb ProcessorToDisplay_power_summary_routed.pb -rpx ProcessorToDisplay_power_routed.rpx
 | Design           : ProcessorToDisplay
 | Device           : xc7a100tcsg324-1
@@ -30,7 +35,11 @@ Table of Contents
 ----------
 
 +--------------------------+--------------+
+<<<<<<< HEAD
 | Total On-Chip Power (W)  | 0.147        |
+=======
+| Total On-Chip Power (W)  | 0.146        |
+>>>>>>> master
 | Design Power Budget (W)  | Unspecified* |
 | Power Budget Margin (W)  | NA           |
 | Dynamic (W)              | 0.042        |
@@ -53,6 +62,7 @@ Table of Contents
 | On-Chip                  | Power (W) | Used     | Available | Utilization (%) |
 +--------------------------+-----------+----------+-----------+-----------------+
 | Clocks                   |    <0.001 |        3 |       --- |             --- |
+<<<<<<< HEAD
 | Slice Logic              |     0.004 |     1413 |       --- |             --- |
 |   LUT as Logic           |     0.003 |      452 |     63400 |            0.71 |
 |   LUT as Distributed RAM |    <0.001 |       24 |     19000 |            0.13 |
@@ -65,6 +75,19 @@ Table of Contents
 | I/O                      |     0.034 |       38 |       210 |           18.10 |
 | Static Power             |     0.104 |          |           |                 |
 | Total                    |     0.147 |          |           |                 |
+=======
+| Slice Logic              |     0.003 |     1371 |       --- |             --- |
+|   LUT as Logic           |     0.003 |      453 |     63400 |            0.71 |
+|   LUT as Distributed RAM |    <0.001 |       24 |     19000 |            0.13 |
+|   Register               |    <0.001 |      724 |    126800 |            0.57 |
+|   F7/F8 Muxes            |    <0.001 |       55 |     63400 |            0.09 |
+|   BUFG                   |    <0.001 |        1 |        32 |            3.13 |
+|   Others                 |     0.000 |       13 |       --- |             --- |
+| Signals                  |     0.004 |     1171 |       --- |             --- |
+| I/O                      |     0.034 |       38 |       210 |           18.10 |
+| Static Power             |     0.104 |          |           |                 |
+| Total                    |     0.146 |          |           |                 |
+>>>>>>> master
 +--------------------------+-----------+----------+-----------+-----------------+
 
 
@@ -74,7 +97,11 @@ Table of Contents
 +-----------+-------------+-----------+-------------+------------+
 | Source    | Voltage (V) | Total (A) | Dynamic (A) | Static (A) |
 +-----------+-------------+-----------+-------------+------------+
+<<<<<<< HEAD
 | Vccint    |       1.000 |     0.024 |       0.009 |      0.015 |
+=======
+| Vccint    |       1.000 |     0.023 |       0.008 |      0.015 |
+>>>>>>> master
 | Vccaux    |       1.800 |     0.019 |       0.001 |      0.018 |
 | Vcco33    |       3.300 |     0.014 |       0.010 |      0.004 |
 | Vcco25    |       2.500 |     0.000 |       0.000 |      0.000 |

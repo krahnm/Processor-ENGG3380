@@ -10,6 +10,7 @@
       </db_ref>
    </db_ref_list>
    <zoom_setting>
+<<<<<<< HEAD
       <ZoomStartTime time="0fs"></ZoomStartTime>
       <ZoomEndTime time="8824fs"></ZoomEndTime>
       <Cursor1Time time="435fs"></Cursor1Time>
@@ -19,6 +20,17 @@
       <ValueColumnWidth column_width="58"></ValueColumnWidth>
    </column_width_setting>
    <WVObjectSize size="74" />
+=======
+      <ZoomStartTime time="928260fs"></ZoomStartTime>
+      <ZoomEndTime time="1001051fs"></ZoomEndTime>
+      <Cursor1Time time="969583fs"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="128"></NameColumnWidth>
+      <ValueColumnWidth column_width="61"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="26" />
+>>>>>>> master
    <wvobject fp_name="/processor_tb/numIn" type="array">
       <obj_property name="ElementShortName">numIn[5:0]</obj_property>
       <obj_property name="ObjectShortName">numIn[5:0]</obj_property>
@@ -68,6 +80,7 @@
       <obj_property name="label">PC</obj_property>
       <obj_property name="DisplayName">label</obj_property>
    </wvobject>
+<<<<<<< HEAD
    <wvobject fp_name="/processor_tb/uut/Proc/PC/AddIn" type="array">
       <obj_property name="ElementShortName">AddIn[15:0]</obj_property>
       <obj_property name="ObjectShortName">AddIn[15:0]</obj_property>
@@ -83,6 +96,20 @@
    <wvobject fp_name="/processor_tb/uut/Proc/PC/AddOut" type="array">
       <obj_property name="ElementShortName">AddOut[15:0]</obj_property>
       <obj_property name="ObjectShortName">AddOut[15:0]</obj_property>
+=======
+   <wvobject fp_name="/processor_tb/uut/Proc/numIn" type="array">
+      <obj_property name="ElementShortName">numIn[5:0]</obj_property>
+      <obj_property name="ObjectShortName">numIn[5:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/processor_tb/uut/Proc/numOut" type="array">
+      <obj_property name="ElementShortName">numOut[15:0]</obj_property>
+      <obj_property name="ObjectShortName">numOut[15:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/processor_tb/uut/Proc/cclk" type="logic">
+      <obj_property name="ElementShortName">cclk</obj_property>
+      <obj_property name="ObjectShortName">cclk</obj_property>
+>>>>>>> master
    </wvobject>
    <wvobject type="divider" fp_name="divider573">
       <obj_property name="label">PC in Mux</obj_property>

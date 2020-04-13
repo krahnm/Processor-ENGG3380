@@ -43,14 +43,13 @@ Compiling module xil_defaultlib.ProgramCounter
 Compiling module simprims_ver.RAMD32(IS_CLK_INVERTED=1'b1)
 Compiling module simprims_ver.RAMS32(IS_CLK_INVERTED=1'b1)
 Compiling module xil_defaultlib.RAM32M_UNIQ_BASE_
-Compiling module xil_defaultlib.RAM32M_HD21
-Compiling module xil_defaultlib.RAM32M_HD22
-Compiling module xil_defaultlib.RAM32M_HD23
-Compiling module xil_defaultlib.RAM32M_HD24
-Compiling module xil_defaultlib.RAM32M_HD25
+Compiling module xil_defaultlib.RAM32M_HD26
+Compiling module xil_defaultlib.RAM32M_HD27
+Compiling module xil_defaultlib.RAM32M_HD28
+Compiling module xil_defaultlib.RAM32M_HD29
+Compiling module xil_defaultlib.RAM32M_HD30
 Compiling module xil_defaultlib.RegisterFile
 Compiling module xil_defaultlib.Processor
-Compiling module simprims_ver.CARRY4
 Compiling module xil_defaultlib.ProcessorToDisplay
 Compiling architecture behavioral of entity xil_defaultlib.processor_tb
 Built simulation snapshot processor_tb_time_impl
