@@ -2,11 +2,11 @@
 # Vivado v2019.2 (64-bit)
 # SW Build 2708876 on Wed Nov  6 21:40:23 MST 2019
 # IP Build 2700528 on Thu Nov  7 00:09:20 MST 2019
-# Start of session at: Mon Apr 13 14:31:14 2020
-# Process ID: 15748
-# Current directory: C:/Users/krahn/Desktop/CURRENT COURSES/Comp Org/Processor_ENGG3380/Processor.runs/impl_1
+# Start of session at: Mon Apr 13 17:36:36 2020
+# Process ID: 9872
+# Current directory: C:/Users/Terry/Desktop/ENGG 3380/Processor-ENGG3380/Processor.runs/impl_1
 # Command line: vivado.exe -log ProcessorToDisplay.vdi -applog -product Vivado -messageDb vivado.pb -mode batch -source ProcessorToDisplay.tcl -notrace
-# Log file: C:/Users/krahn/Desktop/CURRENT COURSES/Comp Org/Processor_ENGG3380/Processor.runs/impl_1/ProcessorToDisplay.vdi
-# Journal file: C:/Users/krahn/Desktop/CURRENT COURSES/Comp Org/Processor_ENGG3380/Processor.runs/impl_1\vivado.jou
+# Log file: C:/Users/Terry/Desktop/ENGG 3380/Processor-ENGG3380/Processor.runs/impl_1/ProcessorToDisplay.vdi
+# Journal file: C:/Users/Terry/Desktop/ENGG 3380/Processor-ENGG3380/Processor.runs/impl_1\vivado.jou
 #-----------------------------------------------------------
 source ProcessorToDisplay.tcl -notrace

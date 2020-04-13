@@ -60,22 +60,19 @@ proc step_failed { step } {
   close $ch
 }
 
+set_msg_config -id {Common 17-41} -limit 10000000
 
 start_step init_design
 set ACTIVE_STEP init_design
 set rc [catch {
   create_msg_db init_design.pb
-  set_param chipscope.maxJobs 2
-  create_project -in_memory -part xc7a100tcsg324-1
-  set_property design_mode GateLvl [current_fileset]
-  set_param project.singleFileAddWarning.threshold 0
-  set_property webtalk.parent_dir {C:/Users/krahn/Desktop/CURRENT COURSES/Comp Org/Processor_ENGG3380/Processor.cache/wt} [current_project]
-  set_property parent.project_path {C:/Users/krahn/Desktop/CURRENT COURSES/Comp Org/Processor_ENGG3380/Processor.xpr} [current_project]
-  set_property ip_output_repo {{C:/Users/krahn/Desktop/CURRENT COURSES/Comp Org/Processor_ENGG3380/Processor.cache/ip}} [current_project]
+  set_param chipscope.maxJobs 1
+  reset_param project.defaultXPMLibraries 
+  open_checkpoint {C:/Users/Terry/Desktop/ENGG 3380/Processor-ENGG3380/Processor.runs/impl_1/ProcessorToDisplay.dcp}
+  set_property webtalk.parent_dir {C:/Users/Terry/Desktop/ENGG 3380/Processor-ENGG3380/Processor.cache/wt} [current_project]
+  set_property parent.project_path {C:/Users/Terry/Desktop/ENGG 3380/Processor-ENGG3380/Processor.xpr} [current_project]
+  set_property ip_output_repo {{C:/Users/Terry/Desktop/ENGG 3380/Processor-ENGG3380/Processor.cache/ip}} [current_project]
   set_property ip_cache_permissions {read write} [current_project]
-  add_files -quiet {{C:/Users/krahn/Desktop/CURRENT COURSES/Comp Org/Processor_ENGG3380/Processor.runs/synth_1/ProcessorToDisplay.dcp}}
-  read_xdc {{C:/Users/krahn/Desktop/CURRENT COURSES/Comp Org/Processor_ENGG3380/Processor.srcs/constrs_1/new/Processor_xdc.xdc}}
-  link_design -top ProcessorToDisplay -part xc7a100tcsg324-1
   close_msg_db -file init_design.pb
 } RESULT]
 if {$rc} {

@@ -1,5 +1,7 @@
 library IEEE;
 use IEEE.STD_LOGIC_1164.ALL;
+use IEEE.STD_LOGIC_ARITH.ALL;
+use IEEE.STD_LOGIC_UNSIGNED.ALL;
 use IEEE.numeric_std.ALL;
 
 entity ProcessorToDisplay is
@@ -23,15 +25,15 @@ component SevenSegmentDecoder_vhdl is
 		    D : out std_logic_vector (6 downto 0));
 end component;
 
-signal clkdiv : std_logic_vector(36 downto 0);
-signal anIn: std_logic_vector(7 downto 0);
+signal clkdiv : std_logic_vector(10 downto 0):= "00000000000";
+signal anIn: std_logic_vector(7 downto 0):= "00000000";
 signal displayFull : std_logic_vector(15 downto 0);
 signal display1, display2,display3, display4: std_logic_vector(3 downto 0);
 signal DISP1,DISP2,DISP3,DISP4: std_logic_vector(6 downto 0);
 
 begin
 
-Proc: Processor port map(numIn => numIn, numOut=>displayFull,cclk=>clkdiv(36));
+Proc: Processor port map(numIn => numIn, numOut=>displayFull,cclk=>clkdiv(2));
 
 SEG1: SevenSegmentDecoder_vhdl port map(S => display1, D => DISP1);
 SEG2: SevenSegmentDecoder_vhdl port map(S=> display2, D=> DISP2);
@@ -43,16 +45,17 @@ display2 <= displayFull(11 downto 8);
 display3 <= displayFull(7 downto 4);
 display4 <= displayFull(3 downto 0);
 
+numOut <= displayFull;
 clock_divider: process (CLK100MHZ)
     begin
         if (rising_edge(CLK100MHZ)) then
-            clkdiv <=  std_logic_vector(unsigned(clkdiv(36 downto 0)) + 1);
+            clkdiv <=  clkdiv + 1;
         end if;        
     end process clock_divider;
 
-process(clkdiv(36),anIn)
+process(clkdiv(2),anIn)
 begin
-if (rising_edge(clkdiv(36))) then
+if (rising_edge(clkdiv(2))) then
     case anIn is
                 when "11110111" =>
                 C <= DISP2;
@@ -71,4 +74,5 @@ if (rising_edge(clkdiv(36))) then
             end case;
 end if;
 end process;
+AN <= anIn;
 end Behavioral;

@@ -2,12 +2,12 @@
 # Vivado v2019.2 (64-bit)
 # SW Build 2708876 on Wed Nov  6 21:40:23 MST 2019
 # IP Build 2700528 on Thu Nov  7 00:09:20 MST 2019
-# Start of session at: Mon Apr 13 14:26:52 2020
-# Process ID: 7460
-# Current directory: C:/Users/krahn/Desktop/CURRENT COURSES/Comp Org/Processor_ENGG3380/Processor.runs/synth_1
+# Start of session at: Mon Apr 13 17:21:46 2020
+# Process ID: 4880
+# Current directory: C:/Users/Terry/Desktop/ENGG 3380/Processor-ENGG3380/Processor.runs/synth_1
 # Command line: vivado.exe -log ProcessorToDisplay.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source ProcessorToDisplay.tcl
-# Log file: C:/Users/krahn/Desktop/CURRENT COURSES/Comp Org/Processor_ENGG3380/Processor.runs/synth_1/ProcessorToDisplay.vds
-# Journal file: C:/Users/krahn/Desktop/CURRENT COURSES/Comp Org/Processor_ENGG3380/Processor.runs/synth_1\vivado.jou
+# Log file: C:/Users/Terry/Desktop/ENGG 3380/Processor-ENGG3380/Processor.runs/synth_1/ProcessorToDisplay.vds
+# Journal file: C:/Users/Terry/Desktop/ENGG 3380/Processor-ENGG3380/Processor.runs/synth_1\vivado.jou
 #-----------------------------------------------------------
 source ProcessorToDisplay.tcl -notrace
 Command: synth_design -top ProcessorToDisplay -part xc7a100tcsg324-1
@@ -16,159 +16,157 @@ Attempting to get a license for feature 'Synthesis' and/or device 'xc7a100t'
 INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7a100t'
 INFO: [Device 21-403] Loading part xc7a100tcsg324-1
 INFO: Launching helper process for spawning children vivado processes
-INFO: Helper process launched with PID 13604 
+INFO: Helper process launched with PID 4316 
 ---------------------------------------------------------------------------------
-Starting RTL Elaboration : Time (s): cpu = 00:00:04 ; elapsed = 00:00:05 . Memory (MB): peak = 966.570 ; gain = 235.363
+Starting RTL Elaboration : Time (s): cpu = 00:00:03 ; elapsed = 00:00:04 . Memory (MB): peak = 955.801 ; gain = 238.469
 ---------------------------------------------------------------------------------
-INFO: [Synth 8-638] synthesizing module 'ProcessorToDisplay' [C:/Users/krahn/Desktop/CURRENT COURSES/Comp Org/Processor_ENGG3380/Processor.srcs/sources_1/new/ProcessorToDisplay.vhd:13]
-INFO: [Synth 8-3491] module 'Processor' declared at 'C:/Users/krahn/Desktop/CURRENT COURSES/Comp Org/Processor_ENGG3380/Phase 2.srcs/sources_1/new/Processor.vhd:4' bound to instance 'Proc' of component 'Processor' [C:/Users/krahn/Desktop/CURRENT COURSES/Comp Org/Processor_ENGG3380/Processor.srcs/sources_1/new/ProcessorToDisplay.vhd:34]
-INFO: [Synth 8-638] synthesizing module 'Processor' [C:/Users/krahn/Desktop/CURRENT COURSES/Comp Org/Processor_ENGG3380/Phase 2.srcs/sources_1/new/Processor.vhd:10]
-INFO: [Synth 8-3491] module 'MUX2to1' declared at 'C:/Users/krahn/Desktop/CURRENT COURSES/Comp Org/Processor_ENGG3380/Phase 2.srcs/sources_1/new/MUX2to1.vhd:4' bound to instance 'MUXPC' of component 'MUX2to1' [C:/Users/krahn/Desktop/CURRENT COURSES/Comp Org/Processor_ENGG3380/Phase 2.srcs/sources_1/new/Processor.vhd:210]
-INFO: [Synth 8-638] synthesizing module 'MUX2to1' [C:/Users/krahn/Desktop/CURRENT COURSES/Comp Org/Processor_ENGG3380/Phase 2.srcs/sources_1/new/MUX2to1.vhd:10]
-INFO: [Synth 8-256] done synthesizing module 'MUX2to1' (1#1) [C:/Users/krahn/Desktop/CURRENT COURSES/Comp Org/Processor_ENGG3380/Phase 2.srcs/sources_1/new/MUX2to1.vhd:10]
-INFO: [Synth 8-3491] module 'Memory' declared at 'C:/Users/krahn/Desktop/CURRENT COURSES/Comp Org/Processor_ENGG3380/Phase 2.srcs/sources_1/new/Memory.vhd:8' bound to instance 'Mem' of component 'Memory' [C:/Users/krahn/Desktop/CURRENT COURSES/Comp Org/Processor_ENGG3380/Phase 2.srcs/sources_1/new/Processor.vhd:211]
-INFO: [Synth 8-638] synthesizing module 'Memory' [C:/Users/krahn/Desktop/CURRENT COURSES/Comp Org/Processor_ENGG3380/Phase 2.srcs/sources_1/new/Memory.vhd:17]
-INFO: [Synth 8-5534] Detected attribute (* ram_style = "distributed" *) [C:/Users/krahn/Desktop/CURRENT COURSES/Comp Org/Processor_ENGG3380/Phase 2.srcs/sources_1/new/Memory.vhd:21]
-WARNING: [Synth 8-614] signal 'userVal' is read in the process but is not in the sensitivity list [C:/Users/krahn/Desktop/CURRENT COURSES/Comp Org/Processor_ENGG3380/Phase 2.srcs/sources_1/new/Memory.vhd:60]
-INFO: [Synth 8-256] done synthesizing module 'Memory' (2#1) [C:/Users/krahn/Desktop/CURRENT COURSES/Comp Org/Processor_ENGG3380/Phase 2.srcs/sources_1/new/Memory.vhd:17]
-INFO: [Synth 8-3491] module 'InstructionModule' declared at 'C:/Users/krahn/Desktop/CURRENT COURSES/Comp Org/Processor_ENGG3380/Phase 2.srcs/sources_1/new/InstructionRegister.vhd:6' bound to instance 'InstrMod' of component 'InstructionModule' [C:/Users/krahn/Desktop/CURRENT COURSES/Comp Org/Processor_ENGG3380/Phase 2.srcs/sources_1/new/Processor.vhd:212]
-INFO: [Synth 8-638] synthesizing module 'InstructionModule' [C:/Users/krahn/Desktop/CURRENT COURSES/Comp Org/Processor_ENGG3380/Phase 2.srcs/sources_1/new/InstructionRegister.vhd:12]
-WARNING: [Synth 8-614] signal 'en' is read in the process but is not in the sensitivity list [C:/Users/krahn/Desktop/CURRENT COURSES/Comp Org/Processor_ENGG3380/Phase 2.srcs/sources_1/new/InstructionRegister.vhd:19]
-INFO: [Synth 8-256] done synthesizing module 'InstructionModule' (3#1) [C:/Users/krahn/Desktop/CURRENT COURSES/Comp Org/Processor_ENGG3380/Phase 2.srcs/sources_1/new/InstructionRegister.vhd:12]
-INFO: [Synth 8-3491] module 'MDR' declared at 'C:/Users/krahn/Desktop/CURRENT COURSES/Comp Org/Processor_ENGG3380/Phase 2.srcs/sources_1/new/MDR.vhd:6' bound to instance 'MemDataReg' of component 'MDR' [C:/Users/krahn/Desktop/CURRENT COURSES/Comp Org/Processor_ENGG3380/Phase 2.srcs/sources_1/new/Processor.vhd:213]
-INFO: [Synth 8-638] synthesizing module 'MDR' [C:/Users/krahn/Desktop/CURRENT COURSES/Comp Org/Processor_ENGG3380/Phase 2.srcs/sources_1/new/MDR.vhd:12]
-INFO: [Synth 8-256] done synthesizing module 'MDR' (4#1) [C:/Users/krahn/Desktop/CURRENT COURSES/Comp Org/Processor_ENGG3380/Phase 2.srcs/sources_1/new/MDR.vhd:12]
-INFO: [Synth 8-3491] module 'RegisterFile' declared at 'C:/Users/krahn/Desktop/CURRENT COURSES/Comp Org/Processor_ENGG3380/Phase 2.srcs/sources_1/new/RegisterFile.vhd:7' bound to instance 'RegFile' of component 'RegisterFile' [C:/Users/krahn/Desktop/CURRENT COURSES/Comp Org/Processor_ENGG3380/Phase 2.srcs/sources_1/new/Processor.vhd:214]
-INFO: [Synth 8-638] synthesizing module 'RegisterFile' [C:/Users/krahn/Desktop/CURRENT COURSES/Comp Org/Processor_ENGG3380/Phase 2.srcs/sources_1/new/RegisterFile.vhd:16]
+INFO: [Synth 8-638] synthesizing module 'ProcessorToDisplay' [C:/Users/Terry/Desktop/ENGG 3380/Processor-ENGG3380/Processor.srcs/sources_1/new/ProcessorToDisplay.vhd:15]
+INFO: [Synth 8-3491] module 'Processor' declared at 'C:/Users/Terry/Desktop/ENGG 3380/Processor-ENGG3380/Phase 2.srcs/sources_1/new/Processor.vhd:4' bound to instance 'Proc' of component 'Processor' [C:/Users/Terry/Desktop/ENGG 3380/Processor-ENGG3380/Processor.srcs/sources_1/new/ProcessorToDisplay.vhd:36]
+INFO: [Synth 8-638] synthesizing module 'Processor' [C:/Users/Terry/Desktop/ENGG 3380/Processor-ENGG3380/Phase 2.srcs/sources_1/new/Processor.vhd:10]
+INFO: [Synth 8-3491] module 'MUX2to1' declared at 'C:/Users/Terry/Desktop/ENGG 3380/Processor-ENGG3380/Phase 2.srcs/sources_1/new/MUX2to1.vhd:4' bound to instance 'MUXPC' of component 'MUX2to1' [C:/Users/Terry/Desktop/ENGG 3380/Processor-ENGG3380/Phase 2.srcs/sources_1/new/Processor.vhd:210]
+INFO: [Synth 8-638] synthesizing module 'MUX2to1' [C:/Users/Terry/Desktop/ENGG 3380/Processor-ENGG3380/Phase 2.srcs/sources_1/new/MUX2to1.vhd:10]
+INFO: [Synth 8-256] done synthesizing module 'MUX2to1' (1#1) [C:/Users/Terry/Desktop/ENGG 3380/Processor-ENGG3380/Phase 2.srcs/sources_1/new/MUX2to1.vhd:10]
+INFO: [Synth 8-3491] module 'Memory' declared at 'C:/Users/Terry/Desktop/ENGG 3380/Processor-ENGG3380/Phase 2.srcs/sources_1/new/Memory.vhd:8' bound to instance 'Mem' of component 'Memory' [C:/Users/Terry/Desktop/ENGG 3380/Processor-ENGG3380/Phase 2.srcs/sources_1/new/Processor.vhd:211]
+INFO: [Synth 8-638] synthesizing module 'Memory' [C:/Users/Terry/Desktop/ENGG 3380/Processor-ENGG3380/Phase 2.srcs/sources_1/new/Memory.vhd:17]
+INFO: [Synth 8-5534] Detected attribute (* ram_style = "distributed" *) [C:/Users/Terry/Desktop/ENGG 3380/Processor-ENGG3380/Phase 2.srcs/sources_1/new/Memory.vhd:21]
+WARNING: [Synth 8-614] signal 'userVal' is read in the process but is not in the sensitivity list [C:/Users/Terry/Desktop/ENGG 3380/Processor-ENGG3380/Phase 2.srcs/sources_1/new/Memory.vhd:60]
+INFO: [Synth 8-256] done synthesizing module 'Memory' (2#1) [C:/Users/Terry/Desktop/ENGG 3380/Processor-ENGG3380/Phase 2.srcs/sources_1/new/Memory.vhd:17]
+INFO: [Synth 8-3491] module 'InstructionModule' declared at 'C:/Users/Terry/Desktop/ENGG 3380/Processor-ENGG3380/Phase 2.srcs/sources_1/new/InstructionRegister.vhd:6' bound to instance 'InstrMod' of component 'InstructionModule' [C:/Users/Terry/Desktop/ENGG 3380/Processor-ENGG3380/Phase 2.srcs/sources_1/new/Processor.vhd:212]
+INFO: [Synth 8-638] synthesizing module 'InstructionModule' [C:/Users/Terry/Desktop/ENGG 3380/Processor-ENGG3380/Phase 2.srcs/sources_1/new/InstructionRegister.vhd:12]
+WARNING: [Synth 8-614] signal 'en' is read in the process but is not in the sensitivity list [C:/Users/Terry/Desktop/ENGG 3380/Processor-ENGG3380/Phase 2.srcs/sources_1/new/InstructionRegister.vhd:19]
+INFO: [Synth 8-256] done synthesizing module 'InstructionModule' (3#1) [C:/Users/Terry/Desktop/ENGG 3380/Processor-ENGG3380/Phase 2.srcs/sources_1/new/InstructionRegister.vhd:12]
+INFO: [Synth 8-3491] module 'MDR' declared at 'C:/Users/Terry/Desktop/ENGG 3380/Processor-ENGG3380/Phase 2.srcs/sources_1/new/MDR.vhd:6' bound to instance 'MemDataReg' of component 'MDR' [C:/Users/Terry/Desktop/ENGG 3380/Processor-ENGG3380/Phase 2.srcs/sources_1/new/Processor.vhd:213]
+INFO: [Synth 8-638] synthesizing module 'MDR' [C:/Users/Terry/Desktop/ENGG 3380/Processor-ENGG3380/Phase 2.srcs/sources_1/new/MDR.vhd:12]
+INFO: [Synth 8-256] done synthesizing module 'MDR' (4#1) [C:/Users/Terry/Desktop/ENGG 3380/Processor-ENGG3380/Phase 2.srcs/sources_1/new/MDR.vhd:12]
+INFO: [Synth 8-3491] module 'RegisterFile' declared at 'C:/Users/Terry/Desktop/ENGG 3380/Processor-ENGG3380/Phase 2.srcs/sources_1/new/RegisterFile.vhd:7' bound to instance 'RegFile' of component 'RegisterFile' [C:/Users/Terry/Desktop/ENGG 3380/Processor-ENGG3380/Phase 2.srcs/sources_1/new/Processor.vhd:214]
+INFO: [Synth 8-638] synthesizing module 'RegisterFile' [C:/Users/Terry/Desktop/ENGG 3380/Processor-ENGG3380/Phase 2.srcs/sources_1/new/RegisterFile.vhd:16]
 	Parameter Dwidth bound to: 16 - type: integer 
 	Parameter Awidth bound to: 3 - type: integer 
-INFO: [Synth 8-256] done synthesizing module 'RegisterFile' (5#1) [C:/Users/krahn/Desktop/CURRENT COURSES/Comp Org/Processor_ENGG3380/Phase 2.srcs/sources_1/new/RegisterFile.vhd:16]
-INFO: [Synth 8-3491] module 'Mux2to1_5bit' declared at 'C:/Users/krahn/Desktop/CURRENT COURSES/Comp Org/Processor_ENGG3380/Phase 2.srcs/sources_1/new/Mux2to1_5bit.vhd:4' bound to instance 'RFAddrMux' of component 'Mux2to1_5bit' [C:/Users/krahn/Desktop/CURRENT COURSES/Comp Org/Processor_ENGG3380/Phase 2.srcs/sources_1/new/Processor.vhd:215]
-INFO: [Synth 8-638] synthesizing module 'Mux2to1_5bit' [C:/Users/krahn/Desktop/CURRENT COURSES/Comp Org/Processor_ENGG3380/Phase 2.srcs/sources_1/new/Mux2to1_5bit.vhd:10]
-INFO: [Synth 8-256] done synthesizing module 'Mux2to1_5bit' (6#1) [C:/Users/krahn/Desktop/CURRENT COURSES/Comp Org/Processor_ENGG3380/Phase 2.srcs/sources_1/new/Mux2to1_5bit.vhd:10]
-INFO: [Synth 8-3491] module 'Mux2to1_8bit' declared at 'C:/Users/krahn/Desktop/CURRENT COURSES/Comp Org/Processor_ENGG3380/Phase 2.srcs/sources_1/new/Mux2to1_8bit.vhd:4' bound to instance 'RFWriteDataMux' of component 'Mux2to1_8bit' [C:/Users/krahn/Desktop/CURRENT COURSES/Comp Org/Processor_ENGG3380/Phase 2.srcs/sources_1/new/Processor.vhd:216]
-INFO: [Synth 8-638] synthesizing module 'Mux2to1_8bit' [C:/Users/krahn/Desktop/CURRENT COURSES/Comp Org/Processor_ENGG3380/Phase 2.srcs/sources_1/new/Mux2to1_8bit.vhd:10]
-INFO: [Synth 8-256] done synthesizing module 'Mux2to1_8bit' (7#1) [C:/Users/krahn/Desktop/CURRENT COURSES/Comp Org/Processor_ENGG3380/Phase 2.srcs/sources_1/new/Mux2to1_8bit.vhd:10]
-INFO: [Synth 8-3491] module 'AReg' declared at 'C:/Users/krahn/Desktop/CURRENT COURSES/Comp Org/Processor_ENGG3380/Phase 2.srcs/sources_1/new/AReg.vhd:5' bound to instance 'ARegister' of component 'AReg' [C:/Users/krahn/Desktop/CURRENT COURSES/Comp Org/Processor_ENGG3380/Phase 2.srcs/sources_1/new/Processor.vhd:217]
-INFO: [Synth 8-638] synthesizing module 'AReg' [C:/Users/krahn/Desktop/CURRENT COURSES/Comp Org/Processor_ENGG3380/Phase 2.srcs/sources_1/new/AReg.vhd:11]
-INFO: [Synth 8-256] done synthesizing module 'AReg' (8#1) [C:/Users/krahn/Desktop/CURRENT COURSES/Comp Org/Processor_ENGG3380/Phase 2.srcs/sources_1/new/AReg.vhd:11]
-INFO: [Synth 8-3491] module 'BReg' declared at 'C:/Users/krahn/Desktop/CURRENT COURSES/Comp Org/Processor_ENGG3380/Phase 2.srcs/sources_1/new/BReg.vhd:5' bound to instance 'BRegister' of component 'BReg' [C:/Users/krahn/Desktop/CURRENT COURSES/Comp Org/Processor_ENGG3380/Phase 2.srcs/sources_1/new/Processor.vhd:218]
-INFO: [Synth 8-638] synthesizing module 'BReg' [C:/Users/krahn/Desktop/CURRENT COURSES/Comp Org/Processor_ENGG3380/Phase 2.srcs/sources_1/new/BReg.vhd:11]
-INFO: [Synth 8-256] done synthesizing module 'BReg' (9#1) [C:/Users/krahn/Desktop/CURRENT COURSES/Comp Org/Processor_ENGG3380/Phase 2.srcs/sources_1/new/BReg.vhd:11]
-INFO: [Synth 8-3491] module 'MuxSrcA' declared at 'C:/Users/krahn/Desktop/CURRENT COURSES/Comp Org/Processor_ENGG3380/Phase 2.srcs/sources_1/new/MuxSrcA.vhd:25' bound to instance 'ARegALUMux' of component 'MuxSrcA' [C:/Users/krahn/Desktop/CURRENT COURSES/Comp Org/Processor_ENGG3380/Phase 2.srcs/sources_1/new/Processor.vhd:219]
-INFO: [Synth 8-638] synthesizing module 'MuxSrcA' [C:/Users/krahn/Desktop/CURRENT COURSES/Comp Org/Processor_ENGG3380/Phase 2.srcs/sources_1/new/MuxSrcA.vhd:31]
-INFO: [Synth 8-256] done synthesizing module 'MuxSrcA' (10#1) [C:/Users/krahn/Desktop/CURRENT COURSES/Comp Org/Processor_ENGG3380/Phase 2.srcs/sources_1/new/MuxSrcA.vhd:31]
-INFO: [Synth 8-3491] module 'ALU_Structural' declared at 'C:/Users/krahn/Desktop/CURRENT COURSES/Comp Org/Processor_ENGG3380/Phase 2.srcs/sources_1/new/ALU_Structural.vhd:6' bound to instance 'ALU' of component 'ALU_Structural' [C:/Users/krahn/Desktop/CURRENT COURSES/Comp Org/Processor_ENGG3380/Phase 2.srcs/sources_1/new/Processor.vhd:220]
-INFO: [Synth 8-638] synthesizing module 'ALU_Structural' [C:/Users/krahn/Desktop/CURRENT COURSES/Comp Org/Processor_ENGG3380/Phase 2.srcs/sources_1/new/ALU_Structural.vhd:15]
+INFO: [Synth 8-256] done synthesizing module 'RegisterFile' (5#1) [C:/Users/Terry/Desktop/ENGG 3380/Processor-ENGG3380/Phase 2.srcs/sources_1/new/RegisterFile.vhd:16]
+INFO: [Synth 8-3491] module 'Mux2to1_5bit' declared at 'C:/Users/Terry/Desktop/ENGG 3380/Processor-ENGG3380/Phase 2.srcs/sources_1/new/Mux2to1_5bit.vhd:4' bound to instance 'RFAddrMux' of component 'Mux2to1_5bit' [C:/Users/Terry/Desktop/ENGG 3380/Processor-ENGG3380/Phase 2.srcs/sources_1/new/Processor.vhd:215]
+INFO: [Synth 8-638] synthesizing module 'Mux2to1_5bit' [C:/Users/Terry/Desktop/ENGG 3380/Processor-ENGG3380/Phase 2.srcs/sources_1/new/Mux2to1_5bit.vhd:10]
+INFO: [Synth 8-256] done synthesizing module 'Mux2to1_5bit' (6#1) [C:/Users/Terry/Desktop/ENGG 3380/Processor-ENGG3380/Phase 2.srcs/sources_1/new/Mux2to1_5bit.vhd:10]
+INFO: [Synth 8-3491] module 'Mux2to1_8bit' declared at 'C:/Users/Terry/Desktop/ENGG 3380/Processor-ENGG3380/Phase 2.srcs/sources_1/new/Mux2to1_8bit.vhd:4' bound to instance 'RFWriteDataMux' of component 'Mux2to1_8bit' [C:/Users/Terry/Desktop/ENGG 3380/Processor-ENGG3380/Phase 2.srcs/sources_1/new/Processor.vhd:216]
+INFO: [Synth 8-638] synthesizing module 'Mux2to1_8bit' [C:/Users/Terry/Desktop/ENGG 3380/Processor-ENGG3380/Phase 2.srcs/sources_1/new/Mux2to1_8bit.vhd:10]
+INFO: [Synth 8-256] done synthesizing module 'Mux2to1_8bit' (7#1) [C:/Users/Terry/Desktop/ENGG 3380/Processor-ENGG3380/Phase 2.srcs/sources_1/new/Mux2to1_8bit.vhd:10]
+INFO: [Synth 8-3491] module 'AReg' declared at 'C:/Users/Terry/Desktop/ENGG 3380/Processor-ENGG3380/Phase 2.srcs/sources_1/new/AReg.vhd:5' bound to instance 'ARegister' of component 'AReg' [C:/Users/Terry/Desktop/ENGG 3380/Processor-ENGG3380/Phase 2.srcs/sources_1/new/Processor.vhd:217]
+INFO: [Synth 8-638] synthesizing module 'AReg' [C:/Users/Terry/Desktop/ENGG 3380/Processor-ENGG3380/Phase 2.srcs/sources_1/new/AReg.vhd:11]
+INFO: [Synth 8-256] done synthesizing module 'AReg' (8#1) [C:/Users/Terry/Desktop/ENGG 3380/Processor-ENGG3380/Phase 2.srcs/sources_1/new/AReg.vhd:11]
+INFO: [Synth 8-3491] module 'BReg' declared at 'C:/Users/Terry/Desktop/ENGG 3380/Processor-ENGG3380/Phase 2.srcs/sources_1/new/BReg.vhd:5' bound to instance 'BRegister' of component 'BReg' [C:/Users/Terry/Desktop/ENGG 3380/Processor-ENGG3380/Phase 2.srcs/sources_1/new/Processor.vhd:218]
+INFO: [Synth 8-638] synthesizing module 'BReg' [C:/Users/Terry/Desktop/ENGG 3380/Processor-ENGG3380/Phase 2.srcs/sources_1/new/BReg.vhd:11]
+INFO: [Synth 8-256] done synthesizing module 'BReg' (9#1) [C:/Users/Terry/Desktop/ENGG 3380/Processor-ENGG3380/Phase 2.srcs/sources_1/new/BReg.vhd:11]
+INFO: [Synth 8-3491] module 'MuxSrcA' declared at 'C:/Users/Terry/Desktop/ENGG 3380/Processor-ENGG3380/Phase 2.srcs/sources_1/new/MuxSrcA.vhd:25' bound to instance 'ARegALUMux' of component 'MuxSrcA' [C:/Users/Terry/Desktop/ENGG 3380/Processor-ENGG3380/Phase 2.srcs/sources_1/new/Processor.vhd:219]
+INFO: [Synth 8-638] synthesizing module 'MuxSrcA' [C:/Users/Terry/Desktop/ENGG 3380/Processor-ENGG3380/Phase 2.srcs/sources_1/new/MuxSrcA.vhd:31]
+INFO: [Synth 8-256] done synthesizing module 'MuxSrcA' (10#1) [C:/Users/Terry/Desktop/ENGG 3380/Processor-ENGG3380/Phase 2.srcs/sources_1/new/MuxSrcA.vhd:31]
+INFO: [Synth 8-3491] module 'ALU_Structural' declared at 'C:/Users/Terry/Desktop/ENGG 3380/Processor-ENGG3380/Phase 2.srcs/sources_1/new/ALU_Structural.vhd:6' bound to instance 'ALU' of component 'ALU_Structural' [C:/Users/Terry/Desktop/ENGG 3380/Processor-ENGG3380/Phase 2.srcs/sources_1/new/Processor.vhd:220]
+INFO: [Synth 8-638] synthesizing module 'ALU_Structural' [C:/Users/Terry/Desktop/ENGG 3380/Processor-ENGG3380/Phase 2.srcs/sources_1/new/ALU_Structural.vhd:15]
 	Parameter Dwidth bound to: 15 - type: integer 
-INFO: [Synth 8-3491] module 'ALU_Structural_OneBit' declared at 'C:/Users/krahn/Desktop/CURRENT COURSES/Comp Org/Processor_ENGG3380/Phase 2.srcs/sources_1/new/ALU_Structural_OneBit.vhd:5' bound to instance 'ALU1' of component 'ALU_Structural_OneBit' [C:/Users/krahn/Desktop/CURRENT COURSES/Comp Org/Processor_ENGG3380/Phase 2.srcs/sources_1/new/ALU_Structural.vhd:52]
-INFO: [Synth 8-638] synthesizing module 'ALU_Structural_OneBit' [C:/Users/krahn/Desktop/CURRENT COURSES/Comp Org/Processor_ENGG3380/Phase 2.srcs/sources_1/new/ALU_Structural_OneBit.vhd:16]
-INFO: [Synth 8-3491] module 'MUX' declared at 'C:/Users/krahn/Desktop/CURRENT COURSES/Comp Org/Processor_ENGG3380/Phase 2.srcs/sources_1/new/MUX.vhd:6' bound to instance 'BigMUX' of component 'MUX' [C:/Users/krahn/Desktop/CURRENT COURSES/Comp Org/Processor_ENGG3380/Phase 2.srcs/sources_1/new/ALU_Structural_OneBit.vhd:48]
-INFO: [Synth 8-638] synthesizing module 'MUX' [C:/Users/krahn/Desktop/CURRENT COURSES/Comp Org/Processor_ENGG3380/Phase 2.srcs/sources_1/new/MUX.vhd:12]
-INFO: [Synth 8-256] done synthesizing module 'MUX' (11#1) [C:/Users/krahn/Desktop/CURRENT COURSES/Comp Org/Processor_ENGG3380/Phase 2.srcs/sources_1/new/MUX.vhd:12]
-INFO: [Synth 8-3491] module 'ArithmeticUnit' declared at 'C:/Users/krahn/Desktop/CURRENT COURSES/Comp Org/Processor_ENGG3380/Phase 2.srcs/sources_1/new/ArithmeticUnit.vhd:6' bound to instance 'Arth' of component 'ArithmeticUnit' [C:/Users/krahn/Desktop/CURRENT COURSES/Comp Org/Processor_ENGG3380/Phase 2.srcs/sources_1/new/ALU_Structural_OneBit.vhd:49]
-INFO: [Synth 8-638] synthesizing module 'ArithmeticUnit' [C:/Users/krahn/Desktop/CURRENT COURSES/Comp Org/Processor_ENGG3380/Phase 2.srcs/sources_1/new/ArithmeticUnit.vhd:16]
-INFO: [Synth 8-3491] module 'FullAdder' declared at 'C:/Users/krahn/Desktop/CURRENT COURSES/Comp Org/Processor_ENGG3380/Phase 2.srcs/sources_1/new/FullAdder.vhd:4' bound to instance 'FA' of component 'FullAdder' [C:/Users/krahn/Desktop/CURRENT COURSES/Comp Org/Processor_ENGG3380/Phase 2.srcs/sources_1/new/ArithmeticUnit.vhd:31]
-INFO: [Synth 8-638] synthesizing module 'FullAdder' [C:/Users/krahn/Desktop/CURRENT COURSES/Comp Org/Processor_ENGG3380/Phase 2.srcs/sources_1/new/FullAdder.vhd:12]
-INFO: [Synth 8-256] done synthesizing module 'FullAdder' (12#1) [C:/Users/krahn/Desktop/CURRENT COURSES/Comp Org/Processor_ENGG3380/Phase 2.srcs/sources_1/new/FullAdder.vhd:12]
-INFO: [Synth 8-256] done synthesizing module 'ArithmeticUnit' (13#1) [C:/Users/krahn/Desktop/CURRENT COURSES/Comp Org/Processor_ENGG3380/Phase 2.srcs/sources_1/new/ArithmeticUnit.vhd:16]
-INFO: [Synth 8-256] done synthesizing module 'ALU_Structural_OneBit' (14#1) [C:/Users/krahn/Desktop/CURRENT COURSES/Comp Org/Processor_ENGG3380/Phase 2.srcs/sources_1/new/ALU_Structural_OneBit.vhd:16]
-INFO: [Synth 8-3491] module 'ALU_Structural_OneBit' declared at 'C:/Users/krahn/Desktop/CURRENT COURSES/Comp Org/Processor_ENGG3380/Phase 2.srcs/sources_1/new/ALU_Structural_OneBit.vhd:5' bound to instance 'ALUX' of component 'ALU_Structural_OneBit' [C:/Users/krahn/Desktop/CURRENT COURSES/Comp Org/Processor_ENGG3380/Phase 2.srcs/sources_1/new/ALU_Structural.vhd:54]
-INFO: [Synth 8-3491] module 'ALU_Structural_OneBit' declared at 'C:/Users/krahn/Desktop/CURRENT COURSES/Comp Org/Processor_ENGG3380/Phase 2.srcs/sources_1/new/ALU_Structural_OneBit.vhd:5' bound to instance 'ALUX' of component 'ALU_Structural_OneBit' [C:/Users/krahn/Desktop/CURRENT COURSES/Comp Org/Processor_ENGG3380/Phase 2.srcs/sources_1/new/ALU_Structural.vhd:54]
-INFO: [Synth 8-3491] module 'ALU_Structural_OneBit' declared at 'C:/Users/krahn/Desktop/CURRENT COURSES/Comp Org/Processor_ENGG3380/Phase 2.srcs/sources_1/new/ALU_Structural_OneBit.vhd:5' bound to instance 'ALUX' of component 'ALU_Structural_OneBit' [C:/Users/krahn/Desktop/CURRENT COURSES/Comp Org/Processor_ENGG3380/Phase 2.srcs/sources_1/new/ALU_Structural.vhd:54]
-INFO: [Synth 8-3491] module 'ALU_Structural_OneBit' declared at 'C:/Users/krahn/Desktop/CURRENT COURSES/Comp Org/Processor_ENGG3380/Phase 2.srcs/sources_1/new/ALU_Structural_OneBit.vhd:5' bound to instance 'ALUX' of component 'ALU_Structural_OneBit' [C:/Users/krahn/Desktop/CURRENT COURSES/Comp Org/Processor_ENGG3380/Phase 2.srcs/sources_1/new/ALU_Structural.vhd:54]
-INFO: [Synth 8-3491] module 'ALU_Structural_OneBit' declared at 'C:/Users/krahn/Desktop/CURRENT COURSES/Comp Org/Processor_ENGG3380/Phase 2.srcs/sources_1/new/ALU_Structural_OneBit.vhd:5' bound to instance 'ALUX' of component 'ALU_Structural_OneBit' [C:/Users/krahn/Desktop/CURRENT COURSES/Comp Org/Processor_ENGG3380/Phase 2.srcs/sources_1/new/ALU_Structural.vhd:54]
-INFO: [Synth 8-3491] module 'ALU_Structural_OneBit' declared at 'C:/Users/krahn/Desktop/CURRENT COURSES/Comp Org/Processor_ENGG3380/Phase 2.srcs/sources_1/new/ALU_Structural_OneBit.vhd:5' bound to instance 'ALUX' of component 'ALU_Structural_OneBit' [C:/Users/krahn/Desktop/CURRENT COURSES/Comp Org/Processor_ENGG3380/Phase 2.srcs/sources_1/new/ALU_Structural.vhd:54]
-INFO: [Synth 8-3491] module 'ALU_Structural_OneBit' declared at 'C:/Users/krahn/Desktop/CURRENT COURSES/Comp Org/Processor_ENGG3380/Phase 2.srcs/sources_1/new/ALU_Structural_OneBit.vhd:5' bound to instance 'ALUX' of component 'ALU_Structural_OneBit' [C:/Users/krahn/Desktop/CURRENT COURSES/Comp Org/Processor_ENGG3380/Phase 2.srcs/sources_1/new/ALU_Structural.vhd:54]
-INFO: [Synth 8-3491] module 'ALU_Structural_OneBit' declared at 'C:/Users/krahn/Desktop/CURRENT COURSES/Comp Org/Processor_ENGG3380/Phase 2.srcs/sources_1/new/ALU_Structural_OneBit.vhd:5' bound to instance 'ALUX' of component 'ALU_Structural_OneBit' [C:/Users/krahn/Desktop/CURRENT COURSES/Comp Org/Processor_ENGG3380/Phase 2.srcs/sources_1/new/ALU_Structural.vhd:54]
-INFO: [Synth 8-3491] module 'ALU_Structural_OneBit' declared at 'C:/Users/krahn/Desktop/CURRENT COURSES/Comp Org/Processor_ENGG3380/Phase 2.srcs/sources_1/new/ALU_Structural_OneBit.vhd:5' bound to instance 'ALUX' of component 'ALU_Structural_OneBit' [C:/Users/krahn/Desktop/CURRENT COURSES/Comp Org/Processor_ENGG3380/Phase 2.srcs/sources_1/new/ALU_Structural.vhd:54]
-INFO: [Synth 8-3491] module 'ALU_Structural_OneBit' declared at 'C:/Users/krahn/Desktop/CURRENT COURSES/Comp Org/Processor_ENGG3380/Phase 2.srcs/sources_1/new/ALU_Structural_OneBit.vhd:5' bound to instance 'ALUX' of component 'ALU_Structural_OneBit' [C:/Users/krahn/Desktop/CURRENT COURSES/Comp Org/Processor_ENGG3380/Phase 2.srcs/sources_1/new/ALU_Structural.vhd:54]
-INFO: [Synth 8-3491] module 'ALU_Structural_OneBit' declared at 'C:/Users/krahn/Desktop/CURRENT COURSES/Comp Org/Processor_ENGG3380/Phase 2.srcs/sources_1/new/ALU_Structural_OneBit.vhd:5' bound to instance 'ALUX' of component 'ALU_Structural_OneBit' [C:/Users/krahn/Desktop/CURRENT COURSES/Comp Org/Processor_ENGG3380/Phase 2.srcs/sources_1/new/ALU_Structural.vhd:54]
-INFO: [Synth 8-3491] module 'ALU_Structural_OneBit' declared at 'C:/Users/krahn/Desktop/CURRENT COURSES/Comp Org/Processor_ENGG3380/Phase 2.srcs/sources_1/new/ALU_Structural_OneBit.vhd:5' bound to instance 'ALUX' of component 'ALU_Structural_OneBit' [C:/Users/krahn/Desktop/CURRENT COURSES/Comp Org/Processor_ENGG3380/Phase 2.srcs/sources_1/new/ALU_Structural.vhd:54]
-INFO: [Synth 8-3491] module 'ALU_Structural_OneBit' declared at 'C:/Users/krahn/Desktop/CURRENT COURSES/Comp Org/Processor_ENGG3380/Phase 2.srcs/sources_1/new/ALU_Structural_OneBit.vhd:5' bound to instance 'ALUX' of component 'ALU_Structural_OneBit' [C:/Users/krahn/Desktop/CURRENT COURSES/Comp Org/Processor_ENGG3380/Phase 2.srcs/sources_1/new/ALU_Structural.vhd:54]
-INFO: [Synth 8-3491] module 'ALU_Structural_OneBit' declared at 'C:/Users/krahn/Desktop/CURRENT COURSES/Comp Org/Processor_ENGG3380/Phase 2.srcs/sources_1/new/ALU_Structural_OneBit.vhd:5' bound to instance 'ALUX' of component 'ALU_Structural_OneBit' [C:/Users/krahn/Desktop/CURRENT COURSES/Comp Org/Processor_ENGG3380/Phase 2.srcs/sources_1/new/ALU_Structural.vhd:54]
-INFO: [Synth 8-3491] module 'ALU_Structural_OneBit' declared at 'C:/Users/krahn/Desktop/CURRENT COURSES/Comp Org/Processor_ENGG3380/Phase 2.srcs/sources_1/new/ALU_Structural_OneBit.vhd:5' bound to instance 'ALU16' of component 'ALU_Structural_OneBit' [C:/Users/krahn/Desktop/CURRENT COURSES/Comp Org/Processor_ENGG3380/Phase 2.srcs/sources_1/new/ALU_Structural.vhd:56]
-INFO: [Synth 8-3491] module 'Compliment2s' declared at 'C:/Users/krahn/Desktop/CURRENT COURSES/Comp Org/Processor_ENGG3380/Phase 2.srcs/sources_1/new/Compliment2s.vhd:4' bound to instance 'CMP' of component 'Compliment2s' [C:/Users/krahn/Desktop/CURRENT COURSES/Comp Org/Processor_ENGG3380/Phase 2.srcs/sources_1/new/ALU_Structural.vhd:58]
-INFO: [Synth 8-638] synthesizing module 'Compliment2s' [C:/Users/krahn/Desktop/CURRENT COURSES/Comp Org/Processor_ENGG3380/Phase 2.srcs/sources_1/new/Compliment2s.vhd:13]
-INFO: [Synth 8-3491] module 'FullAdder16' declared at 'C:/Users/krahn/Desktop/CURRENT COURSES/Comp Org/Processor_ENGG3380/Phase 2.srcs/sources_1/new/FullAdder8.vhd:34' bound to instance 'FA' of component 'FullAdder16' [C:/Users/krahn/Desktop/CURRENT COURSES/Comp Org/Processor_ENGG3380/Phase 2.srcs/sources_1/new/Compliment2s.vhd:37]
-INFO: [Synth 8-638] synthesizing module 'FullAdder16' [C:/Users/krahn/Desktop/CURRENT COURSES/Comp Org/Processor_ENGG3380/Phase 2.srcs/sources_1/new/FullAdder8.vhd:42]
-INFO: [Synth 8-3491] module 'FullAdder' declared at 'C:/Users/krahn/Desktop/CURRENT COURSES/Comp Org/Processor_ENGG3380/Phase 2.srcs/sources_1/new/FullAdder.vhd:4' bound to instance 'FA7' of component 'FullAdder' [C:/Users/krahn/Desktop/CURRENT COURSES/Comp Org/Processor_ENGG3380/Phase 2.srcs/sources_1/new/FullAdder8.vhd:55]
-INFO: [Synth 8-3491] module 'FullAdder' declared at 'C:/Users/krahn/Desktop/CURRENT COURSES/Comp Org/Processor_ENGG3380/Phase 2.srcs/sources_1/new/FullAdder.vhd:4' bound to instance 'FAX' of component 'FullAdder' [C:/Users/krahn/Desktop/CURRENT COURSES/Comp Org/Processor_ENGG3380/Phase 2.srcs/sources_1/new/FullAdder8.vhd:57]
-INFO: [Synth 8-3491] module 'FullAdder' declared at 'C:/Users/krahn/Desktop/CURRENT COURSES/Comp Org/Processor_ENGG3380/Phase 2.srcs/sources_1/new/FullAdder.vhd:4' bound to instance 'FAX' of component 'FullAdder' [C:/Users/krahn/Desktop/CURRENT COURSES/Comp Org/Processor_ENGG3380/Phase 2.srcs/sources_1/new/FullAdder8.vhd:57]
-INFO: [Synth 8-3491] module 'FullAdder' declared at 'C:/Users/krahn/Desktop/CURRENT COURSES/Comp Org/Processor_ENGG3380/Phase 2.srcs/sources_1/new/FullAdder.vhd:4' bound to instance 'FAX' of component 'FullAdder' [C:/Users/krahn/Desktop/CURRENT COURSES/Comp Org/Processor_ENGG3380/Phase 2.srcs/sources_1/new/FullAdder8.vhd:57]
-INFO: [Synth 8-3491] module 'FullAdder' declared at 'C:/Users/krahn/Desktop/CURRENT COURSES/Comp Org/Processor_ENGG3380/Phase 2.srcs/sources_1/new/FullAdder.vhd:4' bound to instance 'FAX' of component 'FullAdder' [C:/Users/krahn/Desktop/CURRENT COURSES/Comp Org/Processor_ENGG3380/Phase 2.srcs/sources_1/new/FullAdder8.vhd:57]
-INFO: [Synth 8-3491] module 'FullAdder' declared at 'C:/Users/krahn/Desktop/CURRENT COURSES/Comp Org/Processor_ENGG3380/Phase 2.srcs/sources_1/new/FullAdder.vhd:4' bound to instance 'FAX' of component 'FullAdder' [C:/Users/krahn/Desktop/CURRENT COURSES/Comp Org/Processor_ENGG3380/Phase 2.srcs/sources_1/new/FullAdder8.vhd:57]
-INFO: [Synth 8-3491] module 'FullAdder' declared at 'C:/Users/krahn/Desktop/CURRENT COURSES/Comp Org/Processor_ENGG3380/Phase 2.srcs/sources_1/new/FullAdder.vhd:4' bound to instance 'FAX' of component 'FullAdder' [C:/Users/krahn/Desktop/CURRENT COURSES/Comp Org/Processor_ENGG3380/Phase 2.srcs/sources_1/new/FullAdder8.vhd:57]
-INFO: [Synth 8-3491] module 'FullAdder' declared at 'C:/Users/krahn/Desktop/CURRENT COURSES/Comp Org/Processor_ENGG3380/Phase 2.srcs/sources_1/new/FullAdder.vhd:4' bound to instance 'FAX' of component 'FullAdder' [C:/Users/krahn/Desktop/CURRENT COURSES/Comp Org/Processor_ENGG3380/Phase 2.srcs/sources_1/new/FullAdder8.vhd:57]
-INFO: [Synth 8-3491] module 'FullAdder' declared at 'C:/Users/krahn/Desktop/CURRENT COURSES/Comp Org/Processor_ENGG3380/Phase 2.srcs/sources_1/new/FullAdder.vhd:4' bound to instance 'FAX' of component 'FullAdder' [C:/Users/krahn/Desktop/CURRENT COURSES/Comp Org/Processor_ENGG3380/Phase 2.srcs/sources_1/new/FullAdder8.vhd:57]
-INFO: [Synth 8-3491] module 'FullAdder' declared at 'C:/Users/krahn/Desktop/CURRENT COURSES/Comp Org/Processor_ENGG3380/Phase 2.srcs/sources_1/new/FullAdder.vhd:4' bound to instance 'FAX' of component 'FullAdder' [C:/Users/krahn/Desktop/CURRENT COURSES/Comp Org/Processor_ENGG3380/Phase 2.srcs/sources_1/new/FullAdder8.vhd:57]
-INFO: [Synth 8-3491] module 'FullAdder' declared at 'C:/Users/krahn/Desktop/CURRENT COURSES/Comp Org/Processor_ENGG3380/Phase 2.srcs/sources_1/new/FullAdder.vhd:4' bound to instance 'FAX' of component 'FullAdder' [C:/Users/krahn/Desktop/CURRENT COURSES/Comp Org/Processor_ENGG3380/Phase 2.srcs/sources_1/new/FullAdder8.vhd:57]
-INFO: [Synth 8-3491] module 'FullAdder' declared at 'C:/Users/krahn/Desktop/CURRENT COURSES/Comp Org/Processor_ENGG3380/Phase 2.srcs/sources_1/new/FullAdder.vhd:4' bound to instance 'FAX' of component 'FullAdder' [C:/Users/krahn/Desktop/CURRENT COURSES/Comp Org/Processor_ENGG3380/Phase 2.srcs/sources_1/new/FullAdder8.vhd:57]
-INFO: [Synth 8-3491] module 'FullAdder' declared at 'C:/Users/krahn/Desktop/CURRENT COURSES/Comp Org/Processor_ENGG3380/Phase 2.srcs/sources_1/new/FullAdder.vhd:4' bound to instance 'FAX' of component 'FullAdder' [C:/Users/krahn/Desktop/CURRENT COURSES/Comp Org/Processor_ENGG3380/Phase 2.srcs/sources_1/new/FullAdder8.vhd:57]
-INFO: [Synth 8-3491] module 'FullAdder' declared at 'C:/Users/krahn/Desktop/CURRENT COURSES/Comp Org/Processor_ENGG3380/Phase 2.srcs/sources_1/new/FullAdder.vhd:4' bound to instance 'FAX' of component 'FullAdder' [C:/Users/krahn/Desktop/CURRENT COURSES/Comp Org/Processor_ENGG3380/Phase 2.srcs/sources_1/new/FullAdder8.vhd:57]
-INFO: [Synth 8-3491] module 'FullAdder' declared at 'C:/Users/krahn/Desktop/CURRENT COURSES/Comp Org/Processor_ENGG3380/Phase 2.srcs/sources_1/new/FullAdder.vhd:4' bound to instance 'FAX' of component 'FullAdder' [C:/Users/krahn/Desktop/CURRENT COURSES/Comp Org/Processor_ENGG3380/Phase 2.srcs/sources_1/new/FullAdder8.vhd:57]
-INFO: [Synth 8-3491] module 'FullAdder' declared at 'C:/Users/krahn/Desktop/CURRENT COURSES/Comp Org/Processor_ENGG3380/Phase 2.srcs/sources_1/new/FullAdder.vhd:4' bound to instance 'FA0' of component 'FullAdder' [C:/Users/krahn/Desktop/CURRENT COURSES/Comp Org/Processor_ENGG3380/Phase 2.srcs/sources_1/new/FullAdder8.vhd:59]
-INFO: [Synth 8-256] done synthesizing module 'FullAdder16' (15#1) [C:/Users/krahn/Desktop/CURRENT COURSES/Comp Org/Processor_ENGG3380/Phase 2.srcs/sources_1/new/FullAdder8.vhd:42]
-INFO: [Synth 8-3491] module 'MUX2to1' declared at 'C:/Users/krahn/Desktop/CURRENT COURSES/Comp Org/Processor_ENGG3380/Phase 2.srcs/sources_1/new/MUX2to1.vhd:4' bound to instance 'MUX' of component 'MUX2to1' [C:/Users/krahn/Desktop/CURRENT COURSES/Comp Org/Processor_ENGG3380/Phase 2.srcs/sources_1/new/Compliment2s.vhd:38]
-INFO: [Synth 8-256] done synthesizing module 'Compliment2s' (16#1) [C:/Users/krahn/Desktop/CURRENT COURSES/Comp Org/Processor_ENGG3380/Phase 2.srcs/sources_1/new/Compliment2s.vhd:13]
-INFO: [Synth 8-256] done synthesizing module 'ALU_Structural' (17#1) [C:/Users/krahn/Desktop/CURRENT COURSES/Comp Org/Processor_ENGG3380/Phase 2.srcs/sources_1/new/ALU_Structural.vhd:15]
-INFO: [Synth 8-3491] module 'ALUControl' declared at 'C:/Users/krahn/Desktop/CURRENT COURSES/Comp Org/Processor_ENGG3380/Phase 2.srcs/sources_1/new/ALUControl.vhd:5' bound to instance 'ALUController' of component 'ALUControl' [C:/Users/krahn/Desktop/CURRENT COURSES/Comp Org/Processor_ENGG3380/Phase 2.srcs/sources_1/new/Processor.vhd:221]
-INFO: [Synth 8-638] synthesizing module 'ALUControl' [C:/Users/krahn/Desktop/CURRENT COURSES/Comp Org/Processor_ENGG3380/Phase 2.srcs/sources_1/new/ALUControl.vhd:11]
-INFO: [Synth 8-256] done synthesizing module 'ALUControl' (18#1) [C:/Users/krahn/Desktop/CURRENT COURSES/Comp Org/Processor_ENGG3380/Phase 2.srcs/sources_1/new/ALUControl.vhd:11]
-INFO: [Synth 8-3491] module 'ALUReg' declared at 'C:/Users/krahn/Desktop/CURRENT COURSES/Comp Org/Processor_ENGG3380/Phase 2.srcs/sources_1/new/ALUReg.vhd:6' bound to instance 'ALURegister' of component 'ALUReg' [C:/Users/krahn/Desktop/CURRENT COURSES/Comp Org/Processor_ENGG3380/Phase 2.srcs/sources_1/new/Processor.vhd:222]
-INFO: [Synth 8-638] synthesizing module 'ALUReg' [C:/Users/krahn/Desktop/CURRENT COURSES/Comp Org/Processor_ENGG3380/Phase 2.srcs/sources_1/new/ALUReg.vhd:12]
-INFO: [Synth 8-256] done synthesizing module 'ALUReg' (19#1) [C:/Users/krahn/Desktop/CURRENT COURSES/Comp Org/Processor_ENGG3380/Phase 2.srcs/sources_1/new/ALUReg.vhd:12]
-INFO: [Synth 8-3491] module 'Mux3to1' declared at 'C:/Users/krahn/Desktop/CURRENT COURSES/Comp Org/Processor_ENGG3380/Phase 2.srcs/sources_1/new/Mux3to1.vhd:6' bound to instance 'Mux3to130Bit' of component 'Mux3to1' [C:/Users/krahn/Desktop/CURRENT COURSES/Comp Org/Processor_ENGG3380/Phase 2.srcs/sources_1/new/Processor.vhd:223]
-INFO: [Synth 8-638] synthesizing module 'Mux3to1' [C:/Users/krahn/Desktop/CURRENT COURSES/Comp Org/Processor_ENGG3380/Phase 2.srcs/sources_1/new/Mux3to1.vhd:14]
-INFO: [Synth 8-256] done synthesizing module 'Mux3to1' (20#1) [C:/Users/krahn/Desktop/CURRENT COURSES/Comp Org/Processor_ENGG3380/Phase 2.srcs/sources_1/new/Mux3to1.vhd:14]
-INFO: [Synth 8-3491] module 'MPControl' declared at 'C:/Users/krahn/Desktop/CURRENT COURSES/Comp Org/Processor_ENGG3380/Phase 2.srcs/sources_1/new/MPControl.vhd:6' bound to instance 'Control' of component 'MPControl' [C:/Users/krahn/Desktop/CURRENT COURSES/Comp Org/Processor_ENGG3380/Phase 2.srcs/sources_1/new/Processor.vhd:224]
-INFO: [Synth 8-638] synthesizing module 'MPControl' [C:/Users/krahn/Desktop/CURRENT COURSES/Comp Org/Processor_ENGG3380/Phase 2.srcs/sources_1/new/MPControl.vhd:14]
-INFO: [Synth 8-3491] module 'LogicMapping' declared at 'C:/Users/krahn/Desktop/CURRENT COURSES/Comp Org/Processor_ENGG3380/Phase 2.srcs/sources_1/new/LogicMapping.vhd:6' bound to instance 'LM' of component 'LogicMapping' [C:/Users/krahn/Desktop/CURRENT COURSES/Comp Org/Processor_ENGG3380/Phase 2.srcs/sources_1/new/MPControl.vhd:61]
-INFO: [Synth 8-638] synthesizing module 'LogicMapping' [C:/Users/krahn/Desktop/CURRENT COURSES/Comp Org/Processor_ENGG3380/Phase 2.srcs/sources_1/new/LogicMapping.vhd:11]
-INFO: [Synth 8-256] done synthesizing module 'LogicMapping' (21#1) [C:/Users/krahn/Desktop/CURRENT COURSES/Comp Org/Processor_ENGG3380/Phase 2.srcs/sources_1/new/LogicMapping.vhd:11]
-INFO: [Synth 8-3491] module 'Incrementer' declared at 'C:/Users/krahn/Desktop/CURRENT COURSES/Comp Org/Processor_ENGG3380/Phase 2.srcs/sources_1/new/Incrementer.vhd:8' bound to instance 'Incr' of component 'Incrementer' [C:/Users/krahn/Desktop/CURRENT COURSES/Comp Org/Processor_ENGG3380/Phase 2.srcs/sources_1/new/MPControl.vhd:62]
-INFO: [Synth 8-638] synthesizing module 'Incrementer' [C:/Users/krahn/Desktop/CURRENT COURSES/Comp Org/Processor_ENGG3380/Phase 2.srcs/sources_1/new/Incrementer.vhd:13]
-INFO: [Synth 8-256] done synthesizing module 'Incrementer' (22#1) [C:/Users/krahn/Desktop/CURRENT COURSES/Comp Org/Processor_ENGG3380/Phase 2.srcs/sources_1/new/Incrementer.vhd:13]
-INFO: [Synth 8-3491] module 'IncrMUX' declared at 'C:/Users/krahn/Desktop/CURRENT COURSES/Comp Org/Processor_ENGG3380/Phase 2.srcs/sources_1/new/IncrMUX.vhd:7' bound to instance 'M' of component 'IncrMUX' [C:/Users/krahn/Desktop/CURRENT COURSES/Comp Org/Processor_ENGG3380/Phase 2.srcs/sources_1/new/MPControl.vhd:63]
-INFO: [Synth 8-638] synthesizing module 'IncrMUX' [C:/Users/krahn/Desktop/CURRENT COURSES/Comp Org/Processor_ENGG3380/Phase 2.srcs/sources_1/new/IncrMUX.vhd:14]
-INFO: [Synth 8-256] done synthesizing module 'IncrMUX' (23#1) [C:/Users/krahn/Desktop/CURRENT COURSES/Comp Org/Processor_ENGG3380/Phase 2.srcs/sources_1/new/IncrMUX.vhd:14]
-INFO: [Synth 8-3491] module 'MicrocodeStore' declared at 'C:/Users/krahn/Desktop/CURRENT COURSES/Comp Org/Processor_ENGG3380/Phase 2.srcs/sources_1/new/MicrocodeStore.vhd:9' bound to instance 'MS' of component 'MicrocodeStore' [C:/Users/krahn/Desktop/CURRENT COURSES/Comp Org/Processor_ENGG3380/Phase 2.srcs/sources_1/new/MPControl.vhd:64]
-INFO: [Synth 8-638] synthesizing module 'MicrocodeStore' [C:/Users/krahn/Desktop/CURRENT COURSES/Comp Org/Processor_ENGG3380/Phase 2.srcs/sources_1/new/MicrocodeStore.vhd:17]
-INFO: [Synth 8-5534] Detected attribute (* ram_style = "distributed" *) [C:/Users/krahn/Desktop/CURRENT COURSES/Comp Org/Processor_ENGG3380/Phase 2.srcs/sources_1/new/MicrocodeStore.vhd:22]
-WARNING: [Synth 8-614] signal 'memory' is read in the process but is not in the sensitivity list [C:/Users/krahn/Desktop/CURRENT COURSES/Comp Org/Processor_ENGG3380/Phase 2.srcs/sources_1/new/MicrocodeStore.vhd:150]
-INFO: [Synth 8-256] done synthesizing module 'MicrocodeStore' (24#1) [C:/Users/krahn/Desktop/CURRENT COURSES/Comp Org/Processor_ENGG3380/Phase 2.srcs/sources_1/new/MicrocodeStore.vhd:17]
-INFO: [Synth 8-3491] module 'MicroProgramCounter' declared at 'C:/Users/krahn/Desktop/CURRENT COURSES/Comp Org/Processor_ENGG3380/Phase 2.srcs/sources_1/new/MicroProgramCounter.vhd:6' bound to instance 'PC' of component 'MicroProgramCounter' [C:/Users/krahn/Desktop/CURRENT COURSES/Comp Org/Processor_ENGG3380/Phase 2.srcs/sources_1/new/MPControl.vhd:65]
-INFO: [Synth 8-638] synthesizing module 'MicroProgramCounter' [C:/Users/krahn/Desktop/CURRENT COURSES/Comp Org/Processor_ENGG3380/Phase 2.srcs/sources_1/new/MicroProgramCounter.vhd:12]
-INFO: [Synth 8-256] done synthesizing module 'MicroProgramCounter' (25#1) [C:/Users/krahn/Desktop/CURRENT COURSES/Comp Org/Processor_ENGG3380/Phase 2.srcs/sources_1/new/MicroProgramCounter.vhd:12]
-INFO: [Synth 8-256] done synthesizing module 'MPControl' (26#1) [C:/Users/krahn/Desktop/CURRENT COURSES/Comp Org/Processor_ENGG3380/Phase 2.srcs/sources_1/new/MPControl.vhd:14]
-INFO: [Synth 8-3491] module 'ProgramCounter' declared at 'C:/Users/krahn/Desktop/CURRENT COURSES/Comp Org/Processor_ENGG3380/Phase 2.srcs/sources_1/new/ProgramCounter.vhd:7' bound to instance 'PC' of component 'ProgramCounter' [C:/Users/krahn/Desktop/CURRENT COURSES/Comp Org/Processor_ENGG3380/Phase 2.srcs/sources_1/new/Processor.vhd:225]
-INFO: [Synth 8-638] synthesizing module 'ProgramCounter' [C:/Users/krahn/Desktop/CURRENT COURSES/Comp Org/Processor_ENGG3380/Phase 2.srcs/sources_1/new/ProgramCounter.vhd:13]
-WARNING: [Synth 8-614] signal 'EN' is read in the process but is not in the sensitivity list [C:/Users/krahn/Desktop/CURRENT COURSES/Comp Org/Processor_ENGG3380/Phase 2.srcs/sources_1/new/ProgramCounter.vhd:17]
-INFO: [Synth 8-256] done synthesizing module 'ProgramCounter' (27#1) [C:/Users/krahn/Desktop/CURRENT COURSES/Comp Org/Processor_ENGG3380/Phase 2.srcs/sources_1/new/ProgramCounter.vhd:13]
-INFO: [Synth 8-3491] module 'shiftLeftTop' declared at 'C:/Users/krahn/Desktop/CURRENT COURSES/Comp Org/Processor_ENGG3380/Phase 2.srcs/sources_1/new/shiftLeftTop.vhd:5' bound to instance 'ShiftTop' of component 'shiftLeftTop' [C:/Users/krahn/Desktop/CURRENT COURSES/Comp Org/Processor_ENGG3380/Phase 2.srcs/sources_1/new/Processor.vhd:226]
-INFO: [Synth 8-638] synthesizing module 'shiftLeftTop' [C:/Users/krahn/Desktop/CURRENT COURSES/Comp Org/Processor_ENGG3380/Phase 2.srcs/sources_1/new/shiftLeftTop.vhd:12]
-INFO: [Synth 8-256] done synthesizing module 'shiftLeftTop' (28#1) [C:/Users/krahn/Desktop/CURRENT COURSES/Comp Org/Processor_ENGG3380/Phase 2.srcs/sources_1/new/shiftLeftTop.vhd:12]
-INFO: [Synth 8-3491] module 'signExtend' declared at 'C:/Users/krahn/Desktop/CURRENT COURSES/Comp Org/Processor_ENGG3380/Phase 2.srcs/sources_1/new/signExtend.vhd:6' bound to instance 'ExtendSign' of component 'signExtend' [C:/Users/krahn/Desktop/CURRENT COURSES/Comp Org/Processor_ENGG3380/Phase 2.srcs/sources_1/new/Processor.vhd:227]
-INFO: [Synth 8-638] synthesizing module 'signExtend' [C:/Users/krahn/Desktop/CURRENT COURSES/Comp Org/Processor_ENGG3380/Phase 2.srcs/sources_1/new/signExtend.vhd:11]
-INFO: [Synth 8-256] done synthesizing module 'signExtend' (29#1) [C:/Users/krahn/Desktop/CURRENT COURSES/Comp Org/Processor_ENGG3380/Phase 2.srcs/sources_1/new/signExtend.vhd:11]
-INFO: [Synth 8-3491] module 'shiftLeftBottom' declared at 'C:/Users/krahn/Desktop/CURRENT COURSES/Comp Org/Processor_ENGG3380/Phase 2.srcs/sources_1/new/shiftLeftBottom.vhd:6' bound to instance 'ShiftBottom' of component 'shiftLeftBottom' [C:/Users/krahn/Desktop/CURRENT COURSES/Comp Org/Processor_ENGG3380/Phase 2.srcs/sources_1/new/Processor.vhd:228]
-INFO: [Synth 8-638] synthesizing module 'shiftLeftBottom' [C:/Users/krahn/Desktop/CURRENT COURSES/Comp Org/Processor_ENGG3380/Phase 2.srcs/sources_1/new/shiftLeftBottom.vhd:11]
-INFO: [Synth 8-256] done synthesizing module 'shiftLeftBottom' (30#1) [C:/Users/krahn/Desktop/CURRENT COURSES/Comp Org/Processor_ENGG3380/Phase 2.srcs/sources_1/new/shiftLeftBottom.vhd:11]
-INFO: [Synth 8-3491] module 'FourToOneMux' declared at 'C:/Users/krahn/Desktop/CURRENT COURSES/Comp Org/Processor_ENGG3380/Phase 2.srcs/sources_1/new/FourToOneMux.vhd:6' bound to instance 'Mux4to1' of component 'FourToOneMux' [C:/Users/krahn/Desktop/CURRENT COURSES/Comp Org/Processor_ENGG3380/Phase 2.srcs/sources_1/new/Processor.vhd:229]
-INFO: [Synth 8-638] synthesizing module 'FourToOneMux' [C:/Users/krahn/Desktop/CURRENT COURSES/Comp Org/Processor_ENGG3380/Phase 2.srcs/sources_1/new/FourToOneMux.vhd:14]
-INFO: [Synth 8-256] done synthesizing module 'FourToOneMux' (31#1) [C:/Users/krahn/Desktop/CURRENT COURSES/Comp Org/Processor_ENGG3380/Phase 2.srcs/sources_1/new/FourToOneMux.vhd:14]
-WARNING: [Synth 8-3848] Net Cin in module/entity Processor does not have driver. [C:/Users/krahn/Desktop/CURRENT COURSES/Comp Org/Processor_ENGG3380/Phase 2.srcs/sources_1/new/Processor.vhd:174]
-INFO: [Synth 8-256] done synthesizing module 'Processor' (32#1) [C:/Users/krahn/Desktop/CURRENT COURSES/Comp Org/Processor_ENGG3380/Phase 2.srcs/sources_1/new/Processor.vhd:10]
-INFO: [Synth 8-3491] module 'SevenSegmentDecoder_vhdl' declared at 'C:/Users/krahn/Desktop/CURRENT COURSES/Comp Org/Processor_ENGG3380/Phase 2.srcs/sources_1/new/SegDecoder.vhd:5' bound to instance 'SEG1' of component 'SevenSegmentDecoder_vhdl' [C:/Users/krahn/Desktop/CURRENT COURSES/Comp Org/Processor_ENGG3380/Processor.srcs/sources_1/new/ProcessorToDisplay.vhd:36]
-INFO: [Synth 8-638] synthesizing module 'SevenSegmentDecoder_vhdl' [C:/Users/krahn/Desktop/CURRENT COURSES/Comp Org/Processor_ENGG3380/Phase 2.srcs/sources_1/new/SegDecoder.vhd:10]
-INFO: [Synth 8-226] default block is never used [C:/Users/krahn/Desktop/CURRENT COURSES/Comp Org/Processor_ENGG3380/Phase 2.srcs/sources_1/new/SegDecoder.vhd:16]
-INFO: [Synth 8-256] done synthesizing module 'SevenSegmentDecoder_vhdl' (33#1) [C:/Users/krahn/Desktop/CURRENT COURSES/Comp Org/Processor_ENGG3380/Phase 2.srcs/sources_1/new/SegDecoder.vhd:10]
-INFO: [Synth 8-3491] module 'SevenSegmentDecoder_vhdl' declared at 'C:/Users/krahn/Desktop/CURRENT COURSES/Comp Org/Processor_ENGG3380/Phase 2.srcs/sources_1/new/SegDecoder.vhd:5' bound to instance 'SEG2' of component 'SevenSegmentDecoder_vhdl' [C:/Users/krahn/Desktop/CURRENT COURSES/Comp Org/Processor_ENGG3380/Processor.srcs/sources_1/new/ProcessorToDisplay.vhd:37]
-INFO: [Synth 8-3491] module 'SevenSegmentDecoder_vhdl' declared at 'C:/Users/krahn/Desktop/CURRENT COURSES/Comp Org/Processor_ENGG3380/Phase 2.srcs/sources_1/new/SegDecoder.vhd:5' bound to instance 'SEG3' of component 'SevenSegmentDecoder_vhdl' [C:/Users/krahn/Desktop/CURRENT COURSES/Comp Org/Processor_ENGG3380/Processor.srcs/sources_1/new/ProcessorToDisplay.vhd:38]
-INFO: [Synth 8-3491] module 'SevenSegmentDecoder_vhdl' declared at 'C:/Users/krahn/Desktop/CURRENT COURSES/Comp Org/Processor_ENGG3380/Phase 2.srcs/sources_1/new/SegDecoder.vhd:5' bound to instance 'SEG4' of component 'SevenSegmentDecoder_vhdl' [C:/Users/krahn/Desktop/CURRENT COURSES/Comp Org/Processor_ENGG3380/Processor.srcs/sources_1/new/ProcessorToDisplay.vhd:39]
-WARNING: [Synth 8-3848] Net numOut in module/entity ProcessorToDisplay does not have driver. [C:/Users/krahn/Desktop/CURRENT COURSES/Comp Org/Processor_ENGG3380/Processor.srcs/sources_1/new/ProcessorToDisplay.vhd:7]
-WARNING: [Synth 8-3848] Net AN in module/entity ProcessorToDisplay does not have driver. [C:/Users/krahn/Desktop/CURRENT COURSES/Comp Org/Processor_ENGG3380/Processor.srcs/sources_1/new/ProcessorToDisplay.vhd:9]
-INFO: [Synth 8-256] done synthesizing module 'ProcessorToDisplay' (34#1) [C:/Users/krahn/Desktop/CURRENT COURSES/Comp Org/Processor_ENGG3380/Processor.srcs/sources_1/new/ProcessorToDisplay.vhd:13]
+INFO: [Synth 8-3491] module 'ALU_Structural_OneBit' declared at 'C:/Users/Terry/Desktop/ENGG 3380/Processor-ENGG3380/Phase 2.srcs/sources_1/new/ALU_Structural_OneBit.vhd:5' bound to instance 'ALU1' of component 'ALU_Structural_OneBit' [C:/Users/Terry/Desktop/ENGG 3380/Processor-ENGG3380/Phase 2.srcs/sources_1/new/ALU_Structural.vhd:52]
+INFO: [Synth 8-638] synthesizing module 'ALU_Structural_OneBit' [C:/Users/Terry/Desktop/ENGG 3380/Processor-ENGG3380/Phase 2.srcs/sources_1/new/ALU_Structural_OneBit.vhd:16]
+INFO: [Synth 8-3491] module 'MUX' declared at 'C:/Users/Terry/Desktop/ENGG 3380/Processor-ENGG3380/Phase 2.srcs/sources_1/new/MUX.vhd:6' bound to instance 'BigMUX' of component 'MUX' [C:/Users/Terry/Desktop/ENGG 3380/Processor-ENGG3380/Phase 2.srcs/sources_1/new/ALU_Structural_OneBit.vhd:48]
+INFO: [Synth 8-638] synthesizing module 'MUX' [C:/Users/Terry/Desktop/ENGG 3380/Processor-ENGG3380/Phase 2.srcs/sources_1/new/MUX.vhd:12]
+INFO: [Synth 8-256] done synthesizing module 'MUX' (11#1) [C:/Users/Terry/Desktop/ENGG 3380/Processor-ENGG3380/Phase 2.srcs/sources_1/new/MUX.vhd:12]
+INFO: [Synth 8-3491] module 'ArithmeticUnit' declared at 'C:/Users/Terry/Desktop/ENGG 3380/Processor-ENGG3380/Phase 2.srcs/sources_1/new/ArithmeticUnit.vhd:6' bound to instance 'Arth' of component 'ArithmeticUnit' [C:/Users/Terry/Desktop/ENGG 3380/Processor-ENGG3380/Phase 2.srcs/sources_1/new/ALU_Structural_OneBit.vhd:49]
+INFO: [Synth 8-638] synthesizing module 'ArithmeticUnit' [C:/Users/Terry/Desktop/ENGG 3380/Processor-ENGG3380/Phase 2.srcs/sources_1/new/ArithmeticUnit.vhd:16]
+INFO: [Synth 8-3491] module 'FullAdder' declared at 'C:/Users/Terry/Desktop/ENGG 3380/Processor-ENGG3380/Phase 2.srcs/sources_1/new/FullAdder.vhd:4' bound to instance 'FA' of component 'FullAdder' [C:/Users/Terry/Desktop/ENGG 3380/Processor-ENGG3380/Phase 2.srcs/sources_1/new/ArithmeticUnit.vhd:31]
+INFO: [Synth 8-638] synthesizing module 'FullAdder' [C:/Users/Terry/Desktop/ENGG 3380/Processor-ENGG3380/Phase 2.srcs/sources_1/new/FullAdder.vhd:12]
+INFO: [Synth 8-256] done synthesizing module 'FullAdder' (12#1) [C:/Users/Terry/Desktop/ENGG 3380/Processor-ENGG3380/Phase 2.srcs/sources_1/new/FullAdder.vhd:12]
+INFO: [Synth 8-256] done synthesizing module 'ArithmeticUnit' (13#1) [C:/Users/Terry/Desktop/ENGG 3380/Processor-ENGG3380/Phase 2.srcs/sources_1/new/ArithmeticUnit.vhd:16]
+INFO: [Synth 8-256] done synthesizing module 'ALU_Structural_OneBit' (14#1) [C:/Users/Terry/Desktop/ENGG 3380/Processor-ENGG3380/Phase 2.srcs/sources_1/new/ALU_Structural_OneBit.vhd:16]
+INFO: [Synth 8-3491] module 'ALU_Structural_OneBit' declared at 'C:/Users/Terry/Desktop/ENGG 3380/Processor-ENGG3380/Phase 2.srcs/sources_1/new/ALU_Structural_OneBit.vhd:5' bound to instance 'ALUX' of component 'ALU_Structural_OneBit' [C:/Users/Terry/Desktop/ENGG 3380/Processor-ENGG3380/Phase 2.srcs/sources_1/new/ALU_Structural.vhd:54]
+INFO: [Synth 8-3491] module 'ALU_Structural_OneBit' declared at 'C:/Users/Terry/Desktop/ENGG 3380/Processor-ENGG3380/Phase 2.srcs/sources_1/new/ALU_Structural_OneBit.vhd:5' bound to instance 'ALUX' of component 'ALU_Structural_OneBit' [C:/Users/Terry/Desktop/ENGG 3380/Processor-ENGG3380/Phase 2.srcs/sources_1/new/ALU_Structural.vhd:54]
+INFO: [Synth 8-3491] module 'ALU_Structural_OneBit' declared at 'C:/Users/Terry/Desktop/ENGG 3380/Processor-ENGG3380/Phase 2.srcs/sources_1/new/ALU_Structural_OneBit.vhd:5' bound to instance 'ALUX' of component 'ALU_Structural_OneBit' [C:/Users/Terry/Desktop/ENGG 3380/Processor-ENGG3380/Phase 2.srcs/sources_1/new/ALU_Structural.vhd:54]
+INFO: [Synth 8-3491] module 'ALU_Structural_OneBit' declared at 'C:/Users/Terry/Desktop/ENGG 3380/Processor-ENGG3380/Phase 2.srcs/sources_1/new/ALU_Structural_OneBit.vhd:5' bound to instance 'ALUX' of component 'ALU_Structural_OneBit' [C:/Users/Terry/Desktop/ENGG 3380/Processor-ENGG3380/Phase 2.srcs/sources_1/new/ALU_Structural.vhd:54]
+INFO: [Synth 8-3491] module 'ALU_Structural_OneBit' declared at 'C:/Users/Terry/Desktop/ENGG 3380/Processor-ENGG3380/Phase 2.srcs/sources_1/new/ALU_Structural_OneBit.vhd:5' bound to instance 'ALUX' of component 'ALU_Structural_OneBit' [C:/Users/Terry/Desktop/ENGG 3380/Processor-ENGG3380/Phase 2.srcs/sources_1/new/ALU_Structural.vhd:54]
+INFO: [Synth 8-3491] module 'ALU_Structural_OneBit' declared at 'C:/Users/Terry/Desktop/ENGG 3380/Processor-ENGG3380/Phase 2.srcs/sources_1/new/ALU_Structural_OneBit.vhd:5' bound to instance 'ALUX' of component 'ALU_Structural_OneBit' [C:/Users/Terry/Desktop/ENGG 3380/Processor-ENGG3380/Phase 2.srcs/sources_1/new/ALU_Structural.vhd:54]
+INFO: [Synth 8-3491] module 'ALU_Structural_OneBit' declared at 'C:/Users/Terry/Desktop/ENGG 3380/Processor-ENGG3380/Phase 2.srcs/sources_1/new/ALU_Structural_OneBit.vhd:5' bound to instance 'ALUX' of component 'ALU_Structural_OneBit' [C:/Users/Terry/Desktop/ENGG 3380/Processor-ENGG3380/Phase 2.srcs/sources_1/new/ALU_Structural.vhd:54]
+INFO: [Synth 8-3491] module 'ALU_Structural_OneBit' declared at 'C:/Users/Terry/Desktop/ENGG 3380/Processor-ENGG3380/Phase 2.srcs/sources_1/new/ALU_Structural_OneBit.vhd:5' bound to instance 'ALUX' of component 'ALU_Structural_OneBit' [C:/Users/Terry/Desktop/ENGG 3380/Processor-ENGG3380/Phase 2.srcs/sources_1/new/ALU_Structural.vhd:54]
+INFO: [Synth 8-3491] module 'ALU_Structural_OneBit' declared at 'C:/Users/Terry/Desktop/ENGG 3380/Processor-ENGG3380/Phase 2.srcs/sources_1/new/ALU_Structural_OneBit.vhd:5' bound to instance 'ALUX' of component 'ALU_Structural_OneBit' [C:/Users/Terry/Desktop/ENGG 3380/Processor-ENGG3380/Phase 2.srcs/sources_1/new/ALU_Structural.vhd:54]
+INFO: [Synth 8-3491] module 'ALU_Structural_OneBit' declared at 'C:/Users/Terry/Desktop/ENGG 3380/Processor-ENGG3380/Phase 2.srcs/sources_1/new/ALU_Structural_OneBit.vhd:5' bound to instance 'ALUX' of component 'ALU_Structural_OneBit' [C:/Users/Terry/Desktop/ENGG 3380/Processor-ENGG3380/Phase 2.srcs/sources_1/new/ALU_Structural.vhd:54]
+INFO: [Synth 8-3491] module 'ALU_Structural_OneBit' declared at 'C:/Users/Terry/Desktop/ENGG 3380/Processor-ENGG3380/Phase 2.srcs/sources_1/new/ALU_Structural_OneBit.vhd:5' bound to instance 'ALUX' of component 'ALU_Structural_OneBit' [C:/Users/Terry/Desktop/ENGG 3380/Processor-ENGG3380/Phase 2.srcs/sources_1/new/ALU_Structural.vhd:54]
+INFO: [Synth 8-3491] module 'ALU_Structural_OneBit' declared at 'C:/Users/Terry/Desktop/ENGG 3380/Processor-ENGG3380/Phase 2.srcs/sources_1/new/ALU_Structural_OneBit.vhd:5' bound to instance 'ALUX' of component 'ALU_Structural_OneBit' [C:/Users/Terry/Desktop/ENGG 3380/Processor-ENGG3380/Phase 2.srcs/sources_1/new/ALU_Structural.vhd:54]
+INFO: [Synth 8-3491] module 'ALU_Structural_OneBit' declared at 'C:/Users/Terry/Desktop/ENGG 3380/Processor-ENGG3380/Phase 2.srcs/sources_1/new/ALU_Structural_OneBit.vhd:5' bound to instance 'ALUX' of component 'ALU_Structural_OneBit' [C:/Users/Terry/Desktop/ENGG 3380/Processor-ENGG3380/Phase 2.srcs/sources_1/new/ALU_Structural.vhd:54]
+INFO: [Synth 8-3491] module 'ALU_Structural_OneBit' declared at 'C:/Users/Terry/Desktop/ENGG 3380/Processor-ENGG3380/Phase 2.srcs/sources_1/new/ALU_Structural_OneBit.vhd:5' bound to instance 'ALUX' of component 'ALU_Structural_OneBit' [C:/Users/Terry/Desktop/ENGG 3380/Processor-ENGG3380/Phase 2.srcs/sources_1/new/ALU_Structural.vhd:54]
+INFO: [Synth 8-3491] module 'ALU_Structural_OneBit' declared at 'C:/Users/Terry/Desktop/ENGG 3380/Processor-ENGG3380/Phase 2.srcs/sources_1/new/ALU_Structural_OneBit.vhd:5' bound to instance 'ALU16' of component 'ALU_Structural_OneBit' [C:/Users/Terry/Desktop/ENGG 3380/Processor-ENGG3380/Phase 2.srcs/sources_1/new/ALU_Structural.vhd:56]
+INFO: [Synth 8-3491] module 'Compliment2s' declared at 'C:/Users/Terry/Desktop/ENGG 3380/Processor-ENGG3380/Phase 2.srcs/sources_1/new/Compliment2s.vhd:4' bound to instance 'CMP' of component 'Compliment2s' [C:/Users/Terry/Desktop/ENGG 3380/Processor-ENGG3380/Phase 2.srcs/sources_1/new/ALU_Structural.vhd:58]
+INFO: [Synth 8-638] synthesizing module 'Compliment2s' [C:/Users/Terry/Desktop/ENGG 3380/Processor-ENGG3380/Phase 2.srcs/sources_1/new/Compliment2s.vhd:13]
+INFO: [Synth 8-3491] module 'FullAdder16' declared at 'C:/Users/Terry/Desktop/ENGG 3380/Processor-ENGG3380/Phase 2.srcs/sources_1/new/FullAdder8.vhd:34' bound to instance 'FA' of component 'FullAdder16' [C:/Users/Terry/Desktop/ENGG 3380/Processor-ENGG3380/Phase 2.srcs/sources_1/new/Compliment2s.vhd:37]
+INFO: [Synth 8-638] synthesizing module 'FullAdder16' [C:/Users/Terry/Desktop/ENGG 3380/Processor-ENGG3380/Phase 2.srcs/sources_1/new/FullAdder8.vhd:42]
+INFO: [Synth 8-3491] module 'FullAdder' declared at 'C:/Users/Terry/Desktop/ENGG 3380/Processor-ENGG3380/Phase 2.srcs/sources_1/new/FullAdder.vhd:4' bound to instance 'FA7' of component 'FullAdder' [C:/Users/Terry/Desktop/ENGG 3380/Processor-ENGG3380/Phase 2.srcs/sources_1/new/FullAdder8.vhd:55]
+INFO: [Synth 8-3491] module 'FullAdder' declared at 'C:/Users/Terry/Desktop/ENGG 3380/Processor-ENGG3380/Phase 2.srcs/sources_1/new/FullAdder.vhd:4' bound to instance 'FAX' of component 'FullAdder' [C:/Users/Terry/Desktop/ENGG 3380/Processor-ENGG3380/Phase 2.srcs/sources_1/new/FullAdder8.vhd:57]
+INFO: [Synth 8-3491] module 'FullAdder' declared at 'C:/Users/Terry/Desktop/ENGG 3380/Processor-ENGG3380/Phase 2.srcs/sources_1/new/FullAdder.vhd:4' bound to instance 'FAX' of component 'FullAdder' [C:/Users/Terry/Desktop/ENGG 3380/Processor-ENGG3380/Phase 2.srcs/sources_1/new/FullAdder8.vhd:57]
+INFO: [Synth 8-3491] module 'FullAdder' declared at 'C:/Users/Terry/Desktop/ENGG 3380/Processor-ENGG3380/Phase 2.srcs/sources_1/new/FullAdder.vhd:4' bound to instance 'FAX' of component 'FullAdder' [C:/Users/Terry/Desktop/ENGG 3380/Processor-ENGG3380/Phase 2.srcs/sources_1/new/FullAdder8.vhd:57]
+INFO: [Synth 8-3491] module 'FullAdder' declared at 'C:/Users/Terry/Desktop/ENGG 3380/Processor-ENGG3380/Phase 2.srcs/sources_1/new/FullAdder.vhd:4' bound to instance 'FAX' of component 'FullAdder' [C:/Users/Terry/Desktop/ENGG 3380/Processor-ENGG3380/Phase 2.srcs/sources_1/new/FullAdder8.vhd:57]
+INFO: [Synth 8-3491] module 'FullAdder' declared at 'C:/Users/Terry/Desktop/ENGG 3380/Processor-ENGG3380/Phase 2.srcs/sources_1/new/FullAdder.vhd:4' bound to instance 'FAX' of component 'FullAdder' [C:/Users/Terry/Desktop/ENGG 3380/Processor-ENGG3380/Phase 2.srcs/sources_1/new/FullAdder8.vhd:57]
+INFO: [Synth 8-3491] module 'FullAdder' declared at 'C:/Users/Terry/Desktop/ENGG 3380/Processor-ENGG3380/Phase 2.srcs/sources_1/new/FullAdder.vhd:4' bound to instance 'FAX' of component 'FullAdder' [C:/Users/Terry/Desktop/ENGG 3380/Processor-ENGG3380/Phase 2.srcs/sources_1/new/FullAdder8.vhd:57]
+INFO: [Synth 8-3491] module 'FullAdder' declared at 'C:/Users/Terry/Desktop/ENGG 3380/Processor-ENGG3380/Phase 2.srcs/sources_1/new/FullAdder.vhd:4' bound to instance 'FAX' of component 'FullAdder' [C:/Users/Terry/Desktop/ENGG 3380/Processor-ENGG3380/Phase 2.srcs/sources_1/new/FullAdder8.vhd:57]
+INFO: [Synth 8-3491] module 'FullAdder' declared at 'C:/Users/Terry/Desktop/ENGG 3380/Processor-ENGG3380/Phase 2.srcs/sources_1/new/FullAdder.vhd:4' bound to instance 'FAX' of component 'FullAdder' [C:/Users/Terry/Desktop/ENGG 3380/Processor-ENGG3380/Phase 2.srcs/sources_1/new/FullAdder8.vhd:57]
+INFO: [Synth 8-3491] module 'FullAdder' declared at 'C:/Users/Terry/Desktop/ENGG 3380/Processor-ENGG3380/Phase 2.srcs/sources_1/new/FullAdder.vhd:4' bound to instance 'FAX' of component 'FullAdder' [C:/Users/Terry/Desktop/ENGG 3380/Processor-ENGG3380/Phase 2.srcs/sources_1/new/FullAdder8.vhd:57]
+INFO: [Synth 8-3491] module 'FullAdder' declared at 'C:/Users/Terry/Desktop/ENGG 3380/Processor-ENGG3380/Phase 2.srcs/sources_1/new/FullAdder.vhd:4' bound to instance 'FAX' of component 'FullAdder' [C:/Users/Terry/Desktop/ENGG 3380/Processor-ENGG3380/Phase 2.srcs/sources_1/new/FullAdder8.vhd:57]
+INFO: [Synth 8-3491] module 'FullAdder' declared at 'C:/Users/Terry/Desktop/ENGG 3380/Processor-ENGG3380/Phase 2.srcs/sources_1/new/FullAdder.vhd:4' bound to instance 'FAX' of component 'FullAdder' [C:/Users/Terry/Desktop/ENGG 3380/Processor-ENGG3380/Phase 2.srcs/sources_1/new/FullAdder8.vhd:57]
+INFO: [Synth 8-3491] module 'FullAdder' declared at 'C:/Users/Terry/Desktop/ENGG 3380/Processor-ENGG3380/Phase 2.srcs/sources_1/new/FullAdder.vhd:4' bound to instance 'FAX' of component 'FullAdder' [C:/Users/Terry/Desktop/ENGG 3380/Processor-ENGG3380/Phase 2.srcs/sources_1/new/FullAdder8.vhd:57]
+INFO: [Synth 8-3491] module 'FullAdder' declared at 'C:/Users/Terry/Desktop/ENGG 3380/Processor-ENGG3380/Phase 2.srcs/sources_1/new/FullAdder.vhd:4' bound to instance 'FAX' of component 'FullAdder' [C:/Users/Terry/Desktop/ENGG 3380/Processor-ENGG3380/Phase 2.srcs/sources_1/new/FullAdder8.vhd:57]
+INFO: [Synth 8-3491] module 'FullAdder' declared at 'C:/Users/Terry/Desktop/ENGG 3380/Processor-ENGG3380/Phase 2.srcs/sources_1/new/FullAdder.vhd:4' bound to instance 'FAX' of component 'FullAdder' [C:/Users/Terry/Desktop/ENGG 3380/Processor-ENGG3380/Phase 2.srcs/sources_1/new/FullAdder8.vhd:57]
+INFO: [Synth 8-3491] module 'FullAdder' declared at 'C:/Users/Terry/Desktop/ENGG 3380/Processor-ENGG3380/Phase 2.srcs/sources_1/new/FullAdder.vhd:4' bound to instance 'FA0' of component 'FullAdder' [C:/Users/Terry/Desktop/ENGG 3380/Processor-ENGG3380/Phase 2.srcs/sources_1/new/FullAdder8.vhd:59]
+INFO: [Synth 8-256] done synthesizing module 'FullAdder16' (15#1) [C:/Users/Terry/Desktop/ENGG 3380/Processor-ENGG3380/Phase 2.srcs/sources_1/new/FullAdder8.vhd:42]
+INFO: [Synth 8-3491] module 'MUX2to1' declared at 'C:/Users/Terry/Desktop/ENGG 3380/Processor-ENGG3380/Phase 2.srcs/sources_1/new/MUX2to1.vhd:4' bound to instance 'MUX' of component 'MUX2to1' [C:/Users/Terry/Desktop/ENGG 3380/Processor-ENGG3380/Phase 2.srcs/sources_1/new/Compliment2s.vhd:38]
+INFO: [Synth 8-256] done synthesizing module 'Compliment2s' (16#1) [C:/Users/Terry/Desktop/ENGG 3380/Processor-ENGG3380/Phase 2.srcs/sources_1/new/Compliment2s.vhd:13]
+INFO: [Synth 8-256] done synthesizing module 'ALU_Structural' (17#1) [C:/Users/Terry/Desktop/ENGG 3380/Processor-ENGG3380/Phase 2.srcs/sources_1/new/ALU_Structural.vhd:15]
+INFO: [Synth 8-3491] module 'ALUControl' declared at 'C:/Users/Terry/Desktop/ENGG 3380/Processor-ENGG3380/Phase 2.srcs/sources_1/new/ALUControl.vhd:5' bound to instance 'ALUController' of component 'ALUControl' [C:/Users/Terry/Desktop/ENGG 3380/Processor-ENGG3380/Phase 2.srcs/sources_1/new/Processor.vhd:221]
+INFO: [Synth 8-638] synthesizing module 'ALUControl' [C:/Users/Terry/Desktop/ENGG 3380/Processor-ENGG3380/Phase 2.srcs/sources_1/new/ALUControl.vhd:11]
+INFO: [Synth 8-256] done synthesizing module 'ALUControl' (18#1) [C:/Users/Terry/Desktop/ENGG 3380/Processor-ENGG3380/Phase 2.srcs/sources_1/new/ALUControl.vhd:11]
+INFO: [Synth 8-3491] module 'ALUReg' declared at 'C:/Users/Terry/Desktop/ENGG 3380/Processor-ENGG3380/Phase 2.srcs/sources_1/new/ALUReg.vhd:6' bound to instance 'ALURegister' of component 'ALUReg' [C:/Users/Terry/Desktop/ENGG 3380/Processor-ENGG3380/Phase 2.srcs/sources_1/new/Processor.vhd:222]
+INFO: [Synth 8-638] synthesizing module 'ALUReg' [C:/Users/Terry/Desktop/ENGG 3380/Processor-ENGG3380/Phase 2.srcs/sources_1/new/ALUReg.vhd:12]
+INFO: [Synth 8-256] done synthesizing module 'ALUReg' (19#1) [C:/Users/Terry/Desktop/ENGG 3380/Processor-ENGG3380/Phase 2.srcs/sources_1/new/ALUReg.vhd:12]
+INFO: [Synth 8-3491] module 'Mux3to1' declared at 'C:/Users/Terry/Desktop/ENGG 3380/Processor-ENGG3380/Phase 2.srcs/sources_1/new/Mux3to1.vhd:6' bound to instance 'Mux3to130Bit' of component 'Mux3to1' [C:/Users/Terry/Desktop/ENGG 3380/Processor-ENGG3380/Phase 2.srcs/sources_1/new/Processor.vhd:223]
+INFO: [Synth 8-638] synthesizing module 'Mux3to1' [C:/Users/Terry/Desktop/ENGG 3380/Processor-ENGG3380/Phase 2.srcs/sources_1/new/Mux3to1.vhd:14]
+INFO: [Synth 8-256] done synthesizing module 'Mux3to1' (20#1) [C:/Users/Terry/Desktop/ENGG 3380/Processor-ENGG3380/Phase 2.srcs/sources_1/new/Mux3to1.vhd:14]
+INFO: [Synth 8-3491] module 'MPControl' declared at 'C:/Users/Terry/Desktop/ENGG 3380/Processor-ENGG3380/Phase 2.srcs/sources_1/new/MPControl.vhd:6' bound to instance 'Control' of component 'MPControl' [C:/Users/Terry/Desktop/ENGG 3380/Processor-ENGG3380/Phase 2.srcs/sources_1/new/Processor.vhd:224]
+INFO: [Synth 8-638] synthesizing module 'MPControl' [C:/Users/Terry/Desktop/ENGG 3380/Processor-ENGG3380/Phase 2.srcs/sources_1/new/MPControl.vhd:14]
+INFO: [Synth 8-3491] module 'LogicMapping' declared at 'C:/Users/Terry/Desktop/ENGG 3380/Processor-ENGG3380/Phase 2.srcs/sources_1/new/LogicMapping.vhd:6' bound to instance 'LM' of component 'LogicMapping' [C:/Users/Terry/Desktop/ENGG 3380/Processor-ENGG3380/Phase 2.srcs/sources_1/new/MPControl.vhd:61]
+INFO: [Synth 8-638] synthesizing module 'LogicMapping' [C:/Users/Terry/Desktop/ENGG 3380/Processor-ENGG3380/Phase 2.srcs/sources_1/new/LogicMapping.vhd:11]
+INFO: [Synth 8-256] done synthesizing module 'LogicMapping' (21#1) [C:/Users/Terry/Desktop/ENGG 3380/Processor-ENGG3380/Phase 2.srcs/sources_1/new/LogicMapping.vhd:11]
+INFO: [Synth 8-3491] module 'Incrementer' declared at 'C:/Users/Terry/Desktop/ENGG 3380/Processor-ENGG3380/Phase 2.srcs/sources_1/new/Incrementer.vhd:8' bound to instance 'Incr' of component 'Incrementer' [C:/Users/Terry/Desktop/ENGG 3380/Processor-ENGG3380/Phase 2.srcs/sources_1/new/MPControl.vhd:62]
+INFO: [Synth 8-638] synthesizing module 'Incrementer' [C:/Users/Terry/Desktop/ENGG 3380/Processor-ENGG3380/Phase 2.srcs/sources_1/new/Incrementer.vhd:13]
+INFO: [Synth 8-256] done synthesizing module 'Incrementer' (22#1) [C:/Users/Terry/Desktop/ENGG 3380/Processor-ENGG3380/Phase 2.srcs/sources_1/new/Incrementer.vhd:13]
+INFO: [Synth 8-3491] module 'IncrMUX' declared at 'C:/Users/Terry/Desktop/ENGG 3380/Processor-ENGG3380/Phase 2.srcs/sources_1/new/IncrMUX.vhd:7' bound to instance 'M' of component 'IncrMUX' [C:/Users/Terry/Desktop/ENGG 3380/Processor-ENGG3380/Phase 2.srcs/sources_1/new/MPControl.vhd:63]
+INFO: [Synth 8-638] synthesizing module 'IncrMUX' [C:/Users/Terry/Desktop/ENGG 3380/Processor-ENGG3380/Phase 2.srcs/sources_1/new/IncrMUX.vhd:14]
+INFO: [Synth 8-256] done synthesizing module 'IncrMUX' (23#1) [C:/Users/Terry/Desktop/ENGG 3380/Processor-ENGG3380/Phase 2.srcs/sources_1/new/IncrMUX.vhd:14]
+INFO: [Synth 8-3491] module 'MicrocodeStore' declared at 'C:/Users/Terry/Desktop/ENGG 3380/Processor-ENGG3380/Phase 2.srcs/sources_1/new/MicrocodeStore.vhd:9' bound to instance 'MS' of component 'MicrocodeStore' [C:/Users/Terry/Desktop/ENGG 3380/Processor-ENGG3380/Phase 2.srcs/sources_1/new/MPControl.vhd:64]
+INFO: [Synth 8-638] synthesizing module 'MicrocodeStore' [C:/Users/Terry/Desktop/ENGG 3380/Processor-ENGG3380/Phase 2.srcs/sources_1/new/MicrocodeStore.vhd:17]
+INFO: [Synth 8-5534] Detected attribute (* ram_style = "distributed" *) [C:/Users/Terry/Desktop/ENGG 3380/Processor-ENGG3380/Phase 2.srcs/sources_1/new/MicrocodeStore.vhd:22]
+WARNING: [Synth 8-614] signal 'memory' is read in the process but is not in the sensitivity list [C:/Users/Terry/Desktop/ENGG 3380/Processor-ENGG3380/Phase 2.srcs/sources_1/new/MicrocodeStore.vhd:150]
+INFO: [Synth 8-256] done synthesizing module 'MicrocodeStore' (24#1) [C:/Users/Terry/Desktop/ENGG 3380/Processor-ENGG3380/Phase 2.srcs/sources_1/new/MicrocodeStore.vhd:17]
+INFO: [Synth 8-3491] module 'MicroProgramCounter' declared at 'C:/Users/Terry/Desktop/ENGG 3380/Processor-ENGG3380/Phase 2.srcs/sources_1/new/MicroProgramCounter.vhd:6' bound to instance 'PC' of component 'MicroProgramCounter' [C:/Users/Terry/Desktop/ENGG 3380/Processor-ENGG3380/Phase 2.srcs/sources_1/new/MPControl.vhd:65]
+INFO: [Synth 8-638] synthesizing module 'MicroProgramCounter' [C:/Users/Terry/Desktop/ENGG 3380/Processor-ENGG3380/Phase 2.srcs/sources_1/new/MicroProgramCounter.vhd:12]
+INFO: [Synth 8-256] done synthesizing module 'MicroProgramCounter' (25#1) [C:/Users/Terry/Desktop/ENGG 3380/Processor-ENGG3380/Phase 2.srcs/sources_1/new/MicroProgramCounter.vhd:12]
+INFO: [Synth 8-256] done synthesizing module 'MPControl' (26#1) [C:/Users/Terry/Desktop/ENGG 3380/Processor-ENGG3380/Phase 2.srcs/sources_1/new/MPControl.vhd:14]
+INFO: [Synth 8-3491] module 'ProgramCounter' declared at 'C:/Users/Terry/Desktop/ENGG 3380/Processor-ENGG3380/Phase 2.srcs/sources_1/new/ProgramCounter.vhd:7' bound to instance 'PC' of component 'ProgramCounter' [C:/Users/Terry/Desktop/ENGG 3380/Processor-ENGG3380/Phase 2.srcs/sources_1/new/Processor.vhd:225]
+INFO: [Synth 8-638] synthesizing module 'ProgramCounter' [C:/Users/Terry/Desktop/ENGG 3380/Processor-ENGG3380/Phase 2.srcs/sources_1/new/ProgramCounter.vhd:13]
+WARNING: [Synth 8-614] signal 'EN' is read in the process but is not in the sensitivity list [C:/Users/Terry/Desktop/ENGG 3380/Processor-ENGG3380/Phase 2.srcs/sources_1/new/ProgramCounter.vhd:17]
+INFO: [Synth 8-256] done synthesizing module 'ProgramCounter' (27#1) [C:/Users/Terry/Desktop/ENGG 3380/Processor-ENGG3380/Phase 2.srcs/sources_1/new/ProgramCounter.vhd:13]
+INFO: [Synth 8-3491] module 'shiftLeftTop' declared at 'C:/Users/Terry/Desktop/ENGG 3380/Processor-ENGG3380/Phase 2.srcs/sources_1/new/shiftLeftTop.vhd:5' bound to instance 'ShiftTop' of component 'shiftLeftTop' [C:/Users/Terry/Desktop/ENGG 3380/Processor-ENGG3380/Phase 2.srcs/sources_1/new/Processor.vhd:226]
+INFO: [Synth 8-638] synthesizing module 'shiftLeftTop' [C:/Users/Terry/Desktop/ENGG 3380/Processor-ENGG3380/Phase 2.srcs/sources_1/new/shiftLeftTop.vhd:12]
+INFO: [Synth 8-256] done synthesizing module 'shiftLeftTop' (28#1) [C:/Users/Terry/Desktop/ENGG 3380/Processor-ENGG3380/Phase 2.srcs/sources_1/new/shiftLeftTop.vhd:12]
+INFO: [Synth 8-3491] module 'signExtend' declared at 'C:/Users/Terry/Desktop/ENGG 3380/Processor-ENGG3380/Phase 2.srcs/sources_1/new/signExtend.vhd:6' bound to instance 'ExtendSign' of component 'signExtend' [C:/Users/Terry/Desktop/ENGG 3380/Processor-ENGG3380/Phase 2.srcs/sources_1/new/Processor.vhd:227]
+INFO: [Synth 8-638] synthesizing module 'signExtend' [C:/Users/Terry/Desktop/ENGG 3380/Processor-ENGG3380/Phase 2.srcs/sources_1/new/signExtend.vhd:11]
+INFO: [Synth 8-256] done synthesizing module 'signExtend' (29#1) [C:/Users/Terry/Desktop/ENGG 3380/Processor-ENGG3380/Phase 2.srcs/sources_1/new/signExtend.vhd:11]
+INFO: [Synth 8-3491] module 'shiftLeftBottom' declared at 'C:/Users/Terry/Desktop/ENGG 3380/Processor-ENGG3380/Phase 2.srcs/sources_1/new/shiftLeftBottom.vhd:6' bound to instance 'ShiftBottom' of component 'shiftLeftBottom' [C:/Users/Terry/Desktop/ENGG 3380/Processor-ENGG3380/Phase 2.srcs/sources_1/new/Processor.vhd:228]
+INFO: [Synth 8-638] synthesizing module 'shiftLeftBottom' [C:/Users/Terry/Desktop/ENGG 3380/Processor-ENGG3380/Phase 2.srcs/sources_1/new/shiftLeftBottom.vhd:11]
+INFO: [Synth 8-256] done synthesizing module 'shiftLeftBottom' (30#1) [C:/Users/Terry/Desktop/ENGG 3380/Processor-ENGG3380/Phase 2.srcs/sources_1/new/shiftLeftBottom.vhd:11]
+INFO: [Synth 8-3491] module 'FourToOneMux' declared at 'C:/Users/Terry/Desktop/ENGG 3380/Processor-ENGG3380/Phase 2.srcs/sources_1/new/FourToOneMux.vhd:6' bound to instance 'Mux4to1' of component 'FourToOneMux' [C:/Users/Terry/Desktop/ENGG 3380/Processor-ENGG3380/Phase 2.srcs/sources_1/new/Processor.vhd:229]
+INFO: [Synth 8-638] synthesizing module 'FourToOneMux' [C:/Users/Terry/Desktop/ENGG 3380/Processor-ENGG3380/Phase 2.srcs/sources_1/new/FourToOneMux.vhd:14]
+INFO: [Synth 8-256] done synthesizing module 'FourToOneMux' (31#1) [C:/Users/Terry/Desktop/ENGG 3380/Processor-ENGG3380/Phase 2.srcs/sources_1/new/FourToOneMux.vhd:14]
+WARNING: [Synth 8-3848] Net Cin in module/entity Processor does not have driver. [C:/Users/Terry/Desktop/ENGG 3380/Processor-ENGG3380/Phase 2.srcs/sources_1/new/Processor.vhd:174]
+INFO: [Synth 8-256] done synthesizing module 'Processor' (32#1) [C:/Users/Terry/Desktop/ENGG 3380/Processor-ENGG3380/Phase 2.srcs/sources_1/new/Processor.vhd:10]
+INFO: [Synth 8-3491] module 'SevenSegmentDecoder_vhdl' declared at 'C:/Users/Terry/Desktop/ENGG 3380/Processor-ENGG3380/Phase 2.srcs/sources_1/new/SegDecoder.vhd:5' bound to instance 'SEG1' of component 'SevenSegmentDecoder_vhdl' [C:/Users/Terry/Desktop/ENGG 3380/Processor-ENGG3380/Processor.srcs/sources_1/new/ProcessorToDisplay.vhd:38]
+INFO: [Synth 8-638] synthesizing module 'SevenSegmentDecoder_vhdl' [C:/Users/Terry/Desktop/ENGG 3380/Processor-ENGG3380/Phase 2.srcs/sources_1/new/SegDecoder.vhd:10]
+INFO: [Synth 8-226] default block is never used [C:/Users/Terry/Desktop/ENGG 3380/Processor-ENGG3380/Phase 2.srcs/sources_1/new/SegDecoder.vhd:16]
+INFO: [Synth 8-256] done synthesizing module 'SevenSegmentDecoder_vhdl' (33#1) [C:/Users/Terry/Desktop/ENGG 3380/Processor-ENGG3380/Phase 2.srcs/sources_1/new/SegDecoder.vhd:10]
+INFO: [Synth 8-3491] module 'SevenSegmentDecoder_vhdl' declared at 'C:/Users/Terry/Desktop/ENGG 3380/Processor-ENGG3380/Phase 2.srcs/sources_1/new/SegDecoder.vhd:5' bound to instance 'SEG2' of component 'SevenSegmentDecoder_vhdl' [C:/Users/Terry/Desktop/ENGG 3380/Processor-ENGG3380/Processor.srcs/sources_1/new/ProcessorToDisplay.vhd:39]
+INFO: [Synth 8-3491] module 'SevenSegmentDecoder_vhdl' declared at 'C:/Users/Terry/Desktop/ENGG 3380/Processor-ENGG3380/Phase 2.srcs/sources_1/new/SegDecoder.vhd:5' bound to instance 'SEG3' of component 'SevenSegmentDecoder_vhdl' [C:/Users/Terry/Desktop/ENGG 3380/Processor-ENGG3380/Processor.srcs/sources_1/new/ProcessorToDisplay.vhd:40]
+INFO: [Synth 8-3491] module 'SevenSegmentDecoder_vhdl' declared at 'C:/Users/Terry/Desktop/ENGG 3380/Processor-ENGG3380/Phase 2.srcs/sources_1/new/SegDecoder.vhd:5' bound to instance 'SEG4' of component 'SevenSegmentDecoder_vhdl' [C:/Users/Terry/Desktop/ENGG 3380/Processor-ENGG3380/Processor.srcs/sources_1/new/ProcessorToDisplay.vhd:41]
+INFO: [Synth 8-256] done synthesizing module 'ProcessorToDisplay' (34#1) [C:/Users/Terry/Desktop/ENGG 3380/Processor-ENGG3380/Processor.srcs/sources_1/new/ProcessorToDisplay.vhd:15]
 WARNING: [Synth 8-3331] design shiftLeftBottom has unconnected port input[15]
 WARNING: [Synth 8-3331] design shiftLeftBottom has unconnected port input[14]
 WARNING: [Synth 8-3331] design shiftLeftTop has unconnected port PC[3]
@@ -180,32 +178,8 @@ WARNING: [Synth 8-3331] design ArithmeticUnit has unconnected port S[2]
 WARNING: [Synth 8-3331] design ArithmeticUnit has unconnected port S[1]
 WARNING: [Synth 8-3331] design ArithmeticUnit has unconnected port S[0]
 WARNING: [Synth 8-3331] design ALU_Structural has unconnected port Cin
-WARNING: [Synth 8-3331] design ProcessorToDisplay has unconnected port numOut[15]
-WARNING: [Synth 8-3331] design ProcessorToDisplay has unconnected port numOut[14]
-WARNING: [Synth 8-3331] design ProcessorToDisplay has unconnected port numOut[13]
-WARNING: [Synth 8-3331] design ProcessorToDisplay has unconnected port numOut[12]
-WARNING: [Synth 8-3331] design ProcessorToDisplay has unconnected port numOut[11]
-WARNING: [Synth 8-3331] design ProcessorToDisplay has unconnected port numOut[10]
-WARNING: [Synth 8-3331] design ProcessorToDisplay has unconnected port numOut[9]
-WARNING: [Synth 8-3331] design ProcessorToDisplay has unconnected port numOut[8]
-WARNING: [Synth 8-3331] design ProcessorToDisplay has unconnected port numOut[7]
-WARNING: [Synth 8-3331] design ProcessorToDisplay has unconnected port numOut[6]
-WARNING: [Synth 8-3331] design ProcessorToDisplay has unconnected port numOut[5]
-WARNING: [Synth 8-3331] design ProcessorToDisplay has unconnected port numOut[4]
-WARNING: [Synth 8-3331] design ProcessorToDisplay has unconnected port numOut[3]
-WARNING: [Synth 8-3331] design ProcessorToDisplay has unconnected port numOut[2]
-WARNING: [Synth 8-3331] design ProcessorToDisplay has unconnected port numOut[1]
-WARNING: [Synth 8-3331] design ProcessorToDisplay has unconnected port numOut[0]
-WARNING: [Synth 8-3331] design ProcessorToDisplay has unconnected port AN[7]
-WARNING: [Synth 8-3331] design ProcessorToDisplay has unconnected port AN[6]
-WARNING: [Synth 8-3331] design ProcessorToDisplay has unconnected port AN[5]
-WARNING: [Synth 8-3331] design ProcessorToDisplay has unconnected port AN[4]
-WARNING: [Synth 8-3331] design ProcessorToDisplay has unconnected port AN[3]
-WARNING: [Synth 8-3331] design ProcessorToDisplay has unconnected port AN[2]
-WARNING: [Synth 8-3331] design ProcessorToDisplay has unconnected port AN[1]
-WARNING: [Synth 8-3331] design ProcessorToDisplay has unconnected port AN[0]
 ---------------------------------------------------------------------------------
-Finished RTL Elaboration : Time (s): cpu = 00:03:32 ; elapsed = 00:03:34 . Memory (MB): peak = 3135.078 ; gain = 2403.871
+Finished RTL Elaboration : Time (s): cpu = 00:03:17 ; elapsed = 00:03:25 . Memory (MB): peak = 3038.605 ; gain = 2321.273
 ---------------------------------------------------------------------------------
 
 Report Check Netlist: 
@@ -218,51 +192,62 @@ Report Check Netlist:
 Start Handling Custom Attributes
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Handling Custom Attributes : Time (s): cpu = 00:03:32 ; elapsed = 00:03:35 . Memory (MB): peak = 3135.078 ; gain = 2403.871
+Finished Handling Custom Attributes : Time (s): cpu = 00:03:18 ; elapsed = 00:03:26 . Memory (MB): peak = 3038.605 ; gain = 2321.273
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished RTL Optimization Phase 1 : Time (s): cpu = 00:03:32 ; elapsed = 00:03:35 . Memory (MB): peak = 3135.078 ; gain = 2403.871
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:03:18 ; elapsed = 00:03:26 . Memory (MB): peak = 3038.605 ; gain = 2321.273
 ---------------------------------------------------------------------------------
-Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.019 . Memory (MB): peak = 3135.078 ; gain = 0.000
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.024 . Memory (MB): peak = 3038.605 ; gain = 0.000
 INFO: [Project 1-570] Preparing netlist for logic optimization
 
 Processing XDC Constraints
 Initializing timing engine
-Parsing XDC File [C:/Users/krahn/Desktop/CURRENT COURSES/Comp Org/Processor_ENGG3380/Processor.srcs/constrs_1/new/Processor_xdc.xdc]
-Finished Parsing XDC File [C:/Users/krahn/Desktop/CURRENT COURSES/Comp Org/Processor_ENGG3380/Processor.srcs/constrs_1/new/Processor_xdc.xdc]
-INFO: [Project 1-236] Implementation specific constraints were found while reading constraint file [C:/Users/krahn/Desktop/CURRENT COURSES/Comp Org/Processor_ENGG3380/Processor.srcs/constrs_1/new/Processor_xdc.xdc]. These constraints will be ignored for synthesis but will be used in implementation. Impacted constraints are listed in the file [.Xil/ProcessorToDisplay_propImpl.xdc].
+Parsing XDC File [C:/Users/Terry/Desktop/ENGG 3380/Processor-ENGG3380/Processor.srcs/constrs_1/new/Processor_xdc.xdc]
+Finished Parsing XDC File [C:/Users/Terry/Desktop/ENGG 3380/Processor-ENGG3380/Processor.srcs/constrs_1/new/Processor_xdc.xdc]
+INFO: [Project 1-236] Implementation specific constraints were found while reading constraint file [C:/Users/Terry/Desktop/ENGG 3380/Processor-ENGG3380/Processor.srcs/constrs_1/new/Processor_xdc.xdc]. These constraints will be ignored for synthesis but will be used in implementation. Impacted constraints are listed in the file [.Xil/ProcessorToDisplay_propImpl.xdc].
 Resolution: To avoid this warning, move constraints listed in [.Xil/ProcessorToDisplay_propImpl.xdc] to another XDC file and exclude this new file from synthesis with the used_in_synthesis property (File Properties dialog in GUI) and re-run elaboration/synthesis.
 Completed Processing XDC Constraints
 
-Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.001 . Memory (MB): peak = 3135.078 ; gain = 0.000
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.001 . Memory (MB): peak = 3038.605 ; gain = 0.000
 INFO: [Project 1-111] Unisim Transformation Summary:
 No Unisim elements were transformed.
 
-Constraint Validation Runtime : Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.010 . Memory (MB): peak = 3135.078 ; gain = 0.000
+Constraint Validation Runtime : Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.012 . Memory (MB): peak = 3038.605 ; gain = 0.000
 ---------------------------------------------------------------------------------
-Finished Constraint Validation : Time (s): cpu = 00:03:38 ; elapsed = 00:03:41 . Memory (MB): peak = 3135.078 ; gain = 2403.871
+Finished Constraint Validation : Time (s): cpu = 00:03:24 ; elapsed = 00:03:34 . Memory (MB): peak = 3038.605 ; gain = 2321.273
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Loading Part and Timing Information
 ---------------------------------------------------------------------------------
 Loading part: xc7a100tcsg324-1
 ---------------------------------------------------------------------------------
-Finished Loading Part and Timing Information : Time (s): cpu = 00:03:38 ; elapsed = 00:03:41 . Memory (MB): peak = 3135.078 ; gain = 2403.871
+Finished Loading Part and Timing Information : Time (s): cpu = 00:03:24 ; elapsed = 00:03:34 . Memory (MB): peak = 3038.605 ; gain = 2321.273
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Applying 'set_property' XDC Constraints
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:03:38 ; elapsed = 00:03:41 . Memory (MB): peak = 3135.078 ; gain = 2403.871
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:03:24 ; elapsed = 00:03:34 . Memory (MB): peak = 3038.605 ; gain = 2321.273
 ---------------------------------------------------------------------------------
 INFO: [Synth 8-802] inferred FSM for state register 'anIn_reg' in module 'ProcessorToDisplay'
 INFO: [Synth 8-5546] ROM "anIn" won't be mapped to RAM because it is too sparse
-WARNING: [Synth 8-327] inferring latch for variable 'g_reg' [C:/Users/krahn/Desktop/CURRENT COURSES/Comp Org/Processor_ENGG3380/Phase 2.srcs/sources_1/new/MuxSrcA.vhd:39]
-WARNING: [Synth 8-327] inferring latch for variable 'g_reg' [C:/Users/krahn/Desktop/CURRENT COURSES/Comp Org/Processor_ENGG3380/Phase 2.srcs/sources_1/new/MUX.vhd:18]
-WARNING: [Synth 8-327] inferring latch for variable 'g_reg' [C:/Users/krahn/Desktop/CURRENT COURSES/Comp Org/Processor_ENGG3380/Phase 2.srcs/sources_1/new/Mux3to1.vhd:22]
-WARNING: [Synth 8-327] inferring latch for variable 'output_reg' [C:/Users/krahn/Desktop/CURRENT COURSES/Comp Org/Processor_ENGG3380/Phase 2.srcs/sources_1/new/FourToOneMux.vhd:20]
+WARNING: [Synth 8-327] inferring latch for variable 'g_reg' [C:/Users/Terry/Desktop/ENGG 3380/Processor-ENGG3380/Phase 2.srcs/sources_1/new/MuxSrcA.vhd:39]
+WARNING: [Synth 8-327] inferring latch for variable 'g_reg' [C:/Users/Terry/Desktop/ENGG 3380/Processor-ENGG3380/Phase 2.srcs/sources_1/new/MUX.vhd:18]
+WARNING: [Synth 8-327] inferring latch for variable 'g_reg' [C:/Users/Terry/Desktop/ENGG 3380/Processor-ENGG3380/Phase 2.srcs/sources_1/new/Mux3to1.vhd:22]
+WARNING: [Synth 8-327] inferring latch for variable 'output_reg' [C:/Users/Terry/Desktop/ENGG 3380/Processor-ENGG3380/Phase 2.srcs/sources_1/new/FourToOneMux.vhd:20]
+---------------------------------------------------------------------------------------------------
+                   State |                     New Encoding |                Previous Encoding 
+---------------------------------------------------------------------------------------------------
+                 iSTATE3 |                              000 |                         00000000
+*
+                  iSTATE |                              001 |                         11110111
+                 iSTATE0 |                              010 |                         11111011
+                 iSTATE1 |                              011 |                         11111101
+                 iSTATE2 |                              100 |                         11111110
+---------------------------------------------------------------------------------------------------
+INFO: [Synth 8-3354] encoded FSM with state register 'anIn_reg' using encoding 'sequential' in module 'ProcessorToDisplay'
 ---------------------------------------------------------------------------------
-Finished RTL Optimization Phase 2 : Time (s): cpu = 00:03:39 ; elapsed = 00:03:42 . Memory (MB): peak = 3135.078 ; gain = 2403.871
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:03:25 ; elapsed = 00:03:35 . Memory (MB): peak = 3038.605 ; gain = 2321.273
 ---------------------------------------------------------------------------------
 
 Report RTL Partitions: 
@@ -295,6 +280,7 @@ Detailed RTL Component Info :
 	   5 Input      7 Bit        Muxes := 1     
 	   2 Input      3 Bit        Muxes := 1     
 	  14 Input      3 Bit        Muxes := 1     
+	   5 Input      3 Bit        Muxes := 1     
 	   2 Input      1 Bit        Muxes := 8     
 	   5 Input      1 Bit        Muxes := 1     
 ---------------------------------------------------------------------------------
@@ -311,6 +297,7 @@ Detailed RTL Component Info :
 +---Muxes : 
 	   5 Input      8 Bit        Muxes := 1     
 	   5 Input      7 Bit        Muxes := 1     
+	   5 Input      3 Bit        Muxes := 1     
 	   5 Input      1 Bit        Muxes := 1     
 Module MUX2to1 
 Detailed RTL Component Info : 
@@ -429,35 +416,6 @@ Finished Part Resource Summary
 Start Cross Boundary and Area Optimization
 ---------------------------------------------------------------------------------
 Warning: Parallel synthesis criteria is not met 
-INFO: [Synth 8-5546] ROM "anIn" won't be mapped to RAM because it is too sparse
-WARNING: [Synth 8-3331] design ProcessorToDisplay has unconnected port numOut[15]
-WARNING: [Synth 8-3331] design ProcessorToDisplay has unconnected port numOut[14]
-WARNING: [Synth 8-3331] design ProcessorToDisplay has unconnected port numOut[13]
-WARNING: [Synth 8-3331] design ProcessorToDisplay has unconnected port numOut[12]
-WARNING: [Synth 8-3331] design ProcessorToDisplay has unconnected port numOut[11]
-WARNING: [Synth 8-3331] design ProcessorToDisplay has unconnected port numOut[10]
-WARNING: [Synth 8-3331] design ProcessorToDisplay has unconnected port numOut[9]
-WARNING: [Synth 8-3331] design ProcessorToDisplay has unconnected port numOut[8]
-WARNING: [Synth 8-3331] design ProcessorToDisplay has unconnected port numOut[7]
-WARNING: [Synth 8-3331] design ProcessorToDisplay has unconnected port numOut[6]
-WARNING: [Synth 8-3331] design ProcessorToDisplay has unconnected port numOut[5]
-WARNING: [Synth 8-3331] design ProcessorToDisplay has unconnected port numOut[4]
-WARNING: [Synth 8-3331] design ProcessorToDisplay has unconnected port numOut[3]
-WARNING: [Synth 8-3331] design ProcessorToDisplay has unconnected port numOut[2]
-WARNING: [Synth 8-3331] design ProcessorToDisplay has unconnected port numOut[1]
-WARNING: [Synth 8-3331] design ProcessorToDisplay has unconnected port numOut[0]
-WARNING: [Synth 8-3331] design ProcessorToDisplay has unconnected port AN[7]
-WARNING: [Synth 8-3331] design ProcessorToDisplay has unconnected port AN[6]
-WARNING: [Synth 8-3331] design ProcessorToDisplay has unconnected port AN[5]
-WARNING: [Synth 8-3331] design ProcessorToDisplay has unconnected port AN[4]
-WARNING: [Synth 8-3331] design ProcessorToDisplay has unconnected port AN[3]
-WARNING: [Synth 8-3331] design ProcessorToDisplay has unconnected port AN[2]
-WARNING: [Synth 8-3331] design ProcessorToDisplay has unconnected port AN[1]
-WARNING: [Synth 8-3331] design ProcessorToDisplay has unconnected port AN[0]
-INFO: [Synth 8-3886] merging instance 'anIn_reg[6]' (FD) to 'anIn_reg[7]'
-INFO: [Synth 8-3886] merging instance 'anIn_reg[7]' (FD) to 'anIn_reg[5]'
-INFO: [Synth 8-3886] merging instance 'anIn_reg[5]' (FD) to 'anIn_reg[4]'
-INFO: [Synth 8-3333] propagating constant 1 across sequential element (\anIn_reg[4] )
 WARNING: [Synth 8-3332] Sequential element (Proc/ARegALUMux/g_reg[15]) is unused and will be removed from module ProcessorToDisplay.
 WARNING: [Synth 8-3332] Sequential element (Proc/ARegALUMux/g_reg[14]) is unused and will be removed from module ProcessorToDisplay.
 WARNING: [Synth 8-3332] Sequential element (Proc/ARegALUMux/g_reg[13]) is unused and will be removed from module ProcessorToDisplay.
@@ -524,7 +482,7 @@ WARNING: [Synth 8-3332] Sequential element (Proc/Mux4to1/output_reg[1]) is unuse
 WARNING: [Synth 8-3332] Sequential element (Proc/Mux4to1/output_reg[0]) is unused and will be removed from module ProcessorToDisplay.
 INFO: [Synth 8-3333] propagating constant 0 across sequential element (\Proc/Control/PC/AddOut_reg[3] )
 ---------------------------------------------------------------------------------
-Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:03:49 ; elapsed = 00:03:52 . Memory (MB): peak = 3135.078 ; gain = 2403.871
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:03:43 ; elapsed = 00:03:53 . Memory (MB): peak = 3038.605 ; gain = 2321.273
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start ROM, RAM, DSP and Shift Register Reporting
@@ -551,13 +509,13 @@ Report RTL Partitions:
 Start Applying XDC Timing Constraints
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Applying XDC Timing Constraints : Time (s): cpu = 00:03:56 ; elapsed = 00:03:59 . Memory (MB): peak = 3135.078 ; gain = 2403.871
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:03:51 ; elapsed = 00:04:01 . Memory (MB): peak = 3038.605 ; gain = 2321.273
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Timing Optimization
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Timing Optimization : Time (s): cpu = 00:03:56 ; elapsed = 00:03:59 . Memory (MB): peak = 3135.078 ; gain = 2403.871
+Finished Timing Optimization : Time (s): cpu = 00:03:51 ; elapsed = 00:04:02 . Memory (MB): peak = 3038.605 ; gain = 2321.273
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start ROM, RAM, DSP and Shift Register Reporting
@@ -583,7 +541,7 @@ Report RTL Partitions:
 Start Technology Mapping
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Technology Mapping : Time (s): cpu = 00:03:57 ; elapsed = 00:04:00 . Memory (MB): peak = 3135.078 ; gain = 2403.871
+Finished Technology Mapping : Time (s): cpu = 00:03:51 ; elapsed = 00:04:02 . Memory (MB): peak = 3038.605 ; gain = 2321.273
 ---------------------------------------------------------------------------------
 
 Report RTL Partitions: 
@@ -607,13 +565,13 @@ Start Final Netlist Cleanup
 Finished Final Netlist Cleanup
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished IO Insertion : Time (s): cpu = 00:04:01 ; elapsed = 00:04:04 . Memory (MB): peak = 3135.078 ; gain = 2403.871
+Finished IO Insertion : Time (s): cpu = 00:03:55 ; elapsed = 00:04:06 . Memory (MB): peak = 3038.605 ; gain = 2321.273
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Renaming Generated Instances
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Renaming Generated Instances : Time (s): cpu = 00:04:01 ; elapsed = 00:04:04 . Memory (MB): peak = 3135.078 ; gain = 2403.871
+Finished Renaming Generated Instances : Time (s): cpu = 00:03:55 ; elapsed = 00:04:06 . Memory (MB): peak = 3038.605 ; gain = 2321.273
 ---------------------------------------------------------------------------------
 
 Report RTL Partitions: 
@@ -632,25 +590,25 @@ Report Check Netlist:
 Start Rebuilding User Hierarchy
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Rebuilding User Hierarchy : Time (s): cpu = 00:04:01 ; elapsed = 00:04:04 . Memory (MB): peak = 3135.078 ; gain = 2403.871
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:03:55 ; elapsed = 00:04:06 . Memory (MB): peak = 3038.605 ; gain = 2321.273
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Renaming Generated Ports
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Renaming Generated Ports : Time (s): cpu = 00:04:01 ; elapsed = 00:04:04 . Memory (MB): peak = 3135.078 ; gain = 2403.871
+Finished Renaming Generated Ports : Time (s): cpu = 00:03:55 ; elapsed = 00:04:06 . Memory (MB): peak = 3038.605 ; gain = 2321.273
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Handling Custom Attributes
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Handling Custom Attributes : Time (s): cpu = 00:04:01 ; elapsed = 00:04:04 . Memory (MB): peak = 3135.078 ; gain = 2403.871
+Finished Handling Custom Attributes : Time (s): cpu = 00:03:55 ; elapsed = 00:04:06 . Memory (MB): peak = 3038.605 ; gain = 2321.273
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Renaming Generated Nets
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Renaming Generated Nets : Time (s): cpu = 00:04:01 ; elapsed = 00:04:04 . Memory (MB): peak = 3135.078 ; gain = 2403.871
+Finished Renaming Generated Nets : Time (s): cpu = 00:03:55 ; elapsed = 00:04:06 . Memory (MB): peak = 3038.605 ; gain = 2321.273
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Writing Synthesis Report
@@ -669,61 +627,60 @@ Report Cell Usage:
 |1     |BUFG   |     2|
 |2     |CARRY4 |    10|
 |3     |LUT1   |     4|
-|4     |LUT2   |    32|
-|5     |LUT3   |    61|
-|6     |LUT4   |    69|
-|7     |LUT5   |   105|
-|8     |LUT6   |   259|
-|9     |MUXF7  |    33|
-|10    |MUXF8  |    16|
+|4     |LUT2   |    31|
+|5     |LUT3   |    75|
+|6     |LUT4   |    62|
+|7     |LUT5   |    71|
+|8     |LUT6   |   287|
+|9     |MUXF7  |    46|
+|10    |MUXF8  |     9|
 |11    |RAM32M |     6|
-|12    |FDRE   |   743|
+|12    |FDRE   |   742|
 |13    |IBUF   |     7|
-|14    |OBUF   |     7|
-|15    |OBUFT  |    24|
+|14    |OBUF   |    31|
 +------+-------+------+
 
 Report Instance Areas: 
 +------+----------------+--------------------+------+
 |      |Instance        |Module              |Cells |
 +------+----------------+--------------------+------+
-|1     |top             |                    |  1378|
-|2     |  Proc          |Processor           |  1273|
-|3     |    ALURegister |ALUReg              |    34|
+|1     |top             |                    |  1383|
+|2     |  Proc          |Processor           |  1276|
+|3     |    ALURegister |ALUReg              |    33|
 |4     |    ARegister   |AReg                |    16|
 |5     |    BRegister   |BReg                |    22|
-|6     |    Control     |MPControl           |   104|
-|7     |      PC        |MicroProgramCounter |   104|
-|8     |    InstrMod    |InstructionModule   |   127|
-|9     |    Mem         |Memory              |   727|
-|10    |    MemDataReg  |MDR                 |    41|
-|11    |    PC          |ProgramCounter      |   164|
+|6     |    Control     |MPControl           |   112|
+|7     |      PC        |MicroProgramCounter |   112|
+|8     |    InstrMod    |InstructionModule   |   122|
+|9     |    Mem         |Memory              |   788|
+|10    |    MemDataReg  |MDR                 |    39|
+|11    |    PC          |ProgramCounter      |   106|
 |12    |    RegFile     |RegisterFile        |    38|
 +------+----------------+--------------------+------+
 ---------------------------------------------------------------------------------
-Finished Writing Synthesis Report : Time (s): cpu = 00:04:01 ; elapsed = 00:04:04 . Memory (MB): peak = 3135.078 ; gain = 2403.871
+Finished Writing Synthesis Report : Time (s): cpu = 00:03:55 ; elapsed = 00:04:06 . Memory (MB): peak = 3038.605 ; gain = 2321.273
 ---------------------------------------------------------------------------------
-Synthesis finished with 0 errors, 0 critical warnings and 92 warnings.
-Synthesis Optimization Runtime : Time (s): cpu = 00:00:26 ; elapsed = 00:04:02 . Memory (MB): peak = 3135.078 ; gain = 2403.871
-Synthesis Optimization Complete : Time (s): cpu = 00:04:01 ; elapsed = 00:04:04 . Memory (MB): peak = 3135.078 ; gain = 2403.871
+Synthesis finished with 0 errors, 0 critical warnings and 68 warnings.
+Synthesis Optimization Runtime : Time (s): cpu = 00:00:36 ; elapsed = 00:04:03 . Memory (MB): peak = 3038.605 ; gain = 2321.273
+Synthesis Optimization Complete : Time (s): cpu = 00:03:56 ; elapsed = 00:04:06 . Memory (MB): peak = 3038.605 ; gain = 2321.273
 INFO: [Project 1-571] Translating synthesized netlist
-Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.026 . Memory (MB): peak = 3135.078 ; gain = 0.000
-INFO: [Netlist 29-17] Analyzing 65 Unisim elements for replacement
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.026 . Memory (MB): peak = 3038.605 ; gain = 0.000
+INFO: [Netlist 29-17] Analyzing 71 Unisim elements for replacement
 INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
 INFO: [Project 1-570] Preparing netlist for logic optimization
 INFO: [Opt 31-138] Pushed 1 inverter(s) to 6 load pin(s).
-Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.001 . Memory (MB): peak = 3135.078 ; gain = 0.000
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 3038.605 ; gain = 0.000
 INFO: [Project 1-111] Unisim Transformation Summary:
   A total of 6 instances were transformed.
   RAM32M => RAM32M (inverted pins: WCLK) (RAMD32(x6), RAMS32(x2)): 6 instances
 
 INFO: [Common 17-83] Releasing license: Synthesis
-159 Infos, 134 Warnings, 0 Critical Warnings and 0 Errors encountered.
+155 Infos, 84 Warnings, 0 Critical Warnings and 0 Errors encountered.
 synth_design completed successfully
-synth_design: Time (s): cpu = 00:04:07 ; elapsed = 00:04:10 . Memory (MB): peak = 3135.078 ; gain = 2710.207
-Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.001 . Memory (MB): peak = 3135.078 ; gain = 0.000
+synth_design: Time (s): cpu = 00:04:01 ; elapsed = 00:04:13 . Memory (MB): peak = 3038.605 ; gain = 2625.539
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.001 . Memory (MB): peak = 3038.605 ; gain = 0.000
 WARNING: [Constraints 18-5210] No constraints selected for write.
 Resolution: This message can indicate that there are no constraints for the design, or it can indicate that the used_in flags are set such that the constraints are ignored. This later case is used when running synth_design to not write synthesis constraints to the resulting checkpoint. Instead, project constraints are read when the synthesized design is opened.
-INFO: [Common 17-1381] The checkpoint 'C:/Users/krahn/Desktop/CURRENT COURSES/Comp Org/Processor_ENGG3380/Processor.runs/synth_1/ProcessorToDisplay.dcp' has been generated.
+INFO: [Common 17-1381] The checkpoint 'C:/Users/Terry/Desktop/ENGG 3380/Processor-ENGG3380/Processor.runs/synth_1/ProcessorToDisplay.dcp' has been generated.
 INFO: [runtcl-4] Executing : report_utilization -file ProcessorToDisplay_utilization_synth.rpt -pb ProcessorToDisplay_utilization_synth.pb
-INFO: [Common 17-206] Exiting Vivado at Mon Apr 13 14:31:07 2020...
+INFO: [Common 17-206] Exiting Vivado at Mon Apr 13 17:26:09 2020...

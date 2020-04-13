@@ -20,7 +20,7 @@ end component;
 signal numIn: std_logic_vector (5 downto 0) := "000111";
 signal numOut: std_logic_vector (15 downto 0);
 signal CLK100MHZ: std_logic := '0';
-signal clk_period: time := 1ns;
+signal clk_period: time := 10ps;
 signal C : std_logic_vector(6 downto 0);
 signal AN : std_logic_vector(7 downto 0);
 

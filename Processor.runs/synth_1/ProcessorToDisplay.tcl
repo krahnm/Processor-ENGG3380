@@ -17,53 +17,54 @@ proc create_report { reportName command } {
     send_msg_id runtcl-5 warning "$msg"
   }
 }
-set_param chipscope.maxJobs 2
+set_param chipscope.maxJobs 1
+set_msg_config -id {Common 17-41} -limit 10000000
 create_project -in_memory -part xc7a100tcsg324-1
 
 set_param project.singleFileAddWarning.threshold 0
 set_param project.compositeFile.enableAutoGeneration 0
 set_param synth.vivado.isSynthRun true
-set_property webtalk.parent_dir {C:/Users/krahn/Desktop/CURRENT COURSES/Comp Org/Processor_ENGG3380/Processor.cache/wt} [current_project]
-set_property parent.project_path {C:/Users/krahn/Desktop/CURRENT COURSES/Comp Org/Processor_ENGG3380/Processor.xpr} [current_project]
+set_property webtalk.parent_dir {C:/Users/Terry/Desktop/ENGG 3380/Processor-ENGG3380/Processor.cache/wt} [current_project]
+set_property parent.project_path {C:/Users/Terry/Desktop/ENGG 3380/Processor-ENGG3380/Processor.xpr} [current_project]
 set_property default_lib xil_defaultlib [current_project]
 set_property target_language VHDL [current_project]
-set_property ip_output_repo {c:/Users/krahn/Desktop/CURRENT COURSES/Comp Org/Processor_ENGG3380/Processor.cache/ip} [current_project]
+set_property ip_output_repo {c:/Users/Terry/Desktop/ENGG 3380/Processor-ENGG3380/Processor.cache/ip} [current_project]
 set_property ip_cache_permissions {read write} [current_project]
 read_vhdl -library xil_defaultlib {
-  {C:/Users/krahn/Desktop/CURRENT COURSES/Comp Org/Processor_ENGG3380/Phase 2.srcs/sources_1/new/ALUControl.vhd}
-  {C:/Users/krahn/Desktop/CURRENT COURSES/Comp Org/Processor_ENGG3380/Phase 2.srcs/sources_1/new/ALUReg.vhd}
-  {C:/Users/krahn/Desktop/CURRENT COURSES/Comp Org/Processor_ENGG3380/Phase 2.srcs/sources_1/new/ALU_Structural.vhd}
-  {C:/Users/krahn/Desktop/CURRENT COURSES/Comp Org/Processor_ENGG3380/Phase 2.srcs/sources_1/new/ALU_Structural_OneBit.vhd}
-  {C:/Users/krahn/Desktop/CURRENT COURSES/Comp Org/Processor_ENGG3380/Phase 2.srcs/sources_1/new/AReg.vhd}
-  {C:/Users/krahn/Desktop/CURRENT COURSES/Comp Org/Processor_ENGG3380/Phase 2.srcs/sources_1/new/ArithmeticUnit.vhd}
-  {C:/Users/krahn/Desktop/CURRENT COURSES/Comp Org/Processor_ENGG3380/Phase 2.srcs/sources_1/new/BReg.vhd}
-  {C:/Users/krahn/Desktop/CURRENT COURSES/Comp Org/Processor_ENGG3380/Phase 2.srcs/sources_1/new/Compliment2s.vhd}
-  {C:/Users/krahn/Desktop/CURRENT COURSES/Comp Org/Processor_ENGG3380/Phase 2.srcs/sources_1/new/FourToOneMux.vhd}
-  {C:/Users/krahn/Desktop/CURRENT COURSES/Comp Org/Processor_ENGG3380/Phase 2.srcs/sources_1/new/FullAdder.vhd}
-  {C:/Users/krahn/Desktop/CURRENT COURSES/Comp Org/Processor_ENGG3380/Phase 2.srcs/sources_1/new/FullAdder8.vhd}
-  {C:/Users/krahn/Desktop/CURRENT COURSES/Comp Org/Processor_ENGG3380/Phase 2.srcs/sources_1/new/IncrMUX.vhd}
-  {C:/Users/krahn/Desktop/CURRENT COURSES/Comp Org/Processor_ENGG3380/Phase 2.srcs/sources_1/new/Incrementer.vhd}
-  {C:/Users/krahn/Desktop/CURRENT COURSES/Comp Org/Processor_ENGG3380/Phase 2.srcs/sources_1/new/InstructionRegister.vhd}
-  {C:/Users/krahn/Desktop/CURRENT COURSES/Comp Org/Processor_ENGG3380/Phase 2.srcs/sources_1/new/LogicMapping.vhd}
-  {C:/Users/krahn/Desktop/CURRENT COURSES/Comp Org/Processor_ENGG3380/Phase 2.srcs/sources_1/new/MDR.vhd}
-  {C:/Users/krahn/Desktop/CURRENT COURSES/Comp Org/Processor_ENGG3380/Phase 2.srcs/sources_1/new/MPControl.vhd}
-  {C:/Users/krahn/Desktop/CURRENT COURSES/Comp Org/Processor_ENGG3380/Phase 2.srcs/sources_1/new/MUX.vhd}
-  {C:/Users/krahn/Desktop/CURRENT COURSES/Comp Org/Processor_ENGG3380/Phase 2.srcs/sources_1/new/MUX2to1.vhd}
-  {C:/Users/krahn/Desktop/CURRENT COURSES/Comp Org/Processor_ENGG3380/Phase 2.srcs/sources_1/new/Memory.vhd}
-  {C:/Users/krahn/Desktop/CURRENT COURSES/Comp Org/Processor_ENGG3380/Phase 2.srcs/sources_1/new/MicroProgramCounter.vhd}
-  {C:/Users/krahn/Desktop/CURRENT COURSES/Comp Org/Processor_ENGG3380/Phase 2.srcs/sources_1/new/MicrocodeStore.vhd}
-  {C:/Users/krahn/Desktop/CURRENT COURSES/Comp Org/Processor_ENGG3380/Phase 2.srcs/sources_1/new/Mux2to1_5bit.vhd}
-  {C:/Users/krahn/Desktop/CURRENT COURSES/Comp Org/Processor_ENGG3380/Phase 2.srcs/sources_1/new/Mux2to1_8bit.vhd}
-  {C:/Users/krahn/Desktop/CURRENT COURSES/Comp Org/Processor_ENGG3380/Phase 2.srcs/sources_1/new/Mux3to1.vhd}
-  {C:/Users/krahn/Desktop/CURRENT COURSES/Comp Org/Processor_ENGG3380/Phase 2.srcs/sources_1/new/MuxSrcA.vhd}
-  {C:/Users/krahn/Desktop/CURRENT COURSES/Comp Org/Processor_ENGG3380/Phase 2.srcs/sources_1/new/Processor.vhd}
-  {C:/Users/krahn/Desktop/CURRENT COURSES/Comp Org/Processor_ENGG3380/Phase 2.srcs/sources_1/new/ProgramCounter.vhd}
-  {C:/Users/krahn/Desktop/CURRENT COURSES/Comp Org/Processor_ENGG3380/Phase 2.srcs/sources_1/new/RegisterFile.vhd}
-  {C:/Users/krahn/Desktop/CURRENT COURSES/Comp Org/Processor_ENGG3380/Phase 2.srcs/sources_1/new/SegDecoder.vhd}
-  {C:/Users/krahn/Desktop/CURRENT COURSES/Comp Org/Processor_ENGG3380/Phase 2.srcs/sources_1/new/shiftLeftBottom.vhd}
-  {C:/Users/krahn/Desktop/CURRENT COURSES/Comp Org/Processor_ENGG3380/Phase 2.srcs/sources_1/new/shiftLeftTop.vhd}
-  {C:/Users/krahn/Desktop/CURRENT COURSES/Comp Org/Processor_ENGG3380/Phase 2.srcs/sources_1/new/signExtend.vhd}
-  {C:/Users/krahn/Desktop/CURRENT COURSES/Comp Org/Processor_ENGG3380/Processor.srcs/sources_1/new/ProcessorToDisplay.vhd}
+  {C:/Users/Terry/Desktop/ENGG 3380/Processor-ENGG3380/Phase 2.srcs/sources_1/new/ALUControl.vhd}
+  {C:/Users/Terry/Desktop/ENGG 3380/Processor-ENGG3380/Phase 2.srcs/sources_1/new/ALUReg.vhd}
+  {C:/Users/Terry/Desktop/ENGG 3380/Processor-ENGG3380/Phase 2.srcs/sources_1/new/ALU_Structural.vhd}
+  {C:/Users/Terry/Desktop/ENGG 3380/Processor-ENGG3380/Phase 2.srcs/sources_1/new/ALU_Structural_OneBit.vhd}
+  {C:/Users/Terry/Desktop/ENGG 3380/Processor-ENGG3380/Phase 2.srcs/sources_1/new/AReg.vhd}
+  {C:/Users/Terry/Desktop/ENGG 3380/Processor-ENGG3380/Phase 2.srcs/sources_1/new/ArithmeticUnit.vhd}
+  {C:/Users/Terry/Desktop/ENGG 3380/Processor-ENGG3380/Phase 2.srcs/sources_1/new/BReg.vhd}
+  {C:/Users/Terry/Desktop/ENGG 3380/Processor-ENGG3380/Phase 2.srcs/sources_1/new/Compliment2s.vhd}
+  {C:/Users/Terry/Desktop/ENGG 3380/Processor-ENGG3380/Phase 2.srcs/sources_1/new/FourToOneMux.vhd}
+  {C:/Users/Terry/Desktop/ENGG 3380/Processor-ENGG3380/Phase 2.srcs/sources_1/new/FullAdder.vhd}
+  {C:/Users/Terry/Desktop/ENGG 3380/Processor-ENGG3380/Phase 2.srcs/sources_1/new/FullAdder8.vhd}
+  {C:/Users/Terry/Desktop/ENGG 3380/Processor-ENGG3380/Phase 2.srcs/sources_1/new/IncrMUX.vhd}
+  {C:/Users/Terry/Desktop/ENGG 3380/Processor-ENGG3380/Phase 2.srcs/sources_1/new/Incrementer.vhd}
+  {C:/Users/Terry/Desktop/ENGG 3380/Processor-ENGG3380/Phase 2.srcs/sources_1/new/InstructionRegister.vhd}
+  {C:/Users/Terry/Desktop/ENGG 3380/Processor-ENGG3380/Phase 2.srcs/sources_1/new/LogicMapping.vhd}
+  {C:/Users/Terry/Desktop/ENGG 3380/Processor-ENGG3380/Phase 2.srcs/sources_1/new/MDR.vhd}
+  {C:/Users/Terry/Desktop/ENGG 3380/Processor-ENGG3380/Phase 2.srcs/sources_1/new/MPControl.vhd}
+  {C:/Users/Terry/Desktop/ENGG 3380/Processor-ENGG3380/Phase 2.srcs/sources_1/new/MUX.vhd}
+  {C:/Users/Terry/Desktop/ENGG 3380/Processor-ENGG3380/Phase 2.srcs/sources_1/new/MUX2to1.vhd}
+  {C:/Users/Terry/Desktop/ENGG 3380/Processor-ENGG3380/Phase 2.srcs/sources_1/new/Memory.vhd}
+  {C:/Users/Terry/Desktop/ENGG 3380/Processor-ENGG3380/Phase 2.srcs/sources_1/new/MicroProgramCounter.vhd}
+  {C:/Users/Terry/Desktop/ENGG 3380/Processor-ENGG3380/Phase 2.srcs/sources_1/new/MicrocodeStore.vhd}
+  {C:/Users/Terry/Desktop/ENGG 3380/Processor-ENGG3380/Phase 2.srcs/sources_1/new/Mux2to1_5bit.vhd}
+  {C:/Users/Terry/Desktop/ENGG 3380/Processor-ENGG3380/Phase 2.srcs/sources_1/new/Mux2to1_8bit.vhd}
+  {C:/Users/Terry/Desktop/ENGG 3380/Processor-ENGG3380/Phase 2.srcs/sources_1/new/Mux3to1.vhd}
+  {C:/Users/Terry/Desktop/ENGG 3380/Processor-ENGG3380/Phase 2.srcs/sources_1/new/MuxSrcA.vhd}
+  {C:/Users/Terry/Desktop/ENGG 3380/Processor-ENGG3380/Phase 2.srcs/sources_1/new/Processor.vhd}
+  {C:/Users/Terry/Desktop/ENGG 3380/Processor-ENGG3380/Phase 2.srcs/sources_1/new/ProgramCounter.vhd}
+  {C:/Users/Terry/Desktop/ENGG 3380/Processor-ENGG3380/Phase 2.srcs/sources_1/new/RegisterFile.vhd}
+  {C:/Users/Terry/Desktop/ENGG 3380/Processor-ENGG3380/Phase 2.srcs/sources_1/new/SegDecoder.vhd}
+  {C:/Users/Terry/Desktop/ENGG 3380/Processor-ENGG3380/Phase 2.srcs/sources_1/new/shiftLeftBottom.vhd}
+  {C:/Users/Terry/Desktop/ENGG 3380/Processor-ENGG3380/Phase 2.srcs/sources_1/new/shiftLeftTop.vhd}
+  {C:/Users/Terry/Desktop/ENGG 3380/Processor-ENGG3380/Phase 2.srcs/sources_1/new/signExtend.vhd}
+  {C:/Users/Terry/Desktop/ENGG 3380/Processor-ENGG3380/Processor.srcs/sources_1/new/ProcessorToDisplay.vhd}
 }
 # Mark all dcp files as not used in implementation to prevent them from being
 # stitched into the results of this synthesis run. Any black boxes in the
@@ -73,8 +74,8 @@ read_vhdl -library xil_defaultlib {
 foreach dcp [get_files -quiet -all -filter file_type=="Design\ Checkpoint"] {
   set_property used_in_implementation false $dcp
 }
-read_xdc {{C:/Users/krahn/Desktop/CURRENT COURSES/Comp Org/Processor_ENGG3380/Processor.srcs/constrs_1/new/Processor_xdc.xdc}}
-set_property used_in_implementation false [get_files {{C:/Users/krahn/Desktop/CURRENT COURSES/Comp Org/Processor_ENGG3380/Processor.srcs/constrs_1/new/Processor_xdc.xdc}}]
+read_xdc {{C:/Users/Terry/Desktop/ENGG 3380/Processor-ENGG3380/Processor.srcs/constrs_1/new/Processor_xdc.xdc}}
+set_property used_in_implementation false [get_files {{C:/Users/Terry/Desktop/ENGG 3380/Processor-ENGG3380/Processor.srcs/constrs_1/new/Processor_xdc.xdc}}]
 
 set_param ips.enableIPCacheLiteLoad 1
 close [open __synthesis_is_running__ w]
