@@ -17,7 +17,7 @@ Port ( numIn : in std_logic_vector(5 downto 0);
         CLK100MHZ : in std_logic);
 end component;
 
-signal numIn: std_logic_vector (5 downto 0) := "001111";
+signal numIn: std_logic_vector (5 downto 0) := "000111";
 signal numOut: std_logic_vector (15 downto 0);
 signal CLK100MHZ: std_logic := '0';
 signal clk_period: time := 1ns;

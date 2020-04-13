@@ -23,7 +23,7 @@ component SevenSegmentDecoder_vhdl is
 		    D : out std_logic_vector (6 downto 0));
 end component;
 
-signal clkdiv : std_logic_vector(10 downto 0);
+signal clkdiv : std_logic_vector(36 downto 0);
 signal anIn: std_logic_vector(7 downto 0);
 signal displayFull : std_logic_vector(15 downto 0);
 signal display1, display2,display3, display4: std_logic_vector(3 downto 0);
@@ -31,7 +31,7 @@ signal DISP1,DISP2,DISP3,DISP4: std_logic_vector(6 downto 0);
 
 begin
 
-Proc: Processor port map(numIn => numIn, numOut=>displayFull,cclk=>CLK100MHZ);
+Proc: Processor port map(numIn => numIn, numOut=>displayFull,cclk=>clkdiv(36));
 
 SEG1: SevenSegmentDecoder_vhdl port map(S => display1, D => DISP1);
 SEG2: SevenSegmentDecoder_vhdl port map(S=> display2, D=> DISP2);
@@ -46,13 +46,13 @@ display4 <= displayFull(3 downto 0);
 clock_divider: process (CLK100MHZ)
     begin
         if (rising_edge(CLK100MHZ)) then
-            clkdiv <=  std_logic_vector(unsigned(clkdiv(10 downto 0)) + 1);
+            clkdiv <=  std_logic_vector(unsigned(clkdiv(36 downto 0)) + 1);
         end if;        
     end process clock_divider;
 
-process(clkdiv(10),anIn)
+process(clkdiv(36),anIn)
 begin
-if (rising_edge(clkdiv(10))) then
+if (rising_edge(clkdiv(36))) then
     case anIn is
                 when "11110111" =>
                 C <= DISP2;

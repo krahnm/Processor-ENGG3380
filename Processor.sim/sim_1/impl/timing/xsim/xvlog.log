@@ -1,10 +1,10 @@
 INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/krahn/Desktop/CURRENT COURSES/Comp Org/Processor_ENGG3380/Processor.sim/sim_1/impl/timing/xsim/processor_tb_time_impl.v" into library xil_defaultlib
 INFO: [VRFC 10-311] analyzing module RAM32M_UNIQ_BASE_
-INFO: [VRFC 10-311] analyzing module RAM32M_HD10
-INFO: [VRFC 10-311] analyzing module RAM32M_HD6
-INFO: [VRFC 10-311] analyzing module RAM32M_HD7
-INFO: [VRFC 10-311] analyzing module RAM32M_HD8
-INFO: [VRFC 10-311] analyzing module RAM32M_HD9
+INFO: [VRFC 10-311] analyzing module RAM32M_HD21
+INFO: [VRFC 10-311] analyzing module RAM32M_HD22
+INFO: [VRFC 10-311] analyzing module RAM32M_HD23
+INFO: [VRFC 10-311] analyzing module RAM32M_HD24
+INFO: [VRFC 10-311] analyzing module RAM32M_HD25
 INFO: [VRFC 10-311] analyzing module ALUReg
 INFO: [VRFC 10-311] analyzing module AReg
 INFO: [VRFC 10-311] analyzing module BReg
@@ -14,6 +14,7 @@ INFO: [VRFC 10-311] analyzing module MPControl
 INFO: [VRFC 10-311] analyzing module Memory
 INFO: [VRFC 10-311] analyzing module MicroProgramCounter
 INFO: [VRFC 10-311] analyzing module Processor
+INFO: [VRFC 10-311] analyzing module ProcessorToDisplay
 INFO: [VRFC 10-311] analyzing module ProgramCounter
 INFO: [VRFC 10-311] analyzing module RegisterFile
 INFO: [VRFC 10-311] analyzing module glbl
