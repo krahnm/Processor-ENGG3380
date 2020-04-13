@@ -8,27 +8,34 @@ entity processor_tb is
 end processor_tb;
 
 architecture Behavioral of processor_tb is
-component Processor is
+
+component ProcessorToDisplay is
 Port ( numIn : in std_logic_vector(5 downto 0);
-       numOut : out std_logic_vector(15 downto 0);
-       cclk : in std_logic);
+        numOut : out std_logic_vector(15 downto 0);
+        C : out std_logic_vector(6 downto 0);
+        AN : out std_logic_vector(7 downto 0);
+        CLK100MHZ : in std_logic);
 end component;
 
-signal numIn: std_logic_vector (5 downto 0) := "000000";
+signal numIn: std_logic_vector (5 downto 0) := "001111";
 signal numOut: std_logic_vector (15 downto 0);
-signal cclk: std_logic := '0';
+signal CLK100MHZ: std_logic := '0';
 signal clk_period: time := 1ns;
+signal C : std_logic_vector(6 downto 0);
+signal AN : std_logic_vector(7 downto 0);
 
 begin
-uut: Processor port map (numIn => numIn,
+uut: ProcessorToDisplay port map (numIn => numIn,
                          numOut => numOut,
-                         cclk => cclk);
+                         C => C,
+                         AN => AN,
+                         CLK100MHZ => CLK100MHZ);
 
 clk_process: process
     begin
-        cclk <= '1';
+        CLK100MHZ <= '1';
         wait for clk_period / 2;
-        cclk <= '0';
+        CLK100MHZ <= '0';
         wait for clk_period / 2;
     end process;
 

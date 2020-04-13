@@ -29,6 +29,7 @@ process (CLK)
         registers(conv_integer(WriteA)) <= DataIn;  -- Write data to specified register
 
       end if;
+      
     end if;
   end process;
 end behavioral;

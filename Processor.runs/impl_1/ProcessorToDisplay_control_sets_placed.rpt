@@ -1,0 +1,123 @@
+Copyright 1986-2019 Xilinx, Inc. All Rights Reserved.
+-----------------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2019.2 (win64) Build 2708876 Wed Nov  6 21:40:23 MST 2019
+| Date         : Mon Apr 13 13:43:43 2020
+| Host         : DESKTOP-2U1OOMJ running 64-bit major release  (build 9200)
+| Command      : report_control_sets -verbose -file ProcessorToDisplay_control_sets_placed.rpt
+| Design       : ProcessorToDisplay
+| Device       : xc7a100t
+-----------------------------------------------------------------------------------------------
+
+Control Set Information
+
+Table of Contents
+-----------------
+1. Summary
+2. Histogram
+3. Flip-Flop Distribution
+4. Detailed Control Set Information
+
+1. Summary
+----------
+
++----------------------------------------------------------+-------+
+|                          Status                          | Count |
++----------------------------------------------------------+-------+
+| Total control sets                                       |    45 |
+|    Minimum number of control sets                        |    45 |
+|    Addition due to synthesis replication                 |     0 |
+|    Addition due to physical synthesis replication        |     0 |
+| Unused register locations in slices containing registers |    11 |
++----------------------------------------------------------+-------+
+* Control sets can be merged at opt_design using control_set_merge or merge_equivalent_drivers
+** Run report_qor_suggestions for automated merging and remapping suggestions
+
+
+2. Histogram
+------------
+
++--------------------+-------+
+|       Fanout       | Count |
++--------------------+-------+
+| Total control sets |    45 |
+| >= 0 to < 4        |     0 |
+| >= 4 to < 6        |     1 |
+| >= 6 to < 8        |     2 |
+| >= 8 to < 10       |     0 |
+| >= 10 to < 12      |     0 |
+| >= 12 to < 14      |     1 |
+| >= 14 to < 16      |     0 |
+| >= 16              |    41 |
++--------------------+-------+
+* Control sets can be remapped at either synth_design or opt_design
+
+
+3. Flip-Flop Distribution
+-------------------------
+
++--------------+-----------------------+------------------------+-----------------+--------------+
+| Clock Enable | Synchronous Set/Reset | Asynchronous Set/Reset | Total Registers | Total Slices |
++--------------+-----------------------+------------------------+-----------------+--------------+
+| No           | No                    | No                     |              64 |           16 |
+| No           | No                    | Yes                    |               0 |            0 |
+| No           | Yes                   | No                     |               6 |            1 |
+| Yes          | No                    | No                     |             647 |          229 |
+| Yes          | No                    | Yes                    |               0 |            0 |
+| Yes          | Yes                   | No                     |               0 |            0 |
++--------------+-----------------------+------------------------+-----------------+--------------+
+
+
+4. Detailed Control Set Information
+-----------------------------------
+
++----------------------+------------------------------------+--------------------------------------+------------------+----------------+
+|     Clock Signal     |            Enable Signal           |           Set/Reset Signal           | Slice Load Count | Bel Load Count |
++----------------------+------------------------------------+--------------------------------------+------------------+----------------+
+|  clkdiv_reg[10]      |                                    |                                      |                1 |              4 |
+|  CLK100MHZ_IBUF_BUFG |                                    | Proc/Control/PC/AddOut[7]_i_1__0_n_0 |                1 |              6 |
+|  clkdiv_reg[10]      | C[6]_i_1_n_0                       |                                      |                3 |              7 |
+|  CLK100MHZ_IBUF_BUFG |                                    |                                      |                3 |             12 |
+| ~CLK100MHZ_IBUF_BUFG | Proc/PC/AddOut_reg[15]_5           |                                      |                6 |             16 |
+| ~CLK100MHZ_IBUF_BUFG | Proc/PC/AddOut_reg[2]_1[0]         |                                      |                4 |             16 |
+| ~CLK100MHZ_IBUF_BUFG | Proc/PC/AddOut_reg[2]_2[0]         |                                      |                4 |             16 |
+| ~CLK100MHZ_IBUF_BUFG | Proc/PC/AddOut_reg[2]_3[0]         |                                      |                8 |             16 |
+| ~CLK100MHZ_IBUF_BUFG | Proc/PC/AddOut_reg[2]_4[0]         |                                      |                5 |             16 |
+| ~CLK100MHZ_IBUF_BUFG | Proc/PC/AddOut_reg[2]_6[0]         |                                      |                6 |             16 |
+| ~CLK100MHZ_IBUF_BUFG | Proc/PC/AddOut_reg[2]_5[0]         |                                      |                4 |             16 |
+| ~CLK100MHZ_IBUF_BUFG | Proc/PC/AddOut_reg[15]_3[0]        |                                      |                4 |             16 |
+| ~CLK100MHZ_IBUF_BUFG | Proc/PC/AddOut_reg[15]_0[0]        |                                      |                7 |             16 |
+| ~CLK100MHZ_IBUF_BUFG | Proc/PC/AddOut_reg[15]_1[0]        |                                      |                3 |             16 |
+| ~CLK100MHZ_IBUF_BUFG | Proc/PC/AddOut_reg[15]_4[0]        |                                      |                3 |             16 |
+| ~CLK100MHZ_IBUF_BUFG | Proc/PC/AddOut_reg[1]_1[0]         |                                      |                4 |             16 |
+| ~CLK100MHZ_IBUF_BUFG | Proc/PC/AddOut_reg[15]_2[0]        |                                      |                9 |             16 |
+| ~CLK100MHZ_IBUF_BUFG | Proc/PC/AddOut_reg[1]_2[0]         |                                      |                4 |             16 |
+| ~CLK100MHZ_IBUF_BUFG | Proc/PC/AddOut_reg[0]_1[0]         |                                      |                7 |             16 |
+| ~CLK100MHZ_IBUF_BUFG | Proc/PC/AddOut_reg[1]_3[0]         |                                      |                7 |             16 |
+| ~CLK100MHZ_IBUF_BUFG | Proc/PC/AddOut_reg[4]_9[0]         |                                      |                4 |             16 |
+| ~CLK100MHZ_IBUF_BUFG | Proc/PC/AddOut_reg[4]_4[0]         |                                      |                5 |             16 |
+| ~CLK100MHZ_IBUF_BUFG | Proc/PC/AddOut_reg[4]_5[0]         |                                      |                4 |             16 |
+| ~CLK100MHZ_IBUF_BUFG | Proc/PC/AddOut_reg[4]_10[0]        |                                      |                4 |             16 |
+| ~CLK100MHZ_IBUF_BUFG | Proc/PC/AddOut_reg[4]_0[0]         |                                      |               14 |             16 |
+| ~CLK100MHZ_IBUF_BUFG | Proc/PC/AddOut_reg[4]_11[0]        |                                      |                4 |             16 |
+| ~CLK100MHZ_IBUF_BUFG | Proc/PC/AddOut_reg[4]_15[0]        |                                      |                5 |             16 |
+| ~CLK100MHZ_IBUF_BUFG | Proc/PC/AddOut_reg[2]_7[0]         |                                      |                3 |             16 |
+| ~CLK100MHZ_IBUF_BUFG | Proc/PC/AddOut_reg[4]_13[0]        |                                      |                4 |             16 |
+| ~CLK100MHZ_IBUF_BUFG | Proc/PC/AddOut_reg[4]_7[0]         |                                      |                5 |             16 |
+| ~CLK100MHZ_IBUF_BUFG | Proc/PC/AddOut_reg[4]_14[0]        |                                      |                5 |             16 |
+| ~CLK100MHZ_IBUF_BUFG | Proc/PC/AddOut_reg[4]_1[0]         |                                      |                6 |             16 |
+| ~CLK100MHZ_IBUF_BUFG | Proc/PC/AddOut_reg[4]_6[0]         |                                      |                4 |             16 |
+| ~CLK100MHZ_IBUF_BUFG | Proc/PC/AddOut_reg[4]_12[0]        |                                      |                3 |             16 |
+| ~CLK100MHZ_IBUF_BUFG | Proc/PC/AddOut_reg[4]_3[0]         |                                      |                7 |             16 |
+| ~CLK100MHZ_IBUF_BUFG | Proc/Control/PC/AddOut_reg[7]_1[0] |                                      |                8 |             16 |
+| ~CLK100MHZ_IBUF_BUFG | Proc/Control/PC/AddOut_reg[0]_2[0] |                                      |                6 |             16 |
+| ~CLK100MHZ_IBUF_BUFG | Proc/PC/AddOut_reg[4]_2[0]         |                                      |                8 |             16 |
+| ~CLK100MHZ_IBUF_BUFG | Proc/Control/PC/AddOut_reg[5]_0[0] |                                      |               10 |             16 |
+| ~CLK100MHZ_IBUF_BUFG | Proc/Control/PC/E[0]               |                                      |                5 |             16 |
+| ~CLK100MHZ_IBUF_BUFG | Proc/PC/E[0]                       |                                      |                5 |             16 |
+|  CLK100MHZ_IBUF_BUFG | Proc/Control/PC/AddOut_reg[6]_0[0] |                                      |                7 |             16 |
+| ~CLK100MHZ_IBUF_BUFG | Proc/Control/PC/AddOut_reg[2]_4[0] |                                      |               15 |             32 |
+| ~CLK100MHZ_IBUF_BUFG | Proc/Control/PC/WE                 |                                      |                6 |             48 |
+| ~CLK100MHZ_IBUF_BUFG |                                    |                                      |               12 |             48 |
++----------------------+------------------------------------+--------------------------------------+------------------+----------------+
+
+

@@ -15,7 +15,7 @@ entity Memory is
 end Memory;
 
 architecture Behavioral of Memory is
-type memType is array(0 to 2**15) of std_logic_vector(15 downto 0);
+type memType is array(0 to 2**5) of std_logic_vector(15 downto 0);
 
 --set everything to zero
 signal memory: memType:= (
